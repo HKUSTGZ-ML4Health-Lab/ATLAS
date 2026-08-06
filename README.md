@@ -158,7 +158,7 @@ Table II reports the detailed quantitative results, while Figure 5 summarizes th
 </p>
 
 <p align="center">
-  <em>Fig. 5. GeriMedBench performance on the Asian Multimorbidity Evaluation Set (N = 76, K = 3). Safety is defined as 100 minus the Unsafe Rate. ATLAS is highlighted in blue. Rates are reported as percentages, while Agent OSRS is reported on a 0–100 scale.</em>
+  <em>Fig. 4. GeriMedBench performance on the Asian Multimorbidity Evaluation Set (N = 76, K = 3). Safety is defined as 100 minus the Unsafe Rate. ATLAS is highlighted in blue. Rates are reported as percentages, while Agent OSRS is reported on a 0–100 scale.</em>
 </p>
 
 ---
@@ -172,7 +172,7 @@ Figure 4 shows that each safety component protects a different part of the decis
 </p>
 
 <p align="center">
-  <em>Fig. 4. Core safety-reasoning ablations. Panel (a) compares decision-quality metrics, whereas Panel (b) summarizes safety and overall performance. Full ATLAS is compared with four component ablations. Safety is defined as 100 − Unsafe Recommendation Rate.</em>
+  <em>Fig. 5. Core safety-reasoning ablations. Panel (a) compares decision-quality metrics, whereas Panel (b) summarizes safety and overall performance. Full ATLAS is compared with four component ablations. Safety is defined as 100 − Unsafe Recommendation Rate.</em>
 </p>
 
 ---
