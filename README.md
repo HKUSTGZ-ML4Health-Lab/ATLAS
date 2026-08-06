@@ -26,7 +26,7 @@
 
 <p><sup>*</sup>Equal contribution. <sup>†</sup>Corresponding author.</p>
 
-<p>Corresponding author: jintaiCHEN@hkust-gz.edu.cn</p>
+<p>† Corresponding author: jintaiCHEN@hkust-gz.edu.cn</p>
 
 <p>
   <a href="https://github.com/HKUSTGZ-ML4Health-Lab/ATLAS">
