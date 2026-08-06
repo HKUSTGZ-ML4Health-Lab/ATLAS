@@ -29,7 +29,7 @@
 <p>Corresponding author: jintaiCHEN@hkust-gz.edu.cn</p>
 
 <p>
-  <a href="https://github.com/HKUSTGZ-ML4Health-Lab/ATLAS/docs/index.html">
+  <a href="https://github.com/HKUSTGZ-ML4Health-Lab/ATLAS">
     <img src="https://img.shields.io/badge/Project-Page-0F766E?style=for-the-badge" alt="Project Page">
   </a>
   <a href="./docs/resources/_Arxiv_Coupled_Graph_Policy_Distillation_for_Personalized_Medication_Safety_in_Older_Adults_with_Multimorbidity.pdf">
