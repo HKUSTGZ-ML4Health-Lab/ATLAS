@@ -1,0 +1,12 @@
+{
+  "system": "ATLAS_CHOICE_A_KNOWLEDGE_OPEN_CANDIDATE",
+  "framework_source": "med_safety_dev40_only_final_strict_case.zip UnifiedOrchestratorAgent pattern",
+  "rules_source": "target file working_rules.json transformed in previous target reconstruction; choice-A metadata added before final run",
+  "evaluator_source": "target file evaluation/metrics.py",
+  "choice_A_open_candidate_generation": true,
+  "working_rules_sha256": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a",
+  "frozen_rules_sha256": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a",
+  "dev_actual_count": 39,
+  "final_count": 201,
+  "active_drug_pair_interaction_module": "removed"
+}

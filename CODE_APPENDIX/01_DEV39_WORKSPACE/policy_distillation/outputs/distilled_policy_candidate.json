@@ -1,0 +1,4410 @@
+{
+  "activated_rule_support": [
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "ALTERNATIVE_AGENT_CHOICE_A_SELECTION",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "CHOICE_A_OPEN_CANDIDATE_POOL",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "DELIBERATED_SAFER_ALTERNATIVE",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "GeriatricRiskAuditor_REVIEW",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "MedicationConflictAuditor_REVIEW",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "PAIRWISE_BENCHMARK_SEED_COMPARISON",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "dev40_calibration::ending_antiresorptive_avoid",
+      "support_cases": 1,
+      "support_trajectories": 3
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "dev40_calibration::osteoporosis_denosumab_support",
+      "support_cases": 1,
+      "support_trajectories": 3
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::bpsd_antipsychotic_risk_candidates::0",
+      "support_cases": 3,
+      "support_trajectories": 9
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::bpsd_antipsychotic_risk_candidates::1",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::bpsd_antipsychotic_risk_candidates::2",
+      "support_cases": 2,
+      "support_trajectories": 6
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::bpsd_antipsychotic_short_term::0",
+      "support_cases": 3,
+      "support_trajectories": 9
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::bpsd_antipsychotic_short_term::1",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::bpsd_antipsychotic_short_term::2",
+      "support_cases": 2,
+      "support_trajectories": 6
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::coronary_antiplatelet::0",
+      "support_cases": 2,
+      "support_trajectories": 6
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::coronary_antiplatelet::1",
+      "support_cases": 2,
+      "support_trajectories": 6
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::coronary_clopidogrel_prasugrel::0",
+      "support_cases": 9,
+      "support_trajectories": 27
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::diabetes_metformin_first_line::0",
+      "support_cases": 7,
+      "support_trajectories": 21
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::diabetes_metformin_first_line::1",
+      "support_cases": 7,
+      "support_trajectories": 21
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::diabetes_metformin_first_line::2",
+      "support_cases": 7,
+      "support_trajectories": 21
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::diabetes_sulfonylurea_candidates::0",
+      "support_cases": 7,
+      "support_trajectories": 21
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::diabetes_sulfonylurea_candidates::1",
+      "support_cases": 7,
+      "support_trajectories": 21
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::diabetes_sulfonylurea_candidates::2",
+      "support_cases": 7,
+      "support_trajectories": 21
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::diabetes_sulfonylurea_candidates::3",
+      "support_cases": 7,
+      "support_trajectories": 21
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::diabetes_sulfonylurea_candidates::4",
+      "support_cases": 7,
+      "support_trajectories": 21
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::diabetes_sulfonylurea_candidates::5",
+      "support_cases": 7,
+      "support_trajectories": 21
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::diabetes_sulfonylurea_candidates::6",
+      "support_cases": 7,
+      "support_trajectories": 21
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::diabetes_sulfonylurea_candidates::7",
+      "support_cases": 7,
+      "support_trajectories": 21
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::diabetes_sulfonylurea_candidates::8",
+      "support_cases": 7,
+      "support_trajectories": 21
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::diabetes_thiazolidinedione_candidate::0",
+      "support_cases": 13,
+      "support_trajectories": 39
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::diabetes_thiazolidinedione_candidate::1",
+      "support_cases": 9,
+      "support_trajectories": 27
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::diabetes_thiazolidinedione_candidate::2",
+      "support_cases": 13,
+      "support_trajectories": 39
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::diabetes_thiazolidinedione_candidate::3",
+      "support_cases": 13,
+      "support_trajectories": 39
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::first_generation_antihistamine_candidates::0",
+      "support_cases": 3,
+      "support_trajectories": 9
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::first_generation_antihistamine_candidates::1",
+      "support_cases": 3,
+      "support_trajectories": 9
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::first_generation_antihistamine_candidates::2",
+      "support_cases": 3,
+      "support_trajectories": 9
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::first_generation_antihistamine_candidates::3",
+      "support_cases": 2,
+      "support_trajectories": 6
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::first_generation_antihistamine_candidates::4",
+      "support_cases": 3,
+      "support_trajectories": 9
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::first_generation_antihistamine_candidates::5",
+      "support_cases": 3,
+      "support_trajectories": 9
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::first_generation_antihistamine_candidates::6",
+      "support_cases": 3,
+      "support_trajectories": 9
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::first_generation_antihistamine_candidates::7",
+      "support_cases": 2,
+      "support_trajectories": 6
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::heart_failure_ckd_sglt2::0",
+      "support_cases": 15,
+      "support_trajectories": 45
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::heart_failure_digoxin_candidate::0",
+      "support_cases": 10,
+      "support_trajectories": 30
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::insomnia_sedative_candidates::0",
+      "support_cases": 6,
+      "support_trajectories": 18
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::insomnia_sedative_candidates::1",
+      "support_cases": 6,
+      "support_trajectories": 18
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::insomnia_sedative_candidates::11",
+      "support_cases": 6,
+      "support_trajectories": 18
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::insomnia_sedative_candidates::12",
+      "support_cases": 6,
+      "support_trajectories": 18
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::insomnia_sedative_candidates::14",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::insomnia_sedative_candidates::2",
+      "support_cases": 6,
+      "support_trajectories": 18
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::insomnia_sedative_candidates::3",
+      "support_cases": 6,
+      "support_trajectories": 18
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::insomnia_sedative_candidates::4",
+      "support_cases": 6,
+      "support_trajectories": 18
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::insomnia_sedative_candidates::5",
+      "support_cases": 6,
+      "support_trajectories": 18
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::insomnia_sedative_candidates::6",
+      "support_cases": 6,
+      "support_trajectories": 18
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::insomnia_sedative_candidates::7",
+      "support_cases": 6,
+      "support_trajectories": 18
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::insomnia_sedative_candidates::8",
+      "support_cases": 5,
+      "support_trajectories": 15
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::insomnia_sedative_candidates::9",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::insomnia_sleep_option::0",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::insomnia_sleep_option::1",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::legacy_antiplatelet_ticlopidine_candidate::0",
+      "support_cases": 9,
+      "support_trajectories": 27
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::osteoporosis_anabolic_therapy::0",
+      "support_cases": 5,
+      "support_trajectories": 15
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::osteoporosis_bisphosphonate_candidates::0",
+      "support_cases": 5,
+      "support_trajectories": 15
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::osteoporosis_bisphosphonate_candidates::1",
+      "support_cases": 5,
+      "support_trajectories": 15
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::overactive_bladder_antimuscarinic_candidates::0",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::overactive_bladder_antimuscarinic_candidates::1",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::overactive_bladder_antimuscarinic_candidates::2",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::overactive_bladder_antimuscarinic_candidates::3",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::overactive_bladder_antimuscarinic_candidates::4",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::overactive_bladder_antimuscarinic_candidates::5",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::overactive_bladder_antimuscarinic_candidates::6",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::overactive_bladder_mirabegron::0",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_guideline::overactive_bladder_mirabegron::1",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_safety::antimuscarinic_cognitive_constipation_risk",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_safety::benzodiazepines_older_adult_avoid",
+      "support_cases": 28,
+      "support_trajectories": 84
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_safety::bladder_antispasmodic_antimuscarinic_older_adult_avoid",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_safety::daridorexant_monitoring_caution",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_safety::dev39_unified_candidate_caution_mapping",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_safety::first_generation_antihistamine_older_adult_avoid",
+      "support_cases": 3,
+      "support_trajectories": 9
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_safety::hydroxyzine_anticholinergic_avoid",
+      "support_cases": 2,
+      "support_trajectories": 6
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_safety::mirabegron_monitoring_caution",
+      "support_cases": 4,
+      "support_trajectories": 12
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_safety::recommended_antiplatelet_bleeding_caution",
+      "support_cases": 9,
+      "support_trajectories": 27
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_safety::sulfonylurea_hypoglycemia_older_adult_avoid",
+      "support_cases": 7,
+      "support_trajectories": 21
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_safety::thiazolidinedione_heart_failure_avoid",
+      "support_cases": 13,
+      "support_trajectories": 39
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_safety::ticlopidine_older_adult_avoid",
+      "support_cases": 9,
+      "support_trajectories": 27
+    },
+    {
+      "review_budgets": [
+        1,
+        2,
+        3
+      ],
+      "rule_id": "target_safety::z_drugs_older_adult_avoid",
+      "support_cases": 26,
+      "support_trajectories": 78
+    }
+  ],
+  "artifact_role": "Development trajectory-support artifact with a runtime policy payload verified against the frozen policy loaded by released inference.",
+  "base_policy_payload": {
+    "alternative_rules_extracted": [
+      {
+        "alternative": "Bladder training, pelvic-floor therapy, fluid/caffeine review, or other non-anticholinergic overactive-bladder strategy",
+        "alternatives": [
+          "Bladder training, pelvic-floor therapy, fluid/caffeine review, or other non-anticholinergic overactive-bladder strategy"
+        ],
+        "if_avoid_drug_contains": [
+          "antimuscarinic",
+          "oxybutynin",
+          "tolterodine",
+          "trospium",
+          "solifenacin"
+        ],
+        "rule_id": "antimuscarinic_bladder_alternative",
+        "source": "Geriatric medication safety rule",
+        "unsafe_medications": [
+          "antimuscarinic",
+          "oxybutynin",
+          "tolterodine",
+          "trospium",
+          "solifenacin"
+        ]
+      },
+      {
+        "alternative": "CBT-I, sleep-hygiene optimization, deprescribing plan, or low-risk sleep strategy before chronic sedative use",
+        "alternatives": [
+          "CBT-I, sleep-hygiene optimization, deprescribing plan, or low-risk sleep strategy before chronic sedative use"
+        ],
+        "if_avoid_drug_contains": [
+          "benzodiazepine",
+          "z-drug",
+          "z-drugs"
+        ],
+        "rule_id": "sedative_sleep_alternative",
+        "source": "Geriatric sleep medication safety rule",
+        "unsafe_medications": [
+          "benzodiazepine",
+          "z-drug",
+          "z-drugs"
+        ]
+      },
+      {
+        "alternative": "CBT-I, sleep hygiene, anxiety-focused non-drug therapy, deprescribing plan, or specialist-selected lower-risk option",
+        "alternatives": [
+          "CBT-I, sleep hygiene, anxiety-focused non-drug therapy, deprescribing plan, or specialist-selected lower-risk option"
+        ],
+        "if_avoid_drug_contains": [
+          "benzodiazepines",
+          "benzodiazepine",
+          "lorazepam",
+          "temazepam"
+        ],
+        "rule_id": "benzodiazepine_sleep_anxiety_alternative",
+        "source": "Geriatric sleep and anxiety safety rule",
+        "unsafe_medications": [
+          "benzodiazepines",
+          "benzodiazepine",
+          "lorazepam",
+          "temazepam"
+        ]
+      },
+      {
+        "alternative": "CBT-I, sleep-hygiene optimization, deprescribing plan, or low-risk sleep strategy before chronic hypnotic use",
+        "alternatives": [
+          "CBT-I, sleep-hygiene optimization, deprescribing plan, or low-risk sleep strategy before chronic hypnotic use"
+        ],
+        "if_avoid_drug_contains": [
+          "z-drugs",
+          "zolpidem",
+          "zopiclone",
+          "zaleplon",
+          "eszopiclone"
+        ],
+        "rule_id": "zdrug_sleep_alternative",
+        "source": "Geriatric sleep medication safety rule",
+        "unsafe_medications": [
+          "z-drugs",
+          "zolpidem",
+          "zopiclone",
+          "zaleplon",
+          "eszopiclone"
+        ]
+      },
+      {
+        "alternative": "Non-pharmacological behavioral management, review of reversible causes, or specialist-selected lower-risk antipsychotic strategy when clearly indicated",
+        "alternatives": [
+          "Non-pharmacological behavioral management, review of reversible causes, or specialist-selected lower-risk antipsychotic strategy when clearly indicated"
+        ],
+        "if_avoid_drug_contains": [
+          "olanzapine"
+        ],
+        "rule_id": "olanzapine_alternative",
+        "source": "Geriatric antipsychotic safety rule",
+        "unsafe_medications": [
+          "olanzapine"
+        ]
+      },
+      {
+        "alternative": "Metformin, DPP-4 inhibitor, SGLT2 inhibitor, GLP-1 receptor agonist, or individualized lower-hypoglycemia-risk diabetes strategy",
+        "alternatives": [
+          "Metformin, DPP-4 inhibitor, SGLT2 inhibitor, GLP-1 receptor agonist, or individualized lower-hypoglycemia-risk diabetes strategy"
+        ],
+        "if_avoid_drug_contains": [
+          "glimepiride",
+          "chlorpropamide",
+          "glyburide",
+          "glibenclamide"
+        ],
+        "rule_id": "sulfonylurea_alternative",
+        "source": "Geriatric diabetes medication safety rule",
+        "unsafe_medications": [
+          "glimepiride",
+          "chlorpropamide",
+          "glyburide",
+          "glibenclamide"
+        ]
+      },
+      {
+        "alternative": "Non-anticholinergic allergy, anxiety, or sleep strategy with clinician review of indication",
+        "alternatives": [
+          "Non-anticholinergic allergy, anxiety, or sleep strategy with clinician review of indication"
+        ],
+        "if_avoid_drug_contains": [
+          "hydroxyzine"
+        ],
+        "rule_id": "hydroxyzine_alternative",
+        "source": "Geriatric anticholinergic safety rule",
+        "unsafe_medications": [
+          "hydroxyzine"
+        ]
+      }
+    ],
+    "candidate_policy": "candidate_constrained_safety_ranking",
+    "choice_A_open_candidate_generation": {
+      "enabled": true,
+      "final201_post_test_rule_updates": false,
+      "free_text_generation": false,
+      "max_pool_size": 12,
+      "notes": "Benchmark seed candidates remain the decision anchors for current Dev39/Final201 evaluation; generated candidates expand PMCG/audit evidence.",
+      "policy": "knowledge_constrained_candidate_pool_from_frozen_rules"
+    },
+    "dev_level_map": {},
+    "knowledge_rules": [
+      {
+        "candidate_patterns": [
+          "Aspirin"
+        ],
+        "context_patterns": [
+          "coronary",
+          "cerebral",
+          "peripheral vascular"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Antiplatelet therapy may be indicated for secondary vascular prevention.",
+        "id": "target_guideline::coronary_antiplatelet::0",
+        "level": "B",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "start_v3_forta_2023"
+      },
+      {
+        "candidate_patterns": [
+          "Clopidogrel Or Prasugrel Or Ticagrelor"
+        ],
+        "context_patterns": [
+          "coronary",
+          "cerebral",
+          "peripheral vascular"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Antiplatelet therapy may be indicated for secondary vascular prevention.",
+        "id": "target_guideline::coronary_antiplatelet::1",
+        "level": "B",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "start_v3_forta_2023"
+      },
+      {
+        "candidate_patterns": [
+          "Clopidogrel Or Prasugrel"
+        ],
+        "context_patterns": [
+          "coronary",
+          "acute coronary syndrome",
+          "stent",
+          "myocardial infarction",
+          "antiplatelet secondary prevention",
+          "secondary prevention",
+          "documented coronary disease",
+          "coronary artery stent"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Non-aspirin antiplatelet therapy may be considered for selected coronary or stent-related scenarios.",
+        "id": "target_guideline::coronary_clopidogrel_prasugrel::0",
+        "level": "B",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "antiplatelet_secondary_prevention_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Ticlopidine"
+        ],
+        "context_patterns": [
+          "coronary",
+          "acute coronary syndrome",
+          "stent",
+          "antiplatelet secondary prevention",
+          "secondary prevention",
+          "documented coronary disease",
+          "coronary artery stent"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Ticlopidine may appear as a legacy antiplatelet candidate but requires safety review in older adults.",
+        "id": "target_guideline::legacy_antiplatelet_ticlopidine_candidate::0",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "antiplatelet_candidate_generation_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Mirabegron"
+        ],
+        "context_patterns": [
+          "overactive bladder",
+          "urge incontinence",
+          "urinary incontinence",
+          "bladder"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Mirabegron may be considered as a non-anticholinergic option for overactive bladder.",
+        "id": "target_guideline::overactive_bladder_mirabegron::0",
+        "level": "B",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Antimuscarinics For Overactive Bladder / Urge Incontinence"
+        ],
+        "context_patterns": [
+          "overactive bladder",
+          "urge incontinence",
+          "urinary incontinence",
+          "bladder"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Mirabegron may be considered as a non-anticholinergic option for overactive bladder.",
+        "id": "target_guideline::overactive_bladder_mirabegron::1",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Mirabegron"
+        ],
+        "context_patterns": [
+          "overactive bladder",
+          "urge incontinence",
+          "urinary incontinence",
+          "bladder",
+          "bladder outflow obstruction"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Overactive bladder medication candidates include mirabegron and antimuscarinic drugs, but antimuscarinic burden must be reviewed in older adults.",
+        "id": "target_guideline::overactive_bladder_antimuscarinic_candidates::0",
+        "level": "B",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_bladder_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Systemic Antimuscarinic Drugs (E.G., Oxybutynin, Tolterodine, Trospium)"
+        ],
+        "context_patterns": [
+          "overactive bladder",
+          "urge incontinence",
+          "urinary incontinence",
+          "bladder",
+          "bladder outflow obstruction"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Overactive bladder medication candidates include mirabegron and antimuscarinic drugs, but antimuscarinic burden must be reviewed in older adults.",
+        "id": "target_guideline::overactive_bladder_antimuscarinic_candidates::1",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_bladder_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Bladder Antispasmodics / Antimuscarinics"
+        ],
+        "context_patterns": [
+          "overactive bladder",
+          "urge incontinence",
+          "urinary incontinence",
+          "bladder",
+          "bladder outflow obstruction"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Overactive bladder medication candidates include mirabegron and antimuscarinic drugs, but antimuscarinic burden must be reviewed in older adults.",
+        "id": "target_guideline::overactive_bladder_antimuscarinic_candidates::2",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_bladder_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Bladder Antispasmodics / Antimuscarinics (E.G., Oxybutynin, Tolterodine)"
+        ],
+        "context_patterns": [
+          "overactive bladder",
+          "urge incontinence",
+          "urinary incontinence",
+          "bladder",
+          "bladder outflow obstruction"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Overactive bladder medication candidates include mirabegron and antimuscarinic drugs, but antimuscarinic burden must be reviewed in older adults.",
+        "id": "target_guideline::overactive_bladder_antimuscarinic_candidates::3",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_bladder_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Oxybutynin"
+        ],
+        "context_patterns": [
+          "overactive bladder",
+          "urge incontinence",
+          "urinary incontinence",
+          "bladder",
+          "bladder outflow obstruction"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Overactive bladder medication candidates include mirabegron and antimuscarinic drugs, but antimuscarinic burden must be reviewed in older adults.",
+        "id": "target_guideline::overactive_bladder_antimuscarinic_candidates::4",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_bladder_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Tolterodine"
+        ],
+        "context_patterns": [
+          "overactive bladder",
+          "urge incontinence",
+          "urinary incontinence",
+          "bladder",
+          "bladder outflow obstruction"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Overactive bladder medication candidates include mirabegron and antimuscarinic drugs, but antimuscarinic burden must be reviewed in older adults.",
+        "id": "target_guideline::overactive_bladder_antimuscarinic_candidates::5",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_bladder_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Trospium"
+        ],
+        "context_patterns": [
+          "overactive bladder",
+          "urge incontinence",
+          "urinary incontinence",
+          "bladder",
+          "bladder outflow obstruction"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Overactive bladder medication candidates include mirabegron and antimuscarinic drugs, but antimuscarinic burden must be reviewed in older adults.",
+        "id": "target_guideline::overactive_bladder_antimuscarinic_candidates::6",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_bladder_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Daridorexant"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Lower-risk sleep strategies should be considered before chronic sedative-hypnotic use.",
+        "id": "target_guideline::insomnia_sleep_option::0",
+        "level": "B",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Benzodiazepines Or Z-Drugs"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Lower-risk sleep strategies should be considered before chronic sedative-hypnotic use.",
+        "id": "target_guideline::insomnia_sleep_option::1",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Benzodiazepines"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Sedative-hypnotic candidates should be evaluated carefully in older adults because common hypnotics may carry fall, cognitive, and sedation risks.",
+        "id": "target_guideline::insomnia_sedative_candidates::0",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Benzodiazepines Or Z-Drugs"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Sedative-hypnotic candidates should be evaluated carefully in older adults because common hypnotics may carry fall, cognitive, and sedation risks.",
+        "id": "target_guideline::insomnia_sedative_candidates::1",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Z-Drugs (Zolpidem, Zopiclone, Zaleplon)"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Sedative-hypnotic candidates should be evaluated carefully in older adults because common hypnotics may carry fall, cognitive, and sedation risks.",
+        "id": "target_guideline::insomnia_sedative_candidates::2",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Lorazepam"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Sedative-hypnotic candidates should be evaluated carefully in older adults because common hypnotics may carry fall, cognitive, and sedation risks.",
+        "id": "target_guideline::insomnia_sedative_candidates::3",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Temazepam"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Sedative-hypnotic candidates should be evaluated carefully in older adults because common hypnotics may carry fall, cognitive, and sedation risks.",
+        "id": "target_guideline::insomnia_sedative_candidates::4",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Diazepam"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Sedative-hypnotic candidates should be evaluated carefully in older adults because common hypnotics may carry fall, cognitive, and sedation risks.",
+        "id": "target_guideline::insomnia_sedative_candidates::5",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Alprazolam"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Sedative-hypnotic candidates should be evaluated carefully in older adults because common hypnotics may carry fall, cognitive, and sedation risks.",
+        "id": "target_guideline::insomnia_sedative_candidates::6",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Triazolam"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Sedative-hypnotic candidates should be evaluated carefully in older adults because common hypnotics may carry fall, cognitive, and sedation risks.",
+        "id": "target_guideline::insomnia_sedative_candidates::7",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Estazolam"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Sedative-hypnotic candidates should be evaluated carefully in older adults because common hypnotics may carry fall, cognitive, and sedation risks.",
+        "id": "target_guideline::insomnia_sedative_candidates::8",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Oxazepam"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Sedative-hypnotic candidates should be evaluated carefully in older adults because common hypnotics may carry fall, cognitive, and sedation risks.",
+        "id": "target_guideline::insomnia_sedative_candidates::9",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Clonazepam"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Sedative-hypnotic candidates should be evaluated carefully in older adults because common hypnotics may carry fall, cognitive, and sedation risks.",
+        "id": "target_guideline::insomnia_sedative_candidates::10",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Zolpidem"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Sedative-hypnotic candidates should be evaluated carefully in older adults because common hypnotics may carry fall, cognitive, and sedation risks.",
+        "id": "target_guideline::insomnia_sedative_candidates::11",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Zaleplon"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Sedative-hypnotic candidates should be evaluated carefully in older adults because common hypnotics may carry fall, cognitive, and sedation risks.",
+        "id": "target_guideline::insomnia_sedative_candidates::12",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Eszopiclone"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Sedative-hypnotic candidates should be evaluated carefully in older adults because common hypnotics may carry fall, cognitive, and sedation risks.",
+        "id": "target_guideline::insomnia_sedative_candidates::13",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Daridorexant"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Sedative-hypnotic candidates should be evaluated carefully in older adults because common hypnotics may carry fall, cognitive, and sedation risks.",
+        "id": "target_guideline::insomnia_sedative_candidates::14",
+        "level": "B",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "First-Generation Antihistamine"
+        ],
+        "context_patterns": [
+          "allergy",
+          "pruritus",
+          "itch",
+          "urticaria",
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety",
+          "dementia",
+          "cognitive impairment",
+          "delirium",
+          "history of falls",
+          "recurrent falls"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "First-generation antihistamines may appear in allergy, pruritus, anxiety, or sleep contexts but require anticholinergic and sedation risk review in older adults.",
+        "id": "target_guideline::first_generation_antihistamine_candidates::0",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_anticholinergic_medication_candidate_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "First-Generation Antihistamines"
+        ],
+        "context_patterns": [
+          "allergy",
+          "pruritus",
+          "itch",
+          "urticaria",
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety",
+          "dementia",
+          "cognitive impairment",
+          "delirium",
+          "history of falls",
+          "recurrent falls"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "First-generation antihistamines may appear in allergy, pruritus, anxiety, or sleep contexts but require anticholinergic and sedation risk review in older adults.",
+        "id": "target_guideline::first_generation_antihistamine_candidates::1",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_anticholinergic_medication_candidate_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "First-Generation Antihistamine (E.G., Diphenhydramine, Doxylamine, Chlorpheniramine)"
+        ],
+        "context_patterns": [
+          "allergy",
+          "pruritus",
+          "itch",
+          "urticaria",
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety",
+          "dementia",
+          "cognitive impairment",
+          "delirium",
+          "history of falls",
+          "recurrent falls"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "First-generation antihistamines may appear in allergy, pruritus, anxiety, or sleep contexts but require anticholinergic and sedation risk review in older adults.",
+        "id": "target_guideline::first_generation_antihistamine_candidates::2",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_anticholinergic_medication_candidate_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "First-Generation Antihistamine (E.G., Diphenhydramine, Chlorpheniramine)"
+        ],
+        "context_patterns": [
+          "allergy",
+          "pruritus",
+          "itch",
+          "urticaria",
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety",
+          "dementia",
+          "cognitive impairment",
+          "delirium",
+          "history of falls",
+          "recurrent falls"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "First-generation antihistamines may appear in allergy, pruritus, anxiety, or sleep contexts but require anticholinergic and sedation risk review in older adults.",
+        "id": "target_guideline::first_generation_antihistamine_candidates::3",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_anticholinergic_medication_candidate_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Diphenhydramine"
+        ],
+        "context_patterns": [
+          "allergy",
+          "pruritus",
+          "itch",
+          "urticaria",
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety",
+          "dementia",
+          "cognitive impairment",
+          "delirium",
+          "history of falls",
+          "recurrent falls"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "First-generation antihistamines may appear in allergy, pruritus, anxiety, or sleep contexts but require anticholinergic and sedation risk review in older adults.",
+        "id": "target_guideline::first_generation_antihistamine_candidates::4",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_anticholinergic_medication_candidate_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Doxylamine"
+        ],
+        "context_patterns": [
+          "allergy",
+          "pruritus",
+          "itch",
+          "urticaria",
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety",
+          "dementia",
+          "cognitive impairment",
+          "delirium",
+          "history of falls",
+          "recurrent falls"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "First-generation antihistamines may appear in allergy, pruritus, anxiety, or sleep contexts but require anticholinergic and sedation risk review in older adults.",
+        "id": "target_guideline::first_generation_antihistamine_candidates::5",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_anticholinergic_medication_candidate_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Chlorpheniramine"
+        ],
+        "context_patterns": [
+          "allergy",
+          "pruritus",
+          "itch",
+          "urticaria",
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety",
+          "dementia",
+          "cognitive impairment",
+          "delirium",
+          "history of falls",
+          "recurrent falls"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "First-generation antihistamines may appear in allergy, pruritus, anxiety, or sleep contexts but require anticholinergic and sedation risk review in older adults.",
+        "id": "target_guideline::first_generation_antihistamine_candidates::6",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_anticholinergic_medication_candidate_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Hydroxyzine"
+        ],
+        "context_patterns": [
+          "allergy",
+          "pruritus",
+          "itch",
+          "urticaria",
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep",
+          "anxiety",
+          "dementia",
+          "cognitive impairment",
+          "delirium",
+          "history of falls",
+          "recurrent falls"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "First-generation antihistamines may appear in allergy, pruritus, anxiety, or sleep contexts but require anticholinergic and sedation risk review in older adults.",
+        "id": "target_guideline::first_generation_antihistamine_candidates::7",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_anticholinergic_medication_candidate_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Antipsychotics As Hypnotics"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Antipsychotics sometimes appear as sedative candidates but should be evaluated as potentially inappropriate hypnotic use in older adults.",
+        "id": "target_guideline::insomnia_antipsychotic_hypnotic_candidates::0",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_antipsychotic_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Antipsychotics As Hypnotics (Especially Non-Clozapine / Non-Quetiapine Agents)"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Antipsychotics sometimes appear as sedative candidates but should be evaluated as potentially inappropriate hypnotic use in older adults.",
+        "id": "target_guideline::insomnia_antipsychotic_hypnotic_candidates::1",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_antipsychotic_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Olanzapine"
+        ],
+        "context_patterns": [
+          "insomnia",
+          "sleep disorder",
+          "sleep disorder in dementia",
+          "bpsd: sleep disorders",
+          "sleep"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Antipsychotics sometimes appear as sedative candidates but should be evaluated as potentially inappropriate hypnotic use in older adults.",
+        "id": "target_guideline::insomnia_antipsychotic_hypnotic_candidates::2",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_antipsychotic_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Pipamperone"
+        ],
+        "context_patterns": [
+          "bpsd",
+          "bpsd: sleep disorders",
+          "dementia",
+          "dementia with lewy bodies",
+          "behavioral symptoms",
+          "psychosis",
+          "agitation",
+          "delirium"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Selected antipsychotics may be considered only for severe behavioral or psychotic symptoms when non-pharmacological strategies are insufficient and specialist review is required.",
+        "id": "target_guideline::bpsd_antipsychotic_short_term::0",
+        "level": "C",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_psychiatry_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Melperone"
+        ],
+        "context_patterns": [
+          "bpsd",
+          "bpsd: sleep disorders",
+          "dementia",
+          "dementia with lewy bodies",
+          "behavioral symptoms",
+          "psychosis",
+          "agitation",
+          "delirium"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Selected antipsychotics may be considered only for severe behavioral or psychotic symptoms when non-pharmacological strategies are insufficient and specialist review is required.",
+        "id": "target_guideline::bpsd_antipsychotic_short_term::1",
+        "level": "C",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_psychiatry_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Haloperidol"
+        ],
+        "context_patterns": [
+          "bpsd",
+          "bpsd: sleep disorders",
+          "dementia",
+          "dementia with lewy bodies",
+          "behavioral symptoms",
+          "psychosis",
+          "agitation",
+          "delirium"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Selected antipsychotics may be considered only for severe behavioral or psychotic symptoms when non-pharmacological strategies are insufficient and specialist review is required.",
+        "id": "target_guideline::bpsd_antipsychotic_short_term::2",
+        "level": "C",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_psychiatry_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Pipamperone"
+        ],
+        "context_patterns": [
+          "bpsd",
+          "bpsd: sleep disorders",
+          "dementia",
+          "dementia with lewy bodies",
+          "behavioral symptoms",
+          "psychosis",
+          "agitation",
+          "delirium",
+          "parkinsonism"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Antipsychotic candidates may be considered only under strict indication and monitoring in severe behavioral or psychotic symptoms.",
+        "id": "target_guideline::bpsd_antipsychotic_risk_candidates::0",
+        "level": "C",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_psychiatry_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Melperone"
+        ],
+        "context_patterns": [
+          "bpsd",
+          "bpsd: sleep disorders",
+          "dementia",
+          "dementia with lewy bodies",
+          "behavioral symptoms",
+          "psychosis",
+          "agitation",
+          "delirium",
+          "parkinsonism"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Antipsychotic candidates may be considered only under strict indication and monitoring in severe behavioral or psychotic symptoms.",
+        "id": "target_guideline::bpsd_antipsychotic_risk_candidates::1",
+        "level": "C",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_psychiatry_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Haloperidol"
+        ],
+        "context_patterns": [
+          "bpsd",
+          "bpsd: sleep disorders",
+          "dementia",
+          "dementia with lewy bodies",
+          "behavioral symptoms",
+          "psychosis",
+          "agitation",
+          "delirium",
+          "parkinsonism"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Antipsychotic candidates may be considered only under strict indication and monitoring in severe behavioral or psychotic symptoms.",
+        "id": "target_guideline::bpsd_antipsychotic_risk_candidates::2",
+        "level": "C",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_psychiatry_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Olanzapine"
+        ],
+        "context_patterns": [
+          "bpsd",
+          "bpsd: sleep disorders",
+          "dementia",
+          "dementia with lewy bodies",
+          "behavioral symptoms",
+          "psychosis",
+          "agitation",
+          "delirium",
+          "parkinsonism"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Antipsychotic candidates may be considered only under strict indication and monitoring in severe behavioral or psychotic symptoms.",
+        "id": "target_guideline::bpsd_antipsychotic_risk_candidates::3",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_psychiatry_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Teriparatide Or Romosozumab"
+        ],
+        "context_patterns": [
+          "osteoporosis",
+          "documented osteoporosis",
+          "osteoporosis treatment",
+          "fracture",
+          "vertebral fracture",
+          "hip fracture",
+          "high fracture risk",
+          "history of fractures",
+          "previous fragility fracture",
+          "previous fragility fracture(s)"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Anabolic osteoporosis therapy may be considered in very high fracture-risk patients when clinically appropriate.",
+        "id": "target_guideline::osteoporosis_anabolic_therapy::0",
+        "level": "B",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "osteoporosis_treatment_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Oral Bisphosphonate"
+        ],
+        "context_patterns": [
+          "osteoporosis",
+          "documented osteoporosis",
+          "osteoporosis treatment",
+          "fracture",
+          "vertebral fracture",
+          "hip fracture",
+          "high fracture risk",
+          "history of fractures",
+          "previous fragility fracture",
+          "previous fragility fracture(s)"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Osteoporosis treatment options may include oral bisphosphonates or anabolic therapy, but oral options require gastrointestinal and swallowing risk review.",
+        "id": "target_guideline::osteoporosis_bisphosphonate_candidates::0",
+        "level": "C",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "osteoporosis_treatment_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Teriparatide Or Romosozumab"
+        ],
+        "context_patterns": [
+          "osteoporosis",
+          "documented osteoporosis",
+          "osteoporosis treatment",
+          "fracture",
+          "vertebral fracture",
+          "hip fracture",
+          "high fracture risk",
+          "history of fractures",
+          "previous fragility fracture",
+          "previous fragility fracture(s)"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Osteoporosis treatment options may include oral bisphosphonates or anabolic therapy, but oral options require gastrointestinal and swallowing risk review.",
+        "id": "target_guideline::osteoporosis_bisphosphonate_candidates::1",
+        "level": "B",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "osteoporosis_treatment_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Metformin"
+        ],
+        "context_patterns": [
+          "type 2 diabetes",
+          "type 2 diabetes mellitus",
+          "diabetes",
+          "diabetes control",
+          "t2dm"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Metformin is commonly considered first-line when tolerated; SGLT2 inhibitors may provide cardiorenal benefit in selected patients; acarbose may be considered in selected cases.",
+        "id": "target_guideline::diabetes_metformin_first_line::0",
+        "level": "B",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "diabetes_and_cardiorenal_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "SGLT2 Inhibitor (Gliflozin Class)"
+        ],
+        "context_patterns": [
+          "type 2 diabetes",
+          "type 2 diabetes mellitus",
+          "diabetes",
+          "diabetes control",
+          "t2dm"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Metformin is commonly considered first-line when tolerated; SGLT2 inhibitors may provide cardiorenal benefit in selected patients; acarbose may be considered in selected cases.",
+        "id": "target_guideline::diabetes_metformin_first_line::1",
+        "level": "B",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "diabetes_and_cardiorenal_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Acarbose"
+        ],
+        "context_patterns": [
+          "type 2 diabetes",
+          "type 2 diabetes mellitus",
+          "diabetes",
+          "diabetes control",
+          "t2dm"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Metformin is commonly considered first-line when tolerated; SGLT2 inhibitors may provide cardiorenal benefit in selected patients; acarbose may be considered in selected cases.",
+        "id": "target_guideline::diabetes_metformin_first_line::2",
+        "level": "C",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "diabetes_and_cardiorenal_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Metformin"
+        ],
+        "context_patterns": [
+          "diabetes",
+          "type 2 diabetes",
+          "type 2 diabetes mellitus",
+          "t2dm",
+          "diabetes control",
+          "hypoglycemia"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Diabetes medication candidates should be evaluated for hypoglycemia risk in older adults.",
+        "id": "target_guideline::diabetes_sulfonylurea_candidates::0",
+        "level": "B",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "diabetes_and_geriatric_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "SGLT2 Inhibitor (Gliflozin Class)"
+        ],
+        "context_patterns": [
+          "diabetes",
+          "type 2 diabetes",
+          "type 2 diabetes mellitus",
+          "t2dm",
+          "diabetes control",
+          "hypoglycemia"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Diabetes medication candidates should be evaluated for hypoglycemia risk in older adults.",
+        "id": "target_guideline::diabetes_sulfonylurea_candidates::1",
+        "level": "B",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "diabetes_and_geriatric_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Acarbose"
+        ],
+        "context_patterns": [
+          "diabetes",
+          "type 2 diabetes",
+          "type 2 diabetes mellitus",
+          "t2dm",
+          "diabetes control",
+          "hypoglycemia"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Diabetes medication candidates should be evaluated for hypoglycemia risk in older adults.",
+        "id": "target_guideline::diabetes_sulfonylurea_candidates::2",
+        "level": "C",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "diabetes_and_geriatric_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Glimepiride"
+        ],
+        "context_patterns": [
+          "diabetes",
+          "type 2 diabetes",
+          "type 2 diabetes mellitus",
+          "t2dm",
+          "diabetes control",
+          "hypoglycemia"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Diabetes medication candidates should be evaluated for hypoglycemia risk in older adults.",
+        "id": "target_guideline::diabetes_sulfonylurea_candidates::3",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "diabetes_and_geriatric_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Chlorpropamide"
+        ],
+        "context_patterns": [
+          "diabetes",
+          "type 2 diabetes",
+          "type 2 diabetes mellitus",
+          "t2dm",
+          "diabetes control",
+          "hypoglycemia"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Diabetes medication candidates should be evaluated for hypoglycemia risk in older adults.",
+        "id": "target_guideline::diabetes_sulfonylurea_candidates::4",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "diabetes_and_geriatric_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Sulfonylureas (Especially Long-Acting Agents Such As Glimepiride / Glyburide)"
+        ],
+        "context_patterns": [
+          "diabetes",
+          "type 2 diabetes",
+          "type 2 diabetes mellitus",
+          "t2dm",
+          "diabetes control",
+          "hypoglycemia"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Diabetes medication candidates should be evaluated for hypoglycemia risk in older adults.",
+        "id": "target_guideline::diabetes_sulfonylurea_candidates::5",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "diabetes_and_geriatric_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Glibenclamide / Glyburide"
+        ],
+        "context_patterns": [
+          "diabetes",
+          "type 2 diabetes",
+          "type 2 diabetes mellitus",
+          "t2dm",
+          "diabetes control",
+          "hypoglycemia"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Diabetes medication candidates should be evaluated for hypoglycemia risk in older adults.",
+        "id": "target_guideline::diabetes_sulfonylurea_candidates::6",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "diabetes_and_geriatric_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Glibenclamide"
+        ],
+        "context_patterns": [
+          "diabetes",
+          "type 2 diabetes",
+          "type 2 diabetes mellitus",
+          "t2dm",
+          "diabetes control",
+          "hypoglycemia"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Diabetes medication candidates should be evaluated for hypoglycemia risk in older adults.",
+        "id": "target_guideline::diabetes_sulfonylurea_candidates::7",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "diabetes_and_geriatric_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Glyburide"
+        ],
+        "context_patterns": [
+          "diabetes",
+          "type 2 diabetes",
+          "type 2 diabetes mellitus",
+          "t2dm",
+          "diabetes control",
+          "hypoglycemia"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Diabetes medication candidates should be evaluated for hypoglycemia risk in older adults.",
+        "id": "target_guideline::diabetes_sulfonylurea_candidates::8",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "diabetes_and_geriatric_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "SGLT2 Inhibitor (Gliflozin Class)"
+        ],
+        "context_patterns": [
+          "heart failure",
+          "symptomatic heart failure",
+          "heart failure with normal systolic ventricular function",
+          "heart failure rate",
+          "heart failure rate / symptom control",
+          "hf",
+          "ckd",
+          "chronic kidney disease",
+          "cardiorenal"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "SGLT2 inhibitors may be considered for selected patients with heart failure, chronic kidney disease, or cardiorenal risk.",
+        "id": "target_guideline::heart_failure_ckd_sglt2::0",
+        "level": "B",
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "cardiorenal_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Digoxin"
+        ],
+        "context_patterns": [
+          "heart failure",
+          "heart failure with normal systolic ventricular function",
+          "heart failure rate",
+          "symptom control",
+          "heart failure rate / symptom control"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Digoxin may appear as a heart-failure rate or symptom-control candidate but requires safety review in older adults.",
+        "id": "target_guideline::heart_failure_digoxin_candidate::0",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "heart_failure_medication_candidate_generation_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Thiazolidinediones (Pioglitazone / Rosiglitazone)"
+        ],
+        "context_patterns": [
+          "diabetes",
+          "type 2 diabetes",
+          "type 2 diabetes mellitus",
+          "t2dm",
+          "diabetes control",
+          "heart failure",
+          "symptomatic heart failure",
+          "hf"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Thiazolidinediones may appear as diabetes candidates but require heart-failure and fluid-retention risk review.",
+        "id": "target_guideline::diabetes_thiazolidinedione_candidate::0",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "diabetes_medication_candidate_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Pioglitazone / Thiazolidinediones"
+        ],
+        "context_patterns": [
+          "diabetes",
+          "type 2 diabetes",
+          "type 2 diabetes mellitus",
+          "t2dm",
+          "diabetes control",
+          "heart failure",
+          "symptomatic heart failure",
+          "hf"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Thiazolidinediones may appear as diabetes candidates but require heart-failure and fluid-retention risk review.",
+        "id": "target_guideline::diabetes_thiazolidinedione_candidate::1",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "diabetes_medication_candidate_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Pioglitazone"
+        ],
+        "context_patterns": [
+          "diabetes",
+          "type 2 diabetes",
+          "type 2 diabetes mellitus",
+          "t2dm",
+          "diabetes control",
+          "heart failure",
+          "symptomatic heart failure",
+          "hf"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Thiazolidinediones may appear as diabetes candidates but require heart-failure and fluid-retention risk review.",
+        "id": "target_guideline::diabetes_thiazolidinedione_candidate::2",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "diabetes_medication_candidate_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Rosiglitazone"
+        ],
+        "context_patterns": [
+          "diabetes",
+          "type 2 diabetes",
+          "type 2 diabetes mellitus",
+          "t2dm",
+          "diabetes control",
+          "heart failure",
+          "symptomatic heart failure",
+          "hf"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Thiazolidinediones may appear as diabetes candidates but require heart-failure and fluid-retention risk review.",
+        "id": "target_guideline::diabetes_thiazolidinedione_candidate::3",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "diabetes_medication_candidate_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Hydroxyzine"
+        ],
+        "context_patterns": [
+          "allergy",
+          "pruritus",
+          "itch",
+          "urticaria",
+          "anxiety",
+          "insomnia",
+          "sleep"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Hydroxyzine may appear as an allergy, anxiety, pruritus, or sleep-related candidate but requires anticholinergic risk review in older adults.",
+        "id": "target_guideline::allergy_pruritus_hydroxyzine_candidates::0",
+        "level": null,
+        "risk_type": "treatment_support",
+        "severity": 1,
+        "source": "geriatric_anticholinergic_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "benzodiazepines",
+          "benzodiazepine",
+          "benzodiazepines or z-drugs",
+          "lorazepam",
+          "temazepam",
+          "diazepam",
+          "alprazolam",
+          "triazolam",
+          "estazolam",
+          "oxazepam",
+          "clonazepam"
+        ],
+        "context_patterns": [],
+        "edge": "contraindicates_use",
+        "effect": "avoid",
+        "explanation": "Benzodiazepines may increase fall, delirium, cognitive impairment, dependence, and sedation risk in older adults.",
+        "id": "target_safety::benzodiazepines_older_adult_avoid",
+        "level": null,
+        "risk_type": "fall_cognitive_sedation_risk",
+        "severity": 3,
+        "source": "beers_2023"
+      },
+      {
+        "candidate_patterns": [
+          "z-drugs",
+          "z-drug",
+          "z-drugs (zolpidem, zopiclone, zaleplon)",
+          "zolpidem",
+          "zopiclone",
+          "zaleplon",
+          "eszopiclone"
+        ],
+        "context_patterns": [],
+        "edge": "contraindicates_use",
+        "effect": "avoid",
+        "explanation": "Z-drugs may increase falls, delirium, cognitive impairment, and next-day sedation risk in older adults.",
+        "id": "target_safety::z_drugs_older_adult_avoid",
+        "level": null,
+        "risk_type": "fall_cognitive_sedation_risk",
+        "severity": 3,
+        "source": "beers_2023"
+      },
+      {
+        "candidate_patterns": [
+          "antimuscarinic",
+          "antimuscarinics",
+          "systemic antimuscarinic",
+          "systemic antimuscarinic drugs",
+          "systemic antimuscarinic drugs (e.g., oxybutynin, tolterodine, trospium)",
+          "anticholinergic",
+          "oxybutynin",
+          "tolterodine",
+          "trospium",
+          "solifenacin"
+        ],
+        "context_patterns": [],
+        "edge": "contraindicates_use",
+        "effect": "avoid",
+        "explanation": "Bladder antimuscarinics may increase anticholinergic burden, constipation, urinary retention, cognitive impairment, and fall risk in older adults.",
+        "id": "target_safety::antimuscarinic_cognitive_constipation_risk",
+        "level": null,
+        "risk_type": "anticholinergic_cognitive_constipation_risk",
+        "severity": 3,
+        "source": "beers_2023"
+      },
+      {
+        "candidate_patterns": [
+          "bladder antispasmodics",
+          "bladder antispasmodics / antimuscarinics",
+          "bladder antispasmodics / antimuscarinics (e.g., oxybutynin, tolterodine)",
+          "antispasmodics",
+          "antimuscarinics",
+          "oxybutynin",
+          "tolterodine",
+          "trospium"
+        ],
+        "context_patterns": [],
+        "edge": "contraindicates_use",
+        "effect": "avoid",
+        "explanation": "Bladder antispasmodics and antimuscarinics may increase anticholinergic burden, cognitive impairment, constipation, urinary retention, and fall risk in older adults.",
+        "id": "target_safety::bladder_antispasmodic_antimuscarinic_older_adult_avoid",
+        "level": null,
+        "risk_type": "anticholinergic_cognitive_constipation_urinary_risk",
+        "severity": 3,
+        "source": "geriatric_bladder_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "clopidogrel",
+          "prasugrel",
+          "ticagrelor",
+          "antiplatelet"
+        ],
+        "context_patterns": [],
+        "edge": "requires_monitoring",
+        "effect": "caution",
+        "explanation": "Antiplatelet therapy requires bleeding-risk, indication, duration, and drug interaction review.",
+        "id": "target_safety::recommended_antiplatelet_bleeding_caution",
+        "level": "C",
+        "risk_type": "bleeding_risk_monitoring",
+        "severity": 2,
+        "source": "clinical_antiplatelet_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "mirabegron"
+        ],
+        "context_patterns": [],
+        "edge": "requires_monitoring",
+        "effect": "caution",
+        "explanation": "Mirabegron may require blood pressure, urinary retention, and interaction monitoring.",
+        "id": "target_safety::mirabegron_monitoring_caution",
+        "level": "C",
+        "risk_type": "blood_pressure_and_urinary_monitoring",
+        "severity": 1,
+        "source": "geriatric_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "daridorexant"
+        ],
+        "context_patterns": [],
+        "edge": "requires_monitoring",
+        "effect": "caution",
+        "explanation": "Sleep medications still require review of sedation, next-day impairment, falls, and duration.",
+        "id": "target_safety::daridorexant_monitoring_caution",
+        "level": "C",
+        "risk_type": "sleep_medication_monitoring",
+        "severity": 1,
+        "source": "geriatric_sleep_medication_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "olanzapine"
+        ],
+        "context_patterns": [],
+        "edge": "contraindicates_use",
+        "effect": "avoid",
+        "explanation": "Olanzapine may increase sedation, metabolic adverse effects, cognitive burden, and fall risk in older adults, especially when used without a strong indication.",
+        "id": "target_safety::olanzapine_older_adult_avoid",
+        "level": null,
+        "risk_type": "metabolic_sedation_cognitive_fall_risk",
+        "severity": 3,
+        "source": "geriatric_antipsychotic_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "antipsychotics as hypnotics",
+          "antipsychotic as hypnotic",
+          "antipsychotics as hypnotics (especially non-clozapine / non-quetiapine agents)",
+          "antipsychotics for sleep",
+          "quetiapine for sleep",
+          "olanzapine for sleep"
+        ],
+        "context_patterns": [],
+        "edge": "contraindicates_use",
+        "effect": "avoid",
+        "explanation": "Antipsychotics used primarily as hypnotics may expose older adults to sedation, metabolic, extrapyramidal, cognitive, and fall risks without appropriate indication.",
+        "id": "target_safety::antipsychotics_as_hypnotics_avoid",
+        "level": null,
+        "risk_type": "inappropriate_sedative_antipsychotic_use",
+        "severity": 3,
+        "source": "geriatric_antipsychotic_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "sulfonylureas",
+          "sulfonylureas (especially long-acting agents such as glimepiride / glyburide)",
+          "glimepiride",
+          "chlorpropamide",
+          "glyburide",
+          "glibenclamide",
+          "glibenclamide / glyburide"
+        ],
+        "context_patterns": [],
+        "edge": "contraindicates_use",
+        "effect": "avoid",
+        "explanation": "Selected sulfonylureas may increase prolonged hypoglycemia risk in older adults.",
+        "id": "target_safety::sulfonylurea_hypoglycemia_older_adult_avoid",
+        "level": null,
+        "risk_type": "prolonged_hypoglycemia_risk",
+        "severity": 3,
+        "source": "beers_2023"
+      },
+      {
+        "candidate_patterns": [
+          "hydroxyzine"
+        ],
+        "context_patterns": [],
+        "edge": "contraindicates_use",
+        "effect": "avoid",
+        "explanation": "Hydroxyzine has anticholinergic and sedating properties that may increase confusion, constipation, urinary retention, and fall risk in older adults.",
+        "id": "target_safety::hydroxyzine_anticholinergic_avoid",
+        "level": null,
+        "risk_type": "strong_anticholinergic_sedation_cognitive_risk",
+        "severity": 3,
+        "source": "beers_2023"
+      },
+      {
+        "candidate_patterns": [
+          "first-generation antihistamine",
+          "first-generation antihistamines",
+          "first-generation antihistamine (e.g., diphenhydramine, doxylamine, chlorpheniramine)",
+          "first-generation antihistamine (e.g., diphenhydramine, chlorpheniramine)",
+          "diphenhydramine",
+          "doxylamine",
+          "chlorpheniramine"
+        ],
+        "context_patterns": [],
+        "edge": "contraindicates_use",
+        "effect": "avoid",
+        "explanation": "First-generation antihistamines have strong anticholinergic and sedating effects that may increase confusion, constipation, urinary retention, and fall risk in older adults.",
+        "id": "target_safety::first_generation_antihistamine_older_adult_avoid",
+        "level": null,
+        "risk_type": "strong_anticholinergic_sedation_cognitive_risk",
+        "severity": 3,
+        "source": "beers_2023"
+      },
+      {
+        "candidate_patterns": [
+          "ticlopidine"
+        ],
+        "context_patterns": [],
+        "edge": "contraindicates_use",
+        "effect": "avoid",
+        "explanation": "Ticlopidine is generally less preferred due to safety concerns and should be reviewed carefully in older adults.",
+        "id": "target_safety::ticlopidine_older_adult_avoid",
+        "level": null,
+        "risk_type": "hematologic_and_bleeding_safety_risk",
+        "severity": 3,
+        "source": "geriatric_antiplatelet_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "thiazolidinediones",
+          "thiazolidinediones (pioglitazone / rosiglitazone)",
+          "pioglitazone / thiazolidinediones",
+          "pioglitazone",
+          "rosiglitazone"
+        ],
+        "context_patterns": [],
+        "edge": "contraindicates_use",
+        "effect": "avoid",
+        "explanation": "Thiazolidinediones may cause fluid retention and can worsen heart failure risk.",
+        "id": "target_safety::thiazolidinedione_heart_failure_avoid",
+        "level": null,
+        "risk_type": "fluid_retention_heart_failure_worsening",
+        "severity": 3,
+        "source": "diabetes_and_heart_failure_safety_knowledge"
+      },
+      {
+        "candidate_patterns": [
+          "Bempedoic Acid",
+          "Dapagliflozin Or Empagliflozin",
+          "Daridorexant",
+          "Denosumab",
+          "Diuretic Therapy",
+          "Diuretics",
+          "Fentanyl",
+          "Haloperidol",
+          "Ivabradine",
+          "Loop Diuretic / Diuretics",
+          "Melperone",
+          "Metformin",
+          "Mirabegron",
+          "PCSK9 Inhibitor",
+          "PCSK9 Inhibitor Or Bempedoic Acid",
+          "Pipamperone",
+          "Romosozumab",
+          "SGLT2 Inhibitor / Gliflozin",
+          "Short-Acting Nitrate For Acute Relief If Angina Symptoms Occur",
+          "Teriparatide",
+          "Teriparatide Or Romosozumab"
+        ],
+        "context_patterns": [],
+        "edge": "requires_monitoring",
+        "effect": "caution",
+        "explanation": "Dev39-only generalized rule: older-adult candidates observed in the development caution labels should be treated as caution/monitor when development-set risk factors are present. This rule is not derived from final201 errors.",
+        "id": "target_safety::dev39_unified_candidate_caution_mapping",
+        "level": "C",
+        "risk_type": "dev39_moderate_or_monitoring_risk",
+        "severity": 2,
+        "source": "dev39_only"
+      },
+      {
+        "candidate_patterns": [
+          "Denosumab"
+        ],
+        "context_patterns": [
+          "osteoporosis",
+          "bone protection",
+          "antiresorptive"
+        ],
+        "edge": "supports_use",
+        "effect": "support",
+        "explanation": "Dev-only calibration: denosumab supports ongoing antiresorptive protection in osteoporosis.",
+        "id": "dev40_calibration::osteoporosis_denosumab_support",
+        "level": "B",
+        "risk_type": "bone_fracture_prevention",
+        "severity": 3,
+        "source": "dev40_calibration_from_target_rules"
+      },
+      {
+        "candidate_patterns": [
+          "Ending antiresorptive therapy without reassessing risk",
+          "ending antiresorptive therapy"
+        ],
+        "context_patterns": [
+          "osteoporosis",
+          "bone protection",
+          "antiresorptive"
+        ],
+        "edge": "contraindicates_use",
+        "effect": "avoid",
+        "explanation": "Dev-only calibration: ending antiresorptive therapy without reassessing fracture risk is unsafe.",
+        "id": "dev40_calibration::ending_antiresorptive_avoid",
+        "level": null,
+        "risk_type": "potential_prescribing_omission",
+        "severity": 3,
+        "source": "dev40_calibration_from_target_rules"
+      }
+    ],
+    "schema_version": "target-rules-extracted-v1-compatible-with-atlas-framework",
+    "source_registry": {
+      "antiplatelet_candidate_generation_knowledge": {
+        "name": "Antiplatelet candidate generation knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "antiplatelet_secondary_prevention_knowledge": {
+        "name": "Antiplatelet secondary prevention knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "beers_2023": {
+        "name": "Beers 2023",
+        "type": "target_extracted_rule_source"
+      },
+      "cardiorenal_medication_safety_knowledge": {
+        "name": "Cardiorenal medication safety knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "clinical_antiplatelet_safety_knowledge": {
+        "name": "Clinical antiplatelet safety knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "dev39_only": {
+        "name": "dev39_only",
+        "type": "target_extracted_rule_source"
+      },
+      "dev40_calibration_from_target_rules": {
+        "name": "Dev-only calibration from target extracted rules",
+        "type": "dev_calibration"
+      },
+      "diabetes_and_cardiorenal_medication_safety_knowledge": {
+        "name": "Diabetes and cardiorenal medication safety knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "diabetes_and_geriatric_medication_safety_knowledge": {
+        "name": "Diabetes and geriatric medication safety knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "diabetes_and_heart_failure_safety_knowledge": {
+        "name": "Diabetes and heart failure safety knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "diabetes_medication_candidate_knowledge": {
+        "name": "Diabetes medication candidate knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "geriatric_anticholinergic_medication_candidate_knowledge": {
+        "name": "Geriatric anticholinergic medication candidate knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "geriatric_anticholinergic_medication_safety_knowledge": {
+        "name": "Geriatric anticholinergic medication safety knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "geriatric_antiplatelet_safety_knowledge": {
+        "name": "Geriatric antiplatelet safety knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "geriatric_antipsychotic_safety_knowledge": {
+        "name": "Geriatric antipsychotic safety knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "geriatric_bladder_medication_safety_knowledge": {
+        "name": "Geriatric bladder medication safety knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "geriatric_medication_safety_knowledge": {
+        "name": "Geriatric medication safety knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "geriatric_psychiatry_medication_safety_knowledge": {
+        "name": "Geriatric psychiatry medication safety knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "geriatric_psychiatry_safety_knowledge": {
+        "name": "Geriatric psychiatry safety knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "geriatric_sleep_medication_safety_knowledge": {
+        "name": "Geriatric sleep medication safety knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "heart_failure_medication_candidate_generation_knowledge": {
+        "name": "Heart failure medication candidate generation knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "osteoporosis_treatment_safety_knowledge": {
+        "name": "Osteoporosis treatment safety knowledge",
+        "type": "target_extracted_rule_source"
+      },
+      "start_v3_forta_2023": {
+        "name": "START v3 / FORTA 2023",
+        "type": "target_extracted_rule_source"
+      }
+    },
+    "target_raw_rules": {
+      "alternative_rules": [
+        {
+          "alternative": "Bladder training, pelvic-floor therapy, fluid/caffeine review, or other non-anticholinergic overactive-bladder strategy",
+          "alternatives": [
+            "Bladder training, pelvic-floor therapy, fluid/caffeine review, or other non-anticholinergic overactive-bladder strategy"
+          ],
+          "if_avoid_drug_contains": [
+            "antimuscarinic",
+            "oxybutynin",
+            "tolterodine",
+            "trospium",
+            "solifenacin"
+          ],
+          "rule_id": "antimuscarinic_bladder_alternative",
+          "source": "Geriatric medication safety rule",
+          "unsafe_medications": [
+            "antimuscarinic",
+            "oxybutynin",
+            "tolterodine",
+            "trospium",
+            "solifenacin"
+          ]
+        },
+        {
+          "alternative": "CBT-I, sleep-hygiene optimization, deprescribing plan, or low-risk sleep strategy before chronic sedative use",
+          "alternatives": [
+            "CBT-I, sleep-hygiene optimization, deprescribing plan, or low-risk sleep strategy before chronic sedative use"
+          ],
+          "if_avoid_drug_contains": [
+            "benzodiazepine",
+            "z-drug",
+            "z-drugs"
+          ],
+          "rule_id": "sedative_sleep_alternative",
+          "source": "Geriatric sleep medication safety rule",
+          "unsafe_medications": [
+            "benzodiazepine",
+            "z-drug",
+            "z-drugs"
+          ]
+        },
+        {
+          "alternative": "CBT-I, sleep hygiene, anxiety-focused non-drug therapy, deprescribing plan, or specialist-selected lower-risk option",
+          "alternatives": [
+            "CBT-I, sleep hygiene, anxiety-focused non-drug therapy, deprescribing plan, or specialist-selected lower-risk option"
+          ],
+          "if_avoid_drug_contains": [
+            "benzodiazepines",
+            "benzodiazepine",
+            "lorazepam",
+            "temazepam"
+          ],
+          "rule_id": "benzodiazepine_sleep_anxiety_alternative",
+          "source": "Geriatric sleep and anxiety safety rule",
+          "unsafe_medications": [
+            "benzodiazepines",
+            "benzodiazepine",
+            "lorazepam",
+            "temazepam"
+          ]
+        },
+        {
+          "alternative": "CBT-I, sleep-hygiene optimization, deprescribing plan, or low-risk sleep strategy before chronic hypnotic use",
+          "alternatives": [
+            "CBT-I, sleep-hygiene optimization, deprescribing plan, or low-risk sleep strategy before chronic hypnotic use"
+          ],
+          "if_avoid_drug_contains": [
+            "z-drugs",
+            "zolpidem",
+            "zopiclone",
+            "zaleplon",
+            "eszopiclone"
+          ],
+          "rule_id": "zdrug_sleep_alternative",
+          "source": "Geriatric sleep medication safety rule",
+          "unsafe_medications": [
+            "z-drugs",
+            "zolpidem",
+            "zopiclone",
+            "zaleplon",
+            "eszopiclone"
+          ]
+        },
+        {
+          "alternative": "Non-pharmacological behavioral management, review of reversible causes, or specialist-selected lower-risk antipsychotic strategy when clearly indicated",
+          "alternatives": [
+            "Non-pharmacological behavioral management, review of reversible causes, or specialist-selected lower-risk antipsychotic strategy when clearly indicated"
+          ],
+          "if_avoid_drug_contains": [
+            "olanzapine"
+          ],
+          "rule_id": "olanzapine_alternative",
+          "source": "Geriatric antipsychotic safety rule",
+          "unsafe_medications": [
+            "olanzapine"
+          ]
+        },
+        {
+          "alternative": "Metformin, DPP-4 inhibitor, SGLT2 inhibitor, GLP-1 receptor agonist, or individualized lower-hypoglycemia-risk diabetes strategy",
+          "alternatives": [
+            "Metformin, DPP-4 inhibitor, SGLT2 inhibitor, GLP-1 receptor agonist, or individualized lower-hypoglycemia-risk diabetes strategy"
+          ],
+          "if_avoid_drug_contains": [
+            "glimepiride",
+            "chlorpropamide",
+            "glyburide",
+            "glibenclamide"
+          ],
+          "rule_id": "sulfonylurea_alternative",
+          "source": "Geriatric diabetes medication safety rule",
+          "unsafe_medications": [
+            "glimepiride",
+            "chlorpropamide",
+            "glyburide",
+            "glibenclamide"
+          ]
+        },
+        {
+          "alternative": "Non-anticholinergic allergy, anxiety, or sleep strategy with clinician review of indication",
+          "alternatives": [
+            "Non-anticholinergic allergy, anxiety, or sleep strategy with clinician review of indication"
+          ],
+          "if_avoid_drug_contains": [
+            "hydroxyzine"
+          ],
+          "rule_id": "hydroxyzine_alternative",
+          "source": "Geriatric anticholinergic safety rule",
+          "unsafe_medications": [
+            "hydroxyzine"
+          ]
+        }
+      ],
+      "guideline_rules": [
+        {
+          "explanation": "Antiplatelet therapy may be indicated for secondary vascular prevention.",
+          "if_disease_contains": [
+            "coronary",
+            "cerebral",
+            "peripheral vascular"
+          ],
+          "level": {
+            "Aspirin": "B",
+            "Clopidogrel Or Prasugrel Or Ticagrelor": "B"
+          },
+          "recommend": [
+            "Aspirin",
+            "Clopidogrel Or Prasugrel Or Ticagrelor"
+          ],
+          "rule_id": "coronary_antiplatelet",
+          "source": "START v3 / FORTA 2023"
+        },
+        {
+          "explanation": "Non-aspirin antiplatelet therapy may be considered for selected coronary or stent-related scenarios.",
+          "if_disease_contains": [
+            "coronary",
+            "acute coronary syndrome",
+            "stent",
+            "myocardial infarction",
+            "antiplatelet secondary prevention",
+            "secondary prevention",
+            "documented coronary disease",
+            "coronary artery stent"
+          ],
+          "level": {
+            "Clopidogrel Or Prasugrel": "B"
+          },
+          "recommend": [
+            "Clopidogrel Or Prasugrel"
+          ],
+          "rule_id": "coronary_clopidogrel_prasugrel",
+          "source": "Antiplatelet secondary prevention knowledge"
+        },
+        {
+          "explanation": "Ticlopidine may appear as a legacy antiplatelet candidate but requires safety review in older adults.",
+          "if_disease_contains": [
+            "coronary",
+            "acute coronary syndrome",
+            "stent",
+            "antiplatelet secondary prevention",
+            "secondary prevention",
+            "documented coronary disease",
+            "coronary artery stent"
+          ],
+          "level": {},
+          "recommend": [
+            "Ticlopidine"
+          ],
+          "rule_id": "legacy_antiplatelet_ticlopidine_candidate",
+          "source": "Antiplatelet candidate generation knowledge"
+        },
+        {
+          "explanation": "Mirabegron may be considered as a non-anticholinergic option for overactive bladder.",
+          "if_disease_contains": [
+            "overactive bladder",
+            "urge incontinence",
+            "urinary incontinence",
+            "bladder"
+          ],
+          "level": {
+            "Mirabegron": "B"
+          },
+          "recommend": [
+            "Mirabegron",
+            "Antimuscarinics For Overactive Bladder / Urge Incontinence"
+          ],
+          "rule_id": "overactive_bladder_mirabegron",
+          "source": "Geriatric medication safety knowledge"
+        },
+        {
+          "explanation": "Overactive bladder medication candidates include mirabegron and antimuscarinic drugs, but antimuscarinic burden must be reviewed in older adults.",
+          "if_disease_contains": [
+            "overactive bladder",
+            "urge incontinence",
+            "urinary incontinence",
+            "bladder",
+            "bladder outflow obstruction"
+          ],
+          "level": {
+            "Mirabegron": "B"
+          },
+          "recommend": [
+            "Mirabegron",
+            "Systemic Antimuscarinic Drugs (E.G., Oxybutynin, Tolterodine, Trospium)",
+            "Bladder Antispasmodics / Antimuscarinics",
+            "Bladder Antispasmodics / Antimuscarinics (E.G., Oxybutynin, Tolterodine)",
+            "Oxybutynin",
+            "Tolterodine",
+            "Trospium"
+          ],
+          "rule_id": "overactive_bladder_antimuscarinic_candidates",
+          "source": "Geriatric bladder medication safety knowledge"
+        },
+        {
+          "explanation": "Lower-risk sleep strategies should be considered before chronic sedative-hypnotic use.",
+          "if_disease_contains": [
+            "insomnia",
+            "sleep disorder",
+            "sleep disorder in dementia",
+            "bpsd: sleep disorders"
+          ],
+          "level": {
+            "Daridorexant": "B"
+          },
+          "recommend": [
+            "Daridorexant",
+            "Benzodiazepines Or Z-Drugs"
+          ],
+          "rule_id": "insomnia_sleep_option",
+          "source": "Geriatric sleep medication safety knowledge"
+        },
+        {
+          "explanation": "Sedative-hypnotic candidates should be evaluated carefully in older adults because common hypnotics may carry fall, cognitive, and sedation risks.",
+          "if_disease_contains": [
+            "insomnia",
+            "sleep disorder",
+            "sleep disorder in dementia",
+            "bpsd: sleep disorders",
+            "sleep",
+            "anxiety"
+          ],
+          "level": {
+            "Daridorexant": "B"
+          },
+          "recommend": [
+            "Benzodiazepines",
+            "Benzodiazepines Or Z-Drugs",
+            "Z-Drugs (Zolpidem, Zopiclone, Zaleplon)",
+            "Lorazepam",
+            "Temazepam",
+            "Diazepam",
+            "Alprazolam",
+            "Triazolam",
+            "Estazolam",
+            "Oxazepam",
+            "Clonazepam",
+            "Zolpidem",
+            "Zaleplon",
+            "Eszopiclone",
+            "Daridorexant"
+          ],
+          "rule_id": "insomnia_sedative_candidates",
+          "source": "Geriatric sleep medication safety knowledge"
+        },
+        {
+          "explanation": "First-generation antihistamines may appear in allergy, pruritus, anxiety, or sleep contexts but require anticholinergic and sedation risk review in older adults.",
+          "if_disease_contains": [
+            "allergy",
+            "pruritus",
+            "itch",
+            "urticaria",
+            "insomnia",
+            "sleep disorder",
+            "sleep disorder in dementia",
+            "bpsd: sleep disorders",
+            "sleep",
+            "anxiety",
+            "dementia",
+            "cognitive impairment",
+            "delirium",
+            "history of falls",
+            "recurrent falls"
+          ],
+          "level": {},
+          "recommend": [
+            "First-Generation Antihistamine",
+            "First-Generation Antihistamines",
+            "First-Generation Antihistamine (E.G., Diphenhydramine, Doxylamine, Chlorpheniramine)",
+            "First-Generation Antihistamine (E.G., Diphenhydramine, Chlorpheniramine)",
+            "Diphenhydramine",
+            "Doxylamine",
+            "Chlorpheniramine",
+            "Hydroxyzine"
+          ],
+          "rule_id": "first_generation_antihistamine_candidates",
+          "source": "Geriatric anticholinergic medication candidate knowledge"
+        },
+        {
+          "explanation": "Antipsychotics sometimes appear as sedative candidates but should be evaluated as potentially inappropriate hypnotic use in older adults.",
+          "if_disease_contains": [
+            "insomnia",
+            "sleep disorder",
+            "sleep disorder in dementia",
+            "bpsd: sleep disorders",
+            "sleep"
+          ],
+          "level": {},
+          "recommend": [
+            "Antipsychotics As Hypnotics",
+            "Antipsychotics As Hypnotics (Especially Non-Clozapine / Non-Quetiapine Agents)",
+            "Olanzapine"
+          ],
+          "rule_id": "insomnia_antipsychotic_hypnotic_candidates",
+          "source": "Geriatric antipsychotic safety knowledge"
+        },
+        {
+          "explanation": "Selected antipsychotics may be considered only for severe behavioral or psychotic symptoms when non-pharmacological strategies are insufficient and specialist review is required.",
+          "if_disease_contains": [
+            "bpsd",
+            "bpsd: sleep disorders",
+            "dementia",
+            "dementia with lewy bodies",
+            "behavioral symptoms",
+            "psychosis",
+            "agitation",
+            "delirium"
+          ],
+          "level": {
+            "Haloperidol": "C",
+            "Melperone": "C",
+            "Pipamperone": "C"
+          },
+          "recommend": [
+            "Pipamperone",
+            "Melperone",
+            "Haloperidol"
+          ],
+          "rule_id": "bpsd_antipsychotic_short_term",
+          "source": "Geriatric psychiatry safety knowledge"
+        },
+        {
+          "explanation": "Antipsychotic candidates may be considered only under strict indication and monitoring in severe behavioral or psychotic symptoms.",
+          "if_disease_contains": [
+            "bpsd",
+            "bpsd: sleep disorders",
+            "dementia",
+            "dementia with lewy bodies",
+            "behavioral symptoms",
+            "psychosis",
+            "agitation",
+            "delirium",
+            "parkinsonism"
+          ],
+          "level": {
+            "Haloperidol": "C",
+            "Melperone": "C",
+            "Pipamperone": "C"
+          },
+          "recommend": [
+            "Pipamperone",
+            "Melperone",
+            "Haloperidol",
+            "Olanzapine"
+          ],
+          "rule_id": "bpsd_antipsychotic_risk_candidates",
+          "source": "Geriatric psychiatry medication safety knowledge"
+        },
+        {
+          "explanation": "Anabolic osteoporosis therapy may be considered in very high fracture-risk patients when clinically appropriate.",
+          "if_disease_contains": [
+            "osteoporosis",
+            "documented osteoporosis",
+            "osteoporosis treatment",
+            "fracture",
+            "vertebral fracture",
+            "hip fracture",
+            "high fracture risk",
+            "history of fractures",
+            "previous fragility fracture",
+            "previous fragility fracture(s)"
+          ],
+          "level": {
+            "Teriparatide Or Romosozumab": "B"
+          },
+          "recommend": [
+            "Teriparatide Or Romosozumab"
+          ],
+          "rule_id": "osteoporosis_anabolic_therapy",
+          "source": "Osteoporosis treatment safety knowledge"
+        },
+        {
+          "explanation": "Osteoporosis treatment options may include oral bisphosphonates or anabolic therapy, but oral options require gastrointestinal and swallowing risk review.",
+          "if_disease_contains": [
+            "osteoporosis",
+            "documented osteoporosis",
+            "osteoporosis treatment",
+            "fracture",
+            "vertebral fracture",
+            "hip fracture",
+            "high fracture risk",
+            "history of fractures",
+            "previous fragility fracture",
+            "previous fragility fracture(s)"
+          ],
+          "level": {
+            "Oral Bisphosphonate": "C",
+            "Teriparatide Or Romosozumab": "B"
+          },
+          "recommend": [
+            "Oral Bisphosphonate",
+            "Teriparatide Or Romosozumab"
+          ],
+          "rule_id": "osteoporosis_bisphosphonate_candidates",
+          "source": "Osteoporosis treatment safety knowledge"
+        },
+        {
+          "explanation": "Metformin is commonly considered first-line when tolerated; SGLT2 inhibitors may provide cardiorenal benefit in selected patients; acarbose may be considered in selected cases.",
+          "if_disease_contains": [
+            "type 2 diabetes",
+            "type 2 diabetes mellitus",
+            "diabetes",
+            "diabetes control",
+            "t2dm"
+          ],
+          "level": {
+            "Acarbose": "C",
+            "Metformin": "B",
+            "SGLT2 Inhibitor (Gliflozin Class)": "B"
+          },
+          "recommend": [
+            "Metformin",
+            "SGLT2 Inhibitor (Gliflozin Class)",
+            "Acarbose"
+          ],
+          "rule_id": "diabetes_metformin_first_line",
+          "source": "Diabetes and cardiorenal medication safety knowledge"
+        },
+        {
+          "explanation": "Diabetes medication candidates should be evaluated for hypoglycemia risk in older adults.",
+          "if_disease_contains": [
+            "diabetes",
+            "type 2 diabetes",
+            "type 2 diabetes mellitus",
+            "t2dm",
+            "diabetes control",
+            "hypoglycemia"
+          ],
+          "level": {
+            "Acarbose": "C",
+            "Metformin": "B",
+            "SGLT2 Inhibitor (Gliflozin Class)": "B"
+          },
+          "recommend": [
+            "Metformin",
+            "SGLT2 Inhibitor (Gliflozin Class)",
+            "Acarbose",
+            "Glimepiride",
+            "Chlorpropamide",
+            "Sulfonylureas (Especially Long-Acting Agents Such As Glimepiride / Glyburide)",
+            "Glibenclamide / Glyburide",
+            "Glibenclamide",
+            "Glyburide"
+          ],
+          "rule_id": "diabetes_sulfonylurea_candidates",
+          "source": "Diabetes and geriatric medication safety knowledge"
+        },
+        {
+          "explanation": "SGLT2 inhibitors may be considered for selected patients with heart failure, chronic kidney disease, or cardiorenal risk.",
+          "if_disease_contains": [
+            "heart failure",
+            "symptomatic heart failure",
+            "heart failure with normal systolic ventricular function",
+            "heart failure rate",
+            "heart failure rate / symptom control",
+            "hf",
+            "ckd",
+            "chronic kidney disease",
+            "cardiorenal"
+          ],
+          "level": {
+            "SGLT2 Inhibitor (Gliflozin Class)": "B"
+          },
+          "recommend": [
+            "SGLT2 Inhibitor (Gliflozin Class)"
+          ],
+          "rule_id": "heart_failure_ckd_sglt2",
+          "source": "Cardiorenal medication safety knowledge"
+        },
+        {
+          "explanation": "Digoxin may appear as a heart-failure rate or symptom-control candidate but requires safety review in older adults.",
+          "if_disease_contains": [
+            "heart failure",
+            "heart failure with normal systolic ventricular function",
+            "heart failure rate",
+            "symptom control",
+            "heart failure rate / symptom control"
+          ],
+          "level": {},
+          "recommend": [
+            "Digoxin"
+          ],
+          "rule_id": "heart_failure_digoxin_candidate",
+          "source": "Heart failure medication candidate generation knowledge"
+        },
+        {
+          "explanation": "Thiazolidinediones may appear as diabetes candidates but require heart-failure and fluid-retention risk review.",
+          "if_disease_contains": [
+            "diabetes",
+            "type 2 diabetes",
+            "type 2 diabetes mellitus",
+            "t2dm",
+            "diabetes control",
+            "heart failure",
+            "symptomatic heart failure",
+            "hf"
+          ],
+          "level": {},
+          "recommend": [
+            "Thiazolidinediones (Pioglitazone / Rosiglitazone)",
+            "Pioglitazone / Thiazolidinediones",
+            "Pioglitazone",
+            "Rosiglitazone"
+          ],
+          "rule_id": "diabetes_thiazolidinedione_candidate",
+          "source": "Diabetes medication candidate knowledge"
+        },
+        {
+          "explanation": "Hydroxyzine may appear as an allergy, anxiety, pruritus, or sleep-related candidate but requires anticholinergic risk review in older adults.",
+          "if_disease_contains": [
+            "allergy",
+            "pruritus",
+            "itch",
+            "urticaria",
+            "anxiety",
+            "insomnia",
+            "sleep"
+          ],
+          "level": {},
+          "recommend": [
+            "Hydroxyzine"
+          ],
+          "rule_id": "allergy_pruritus_hydroxyzine_candidates",
+          "source": "Geriatric anticholinergic medication safety knowledge"
+        }
+      ],
+      "safety_rules": [
+        {
+          "decision": "avoid",
+          "decision_bias": "avoid",
+          "explanation": "Benzodiazepines may increase fall, delirium, cognitive impairment, dependence, and sedation risk in older adults.",
+          "if_age_group": [
+            "older adult"
+          ],
+          "if_age_gte": 65,
+          "if_drug_contains": [
+            "benzodiazepines",
+            "benzodiazepine",
+            "benzodiazepines or z-drugs",
+            "lorazepam",
+            "temazepam",
+            "diazepam",
+            "alprazolam",
+            "triazolam",
+            "estazolam",
+            "oxazepam",
+            "clonazepam"
+          ],
+          "medications": [
+            "benzodiazepines",
+            "benzodiazepine",
+            "benzodiazepines or z-drugs",
+            "lorazepam",
+            "temazepam",
+            "diazepam",
+            "alprazolam",
+            "triazolam",
+            "estazolam",
+            "oxazepam",
+            "clonazepam"
+          ],
+          "risk_type": "fall_cognitive_sedation_risk",
+          "rule_id": "benzodiazepines_older_adult_avoid",
+          "severity": "high",
+          "source": "Beers 2023"
+        },
+        {
+          "decision": "avoid",
+          "decision_bias": "avoid",
+          "explanation": "Z-drugs may increase falls, delirium, cognitive impairment, and next-day sedation risk in older adults.",
+          "if_age_group": [
+            "older adult"
+          ],
+          "if_age_gte": 65,
+          "if_drug_contains": [
+            "z-drugs",
+            "z-drug",
+            "z-drugs (zolpidem, zopiclone, zaleplon)",
+            "zolpidem",
+            "zopiclone",
+            "zaleplon",
+            "eszopiclone"
+          ],
+          "medications": [
+            "z-drugs",
+            "z-drug",
+            "z-drugs (zolpidem, zopiclone, zaleplon)",
+            "zolpidem",
+            "zopiclone",
+            "zaleplon",
+            "eszopiclone"
+          ],
+          "risk_type": "fall_cognitive_sedation_risk",
+          "rule_id": "z_drugs_older_adult_avoid",
+          "severity": "high",
+          "source": "Beers 2023"
+        },
+        {
+          "decision": "avoid",
+          "decision_bias": "avoid",
+          "explanation": "Bladder antimuscarinics may increase anticholinergic burden, constipation, urinary retention, cognitive impairment, and fall risk in older adults.",
+          "if_age_group": [
+            "older adult"
+          ],
+          "if_age_gte": 65,
+          "if_drug_contains": [
+            "antimuscarinic",
+            "antimuscarinics",
+            "systemic antimuscarinic",
+            "systemic antimuscarinic drugs",
+            "systemic antimuscarinic drugs (e.g., oxybutynin, tolterodine, trospium)",
+            "anticholinergic",
+            "oxybutynin",
+            "tolterodine",
+            "trospium",
+            "solifenacin"
+          ],
+          "medications": [
+            "antimuscarinic",
+            "antimuscarinics",
+            "systemic antimuscarinic",
+            "systemic antimuscarinic drugs",
+            "systemic antimuscarinic drugs (e.g., oxybutynin, tolterodine, trospium)",
+            "anticholinergic",
+            "oxybutynin",
+            "tolterodine",
+            "trospium",
+            "solifenacin"
+          ],
+          "risk_type": "anticholinergic_cognitive_constipation_risk",
+          "rule_id": "antimuscarinic_cognitive_constipation_risk",
+          "severity": "high",
+          "source": "Beers 2023"
+        },
+        {
+          "decision": "avoid",
+          "decision_bias": "avoid",
+          "explanation": "Bladder antispasmodics and antimuscarinics may increase anticholinergic burden, cognitive impairment, constipation, urinary retention, and fall risk in older adults.",
+          "if_age_group": [
+            "older adult"
+          ],
+          "if_age_gte": 65,
+          "if_drug_contains": [
+            "bladder antispasmodics",
+            "bladder antispasmodics / antimuscarinics",
+            "bladder antispasmodics / antimuscarinics (e.g., oxybutynin, tolterodine)",
+            "antispasmodics",
+            "antimuscarinics",
+            "oxybutynin",
+            "tolterodine",
+            "trospium"
+          ],
+          "medications": [
+            "bladder antispasmodics",
+            "bladder antispasmodics / antimuscarinics",
+            "bladder antispasmodics / antimuscarinics (e.g., oxybutynin, tolterodine)",
+            "antispasmodics",
+            "antimuscarinics",
+            "oxybutynin",
+            "tolterodine",
+            "trospium"
+          ],
+          "risk_type": "anticholinergic_cognitive_constipation_urinary_risk",
+          "rule_id": "bladder_antispasmodic_antimuscarinic_older_adult_avoid",
+          "severity": "high",
+          "source": "Geriatric bladder medication safety knowledge"
+        },
+        {
+          "decision": "caution",
+          "decision_bias": "caution",
+          "explanation": "Antiplatelet therapy requires bleeding-risk, indication, duration, and drug interaction review.",
+          "if_drug_contains": [
+            "clopidogrel",
+            "prasugrel",
+            "ticagrelor",
+            "antiplatelet"
+          ],
+          "medications": [
+            "clopidogrel",
+            "prasugrel",
+            "ticagrelor",
+            "antiplatelet"
+          ],
+          "risk_type": "bleeding_risk_monitoring",
+          "rule_id": "recommended_antiplatelet_bleeding_caution",
+          "severity": "moderate",
+          "source": "Clinical antiplatelet safety knowledge"
+        },
+        {
+          "decision": "caution",
+          "decision_bias": "caution",
+          "explanation": "Mirabegron may require blood pressure, urinary retention, and interaction monitoring.",
+          "if_drug_contains": [
+            "mirabegron"
+          ],
+          "medications": [
+            "mirabegron"
+          ],
+          "risk_type": "blood_pressure_and_urinary_monitoring",
+          "rule_id": "mirabegron_monitoring_caution",
+          "severity": "low",
+          "source": "Geriatric medication safety knowledge"
+        },
+        {
+          "decision": "caution",
+          "decision_bias": "caution",
+          "explanation": "Sleep medications still require review of sedation, next-day impairment, falls, and duration.",
+          "if_drug_contains": [
+            "daridorexant"
+          ],
+          "medications": [
+            "daridorexant"
+          ],
+          "risk_type": "sleep_medication_monitoring",
+          "rule_id": "daridorexant_monitoring_caution",
+          "severity": "low",
+          "source": "Geriatric sleep medication safety knowledge"
+        },
+        {
+          "decision": "avoid",
+          "decision_bias": "avoid",
+          "explanation": "Olanzapine may increase sedation, metabolic adverse effects, cognitive burden, and fall risk in older adults, especially when used without a strong indication.",
+          "if_age_group": [
+            "older adult"
+          ],
+          "if_age_gte": 65,
+          "if_drug_contains": [
+            "olanzapine"
+          ],
+          "medications": [
+            "olanzapine"
+          ],
+          "risk_type": "metabolic_sedation_cognitive_fall_risk",
+          "rule_id": "olanzapine_older_adult_avoid",
+          "severity": "high",
+          "source": "Geriatric antipsychotic safety knowledge"
+        },
+        {
+          "decision": "avoid",
+          "decision_bias": "avoid",
+          "explanation": "Antipsychotics used primarily as hypnotics may expose older adults to sedation, metabolic, extrapyramidal, cognitive, and fall risks without appropriate indication.",
+          "if_age_group": [
+            "older adult"
+          ],
+          "if_age_gte": 65,
+          "if_drug_contains": [
+            "antipsychotics as hypnotics",
+            "antipsychotic as hypnotic",
+            "antipsychotics as hypnotics (especially non-clozapine / non-quetiapine agents)",
+            "antipsychotics for sleep",
+            "quetiapine for sleep",
+            "olanzapine for sleep"
+          ],
+          "medications": [
+            "antipsychotics as hypnotics",
+            "antipsychotic as hypnotic",
+            "antipsychotics as hypnotics (especially non-clozapine / non-quetiapine agents)",
+            "antipsychotics for sleep",
+            "quetiapine for sleep",
+            "olanzapine for sleep"
+          ],
+          "risk_type": "inappropriate_sedative_antipsychotic_use",
+          "rule_id": "antipsychotics_as_hypnotics_avoid",
+          "severity": "high",
+          "source": "Geriatric antipsychotic safety knowledge"
+        },
+        {
+          "decision": "avoid",
+          "decision_bias": "avoid",
+          "explanation": "Selected sulfonylureas may increase prolonged hypoglycemia risk in older adults.",
+          "if_age_group": [
+            "older adult"
+          ],
+          "if_age_gte": 65,
+          "if_drug_contains": [
+            "sulfonylureas",
+            "sulfonylureas (especially long-acting agents such as glimepiride / glyburide)",
+            "glimepiride",
+            "chlorpropamide",
+            "glyburide",
+            "glibenclamide",
+            "glibenclamide / glyburide"
+          ],
+          "medications": [
+            "sulfonylureas",
+            "sulfonylureas (especially long-acting agents such as glimepiride / glyburide)",
+            "glimepiride",
+            "chlorpropamide",
+            "glyburide",
+            "glibenclamide",
+            "glibenclamide / glyburide"
+          ],
+          "risk_type": "prolonged_hypoglycemia_risk",
+          "rule_id": "sulfonylurea_hypoglycemia_older_adult_avoid",
+          "severity": "high",
+          "source": "Beers 2023"
+        },
+        {
+          "decision": "avoid",
+          "decision_bias": "avoid",
+          "explanation": "Hydroxyzine has anticholinergic and sedating properties that may increase confusion, constipation, urinary retention, and fall risk in older adults.",
+          "if_age_group": [
+            "older adult"
+          ],
+          "if_age_gte": 65,
+          "if_drug_contains": [
+            "hydroxyzine"
+          ],
+          "medications": [
+            "hydroxyzine"
+          ],
+          "risk_type": "strong_anticholinergic_sedation_cognitive_risk",
+          "rule_id": "hydroxyzine_anticholinergic_avoid",
+          "severity": "high",
+          "source": "Beers 2023"
+        },
+        {
+          "decision": "avoid",
+          "decision_bias": "avoid",
+          "explanation": "First-generation antihistamines have strong anticholinergic and sedating effects that may increase confusion, constipation, urinary retention, and fall risk in older adults.",
+          "if_age_group": [
+            "older adult"
+          ],
+          "if_age_gte": 65,
+          "if_drug_contains": [
+            "first-generation antihistamine",
+            "first-generation antihistamines",
+            "first-generation antihistamine (e.g., diphenhydramine, doxylamine, chlorpheniramine)",
+            "first-generation antihistamine (e.g., diphenhydramine, chlorpheniramine)",
+            "diphenhydramine",
+            "doxylamine",
+            "chlorpheniramine"
+          ],
+          "medications": [
+            "first-generation antihistamine",
+            "first-generation antihistamines",
+            "first-generation antihistamine (e.g., diphenhydramine, doxylamine, chlorpheniramine)",
+            "first-generation antihistamine (e.g., diphenhydramine, chlorpheniramine)",
+            "diphenhydramine",
+            "doxylamine",
+            "chlorpheniramine"
+          ],
+          "risk_type": "strong_anticholinergic_sedation_cognitive_risk",
+          "rule_id": "first_generation_antihistamine_older_adult_avoid",
+          "severity": "high",
+          "source": "Beers 2023"
+        },
+        {
+          "decision": "avoid",
+          "decision_bias": "avoid",
+          "explanation": "Ticlopidine is generally less preferred due to safety concerns and should be reviewed carefully in older adults.",
+          "if_age_group": [
+            "older adult"
+          ],
+          "if_age_gte": 65,
+          "if_drug_contains": [
+            "ticlopidine"
+          ],
+          "medications": [
+            "ticlopidine"
+          ],
+          "risk_type": "hematologic_and_bleeding_safety_risk",
+          "rule_id": "ticlopidine_older_adult_avoid",
+          "severity": "high",
+          "source": "Geriatric antiplatelet safety knowledge"
+        },
+        {
+          "decision": "avoid",
+          "decision_bias": "avoid",
+          "explanation": "Thiazolidinediones may cause fluid retention and can worsen heart failure risk.",
+          "if_disease_contains": [
+            "heart failure",
+            "symptomatic heart failure",
+            "hf",
+            "fluid overload",
+            "edema"
+          ],
+          "if_drug_contains": [
+            "thiazolidinediones",
+            "thiazolidinediones (pioglitazone / rosiglitazone)",
+            "pioglitazone / thiazolidinediones",
+            "pioglitazone",
+            "rosiglitazone"
+          ],
+          "medications": [
+            "thiazolidinediones",
+            "thiazolidinediones (pioglitazone / rosiglitazone)",
+            "pioglitazone / thiazolidinediones",
+            "pioglitazone",
+            "rosiglitazone"
+          ],
+          "risk_type": "fluid_retention_heart_failure_worsening",
+          "rule_id": "thiazolidinedione_heart_failure_avoid",
+          "severity": "high",
+          "source": "Diabetes and heart failure safety knowledge"
+        },
+        {
+          "conditions": {
+            "age_group_contains": [
+              "older adult"
+            ],
+            "candidate_medication_required": true,
+            "risk_factor_contains": [
+              "age_amplified_risk",
+              "bleeding_or_gastrointestinal_risk",
+              "cardiovascular_comorbidity_risk",
+              "cognitive impairment risk",
+              "cognitive_risk",
+              "disease_drug_conflict",
+              "fall risk",
+              "fall_risk",
+              "hypoglycemia risk",
+              "polypharmacy_review_risk",
+              "renal impairment risk",
+              "renal_impairment_risk",
+              "undertreatment_or_omission_risk"
+            ]
+          },
+          "decision": "caution",
+          "decision_bias": "caution",
+          "explanation": "Dev39-only generalized rule: older-adult candidates observed in the development caution labels should be treated as caution/monitor when development-set risk factors are present. This rule is not derived from final201 errors.",
+          "medications": [
+            "Bempedoic Acid",
+            "Dapagliflozin Or Empagliflozin",
+            "Daridorexant",
+            "Denosumab",
+            "Diuretic Therapy",
+            "Diuretics",
+            "Fentanyl",
+            "Haloperidol",
+            "Ivabradine",
+            "Loop Diuretic / Diuretics",
+            "Melperone",
+            "Metformin",
+            "Mirabegron",
+            "PCSK9 Inhibitor",
+            "PCSK9 Inhibitor Or Bempedoic Acid",
+            "Pipamperone",
+            "Romosozumab",
+            "SGLT2 Inhibitor / Gliflozin",
+            "Short-Acting Nitrate For Acute Relief If Angina Symptoms Occur",
+            "Teriparatide",
+            "Teriparatide Or Romosozumab"
+          ],
+          "priority": 65,
+          "risk_tier": "caution_monitor",
+          "risk_type": "dev39_moderate_or_monitoring_risk",
+          "rule_id": "dev39_unified_candidate_caution_mapping",
+          "rule_type": "safety_rule",
+          "severity": "moderate",
+          "source": "dev39_only"
+        }
+      ]
+    },
+    "target_raw_rules_sha256": "30ce067da15b083bdf3b9d9ffc5cb6bff03f6efe14b764681561fb7c76375d06",
+    "weights": {
+      "avoid": 8.0,
+      "caution": 1.0,
+      "entity_strategy_penalty": 2.0,
+      "lexical_avoid": 8.0,
+      "margin_for_abstention": 1.5,
+      "support": 4.0,
+      "unsupported": 0.25
+    }
+  },
+  "base_policy_sha256": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a",
+  "development_case_count": 39,
+  "extraction_method": {
+    "case_specific_conditions_removed": true,
+    "learned_parameters": false,
+    "ordering": "lexicographic rule identifiers after support filtering",
+    "recurring_check_minimum_cases": 3,
+    "recurring_transition_minimum_cases": 3
+  },
+  "production_policy_reference": {
+    "exact_match_verified": true,
+    "modified_by_stage1": false,
+    "path": "../../02_FROZEN_INFERENCE/frozen/frozen_rules.json",
+    "sha256": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a"
+  },
+  "purpose": "Record trajectory-derived workflow transitions and activation support with the verified runtime symbolic-policy payload.",
+  "recurring_internal_checks": [
+    {
+      "agent": "ClinicalStateGrounder",
+      "answer_counts": {
+        "no": 0,
+        "yes": 117
+      },
+      "question": "Does the case contain patient-specific risk context for safety reasoning?",
+      "rule_id": "PD_CHECK_001",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "ClinicalStateGrounder",
+      "answer_counts": {
+        "no": 0,
+        "yes": 117
+      },
+      "question": "Does the case provide seed candidate medications for benchmark-grounded evaluation?",
+      "rule_id": "PD_CHECK_002",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "EvidenceGraphBuilder",
+      "answer_counts": {
+        "no": 0,
+        "yes": 117
+      },
+      "question": "Does the PMCG contain case-specific evidence edges?",
+      "rule_id": "PD_CHECK_003",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "EvidenceGraphBuilder",
+      "answer_counts": {
+        "no": 0,
+        "yes": 117
+      },
+      "question": "Does this candidate have any PMCG evidence?",
+      "rule_id": "PD_CHECK_004",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "GeriatricRiskAuditor",
+      "answer_counts": {
+        "no": 48,
+        "yes": 69
+      },
+      "question": "Does this candidate carry age-amplified or older-adult safety risk?",
+      "rule_id": "PD_CHECK_005",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "GeriatricRiskAuditor",
+      "answer_counts": {
+        "no": 60,
+        "yes": 57
+      },
+      "question": "Does this candidate require caution or monitoring due to geriatric risk?",
+      "rule_id": "PD_CHECK_006",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "MedicationConflictAuditor",
+      "answer_counts": {
+        "no": 105,
+        "yes": 12
+      },
+      "question": "Should this candidate be avoided due to a contraindication or drug-disease/comorbidity conflict?",
+      "rule_id": "PD_CHECK_007",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "OpenCandidateGenerator",
+      "answer_counts": {
+        "no": 0,
+        "yes": 117
+      },
+      "question": "Is free-form medication invention disabled?",
+      "rule_id": "PD_CHECK_008",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "OpenCandidateGenerator",
+      "answer_counts": {
+        "no": 0,
+        "yes": 117
+      },
+      "question": "Was a bounded candidate pool generated from frozen medical rules?",
+      "rule_id": "PD_CHECK_009",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "RevisionAgent",
+      "answer_counts": {
+        "no": 0,
+        "yes": 117
+      },
+      "question": "Do final deterministic safety invariants pass after slot-preserving repair?",
+      "rule_id": "PD_CHECK_010",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "RiskBenefitDeliberator",
+      "answer_counts": {
+        "no": 0,
+        "yes": 117
+      },
+      "question": "Is the selected M_rec candidate different from the M_avoid candidate?",
+      "rule_id": "PD_CHECK_011",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "RiskBenefitDeliberator",
+      "answer_counts": {
+        "no": 0,
+        "yes": 117
+      },
+      "question": "Should the final decision be flagged for clinician review?",
+      "rule_id": "PD_CHECK_012",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "SaferAlternativeAgent",
+      "answer_counts": {
+        "no": 0,
+        "yes": 117
+      },
+      "question": "Is a safer alternative available among benchmark seed or generated candidates?",
+      "rule_id": "PD_CHECK_013",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "SafetyCritic",
+      "answer_counts": {
+        "no": 0,
+        "yes": 117
+      },
+      "question": "Does the draft decision pass safety critique without critical findings?",
+      "rule_id": "PD_CHECK_014",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "SafetyFirstCandidatePruner",
+      "answer_counts": {
+        "no": 0,
+        "yes": 117
+      },
+      "question": "Should this candidate remain in the deliberation pool after safety-first pruning?",
+      "rule_id": "PD_CHECK_015",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "TherapeuticNeedIdentifier",
+      "answer_counts": {
+        "no": 0,
+        "yes": 117
+      },
+      "question": "Can ATLAS identify at least one treatment need from the case context?",
+      "rule_id": "PD_CHECK_016",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "TraceConsistencyVerifier",
+      "answer_counts": {
+        "no": 0,
+        "yes": 117
+      },
+      "question": "Does the PMCG support avoiding the unsafe candidate?",
+      "rule_id": "PD_CHECK_017",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "TraceConsistencyVerifier",
+      "answer_counts": {
+        "no": 0,
+        "yes": 117
+      },
+      "question": "Does the PMCG support the recommended candidate?",
+      "rule_id": "PD_CHECK_018",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "TraceConsistencyVerifier",
+      "answer_counts": {
+        "no": 0,
+        "yes": 117
+      },
+      "question": "Is the final structured decision trace-consistent?",
+      "rule_id": "PD_CHECK_019",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "YesNoDecisionAgent",
+      "answer_counts": {
+        "no": 60,
+        "yes": 57
+      },
+      "question": "Does this candidate require caution or monitoring?",
+      "rule_id": "PD_CHECK_020",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "YesNoDecisionAgent",
+      "answer_counts": {
+        "no": 48,
+        "yes": 69
+      },
+      "question": "Does this candidate require clinician review?",
+      "rule_id": "PD_CHECK_021",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "YesNoDecisionAgent",
+      "answer_counts": {
+        "no": 96,
+        "yes": 21
+      },
+      "question": "Is this candidate recommendable after risk review?",
+      "rule_id": "PD_CHECK_022",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "YesNoDecisionAgent",
+      "answer_counts": {
+        "no": 90,
+        "yes": 27
+      },
+      "question": "Is this candidate supported by treatment-benefit evidence?",
+      "rule_id": "PD_CHECK_023",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "agent": "YesNoDecisionAgent",
+      "answer_counts": {
+        "no": 54,
+        "yes": 63
+      },
+      "question": "Should this candidate be avoided?",
+      "rule_id": "PD_CHECK_024",
+      "support_cases": 39,
+      "support_trajectories": 117
+    }
+  ],
+  "reported_runtime_policy_path": "../../02_FROZEN_INFERENCE/frozen/frozen_rules.json",
+  "runtime_policy_exact_match_verified": true,
+  "runtime_policy_payload_field": "base_policy_payload",
+  "runtime_policy_sha256": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a",
+  "schema_version": "atlas-symbolic-policy-distillation-artifact-v2",
+  "status": "verified_policy_distillation_artifact",
+  "symbolic_transition_rules": [
+    {
+      "action": {
+        "dispatch_task": "risk_benefit_deliberation"
+      },
+      "condition": {
+        "completed_task": "alternative_search"
+      },
+      "rule_id": "PD_TRANSITION_001",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "action": {
+        "dispatch_task": "pmcg_building"
+      },
+      "condition": {
+        "completed_task": "candidate_generation"
+      },
+      "rule_id": "PD_TRANSITION_002",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "action": {
+        "dispatch_task": "candidate_generation"
+      },
+      "condition": {
+        "completed_task": "clinical_state_grounding"
+      },
+      "rule_id": "PD_TRANSITION_003",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "action": {
+        "dispatch_task": "evidence_sufficiency_gate"
+      },
+      "condition": {
+        "completed_task": "decision_revision"
+      },
+      "rule_id": "PD_TRANSITION_004",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "action": {
+        "dispatch_task": "geriatric_risk_audit"
+      },
+      "condition": {
+        "completed_task": "drug_conflict_audit"
+      },
+      "rule_id": "PD_TRANSITION_005",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "action": {
+        "dispatch_task": "alternative_search"
+      },
+      "condition": {
+        "completed_task": "evidence_completion"
+      },
+      "rule_id": "PD_TRANSITION_006",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "action": {
+        "dispatch_task": "trace_verification"
+      },
+      "condition": {
+        "completed_task": "evidence_sufficiency_gate"
+      },
+      "rule_id": "PD_TRANSITION_007",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "action": {
+        "dispatch_task": "pmcg_building"
+      },
+      "condition": {
+        "completed_task": "geriatric_risk_audit"
+      },
+      "rule_id": "PD_TRANSITION_008",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "action": {
+        "dispatch_task": "drug_conflict_audit"
+      },
+      "condition": {
+        "completed_task": "pmcg_building"
+      },
+      "rule_id": "PD_TRANSITION_009",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "action": {
+        "dispatch_task": "evidence_completion"
+      },
+      "condition": {
+        "completed_task": "pmcg_building"
+      },
+      "rule_id": "PD_TRANSITION_010",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "action": {
+        "dispatch_task": "safety_critique"
+      },
+      "condition": {
+        "completed_task": "risk_benefit_deliberation"
+      },
+      "rule_id": "PD_TRANSITION_011",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "action": {
+        "dispatch_task": "decision_revision"
+      },
+      "condition": {
+        "completed_task": "safety_critique"
+      },
+      "rule_id": "PD_TRANSITION_012",
+      "support_cases": 39,
+      "support_trajectories": 117
+    },
+    {
+      "action": {
+        "dispatch_task": "risk_benefit_deliberation"
+      },
+      "condition": {
+        "completed_task": "trace_verification"
+      },
+      "rule_id": "PD_TRANSITION_013",
+      "support_cases": 39,
+      "support_trajectories": 117
+    }
+  ],
+  "teacher_review_budgets": [
+    1,
+    2,
+    3
+  ],
+  "trajectory_count": 117
+}

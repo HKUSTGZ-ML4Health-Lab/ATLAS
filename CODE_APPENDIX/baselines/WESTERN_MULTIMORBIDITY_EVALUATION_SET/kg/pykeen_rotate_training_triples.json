@@ -1,0 +1,2972 @@
+[
+  {
+    "head": "ctx::coronary",
+    "relation": "supports_use",
+    "tail": "drug::aspirin"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::aspirin"
+  },
+  {
+    "head": "ctx::cerebral",
+    "relation": "supports_use",
+    "tail": "drug::aspirin"
+  },
+  {
+    "head": "ctx::peripheral vascular",
+    "relation": "supports_use",
+    "tail": "drug::aspirin"
+  },
+  {
+    "head": "ctx::coronary",
+    "relation": "supports_use",
+    "tail": "drug::clopidogrel or prasugrel or ticagrelor"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::clopidogrel or prasugrel or ticagrelor"
+  },
+  {
+    "head": "ctx::cerebral",
+    "relation": "supports_use",
+    "tail": "drug::clopidogrel or prasugrel or ticagrelor"
+  },
+  {
+    "head": "ctx::peripheral vascular",
+    "relation": "supports_use",
+    "tail": "drug::clopidogrel or prasugrel or ticagrelor"
+  },
+  {
+    "head": "ctx::coronary",
+    "relation": "supports_use",
+    "tail": "drug::clopidogrel or prasugrel"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::clopidogrel or prasugrel"
+  },
+  {
+    "head": "ctx::acute coronary syndrome",
+    "relation": "supports_use",
+    "tail": "drug::clopidogrel or prasugrel"
+  },
+  {
+    "head": "ctx::stent",
+    "relation": "supports_use",
+    "tail": "drug::clopidogrel or prasugrel"
+  },
+  {
+    "head": "ctx::myocardial infarction",
+    "relation": "supports_use",
+    "tail": "drug::clopidogrel or prasugrel"
+  },
+  {
+    "head": "ctx::antiplatelet secondary prevention",
+    "relation": "supports_use",
+    "tail": "drug::clopidogrel or prasugrel"
+  },
+  {
+    "head": "ctx::secondary prevention",
+    "relation": "supports_use",
+    "tail": "drug::clopidogrel or prasugrel"
+  },
+  {
+    "head": "ctx::documented coronary disease",
+    "relation": "supports_use",
+    "tail": "drug::clopidogrel or prasugrel"
+  },
+  {
+    "head": "ctx::coronary artery stent",
+    "relation": "supports_use",
+    "tail": "drug::clopidogrel or prasugrel"
+  },
+  {
+    "head": "ctx::coronary",
+    "relation": "supports_use",
+    "tail": "drug::ticlopidine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::ticlopidine"
+  },
+  {
+    "head": "ctx::acute coronary syndrome",
+    "relation": "supports_use",
+    "tail": "drug::ticlopidine"
+  },
+  {
+    "head": "ctx::stent",
+    "relation": "supports_use",
+    "tail": "drug::ticlopidine"
+  },
+  {
+    "head": "ctx::antiplatelet secondary prevention",
+    "relation": "supports_use",
+    "tail": "drug::ticlopidine"
+  },
+  {
+    "head": "ctx::secondary prevention",
+    "relation": "supports_use",
+    "tail": "drug::ticlopidine"
+  },
+  {
+    "head": "ctx::documented coronary disease",
+    "relation": "supports_use",
+    "tail": "drug::ticlopidine"
+  },
+  {
+    "head": "ctx::coronary artery stent",
+    "relation": "supports_use",
+    "tail": "drug::ticlopidine"
+  },
+  {
+    "head": "ctx::overactive bladder",
+    "relation": "supports_use",
+    "tail": "drug::mirabegron"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::mirabegron"
+  },
+  {
+    "head": "ctx::urge incontinence",
+    "relation": "supports_use",
+    "tail": "drug::mirabegron"
+  },
+  {
+    "head": "ctx::urinary incontinence",
+    "relation": "supports_use",
+    "tail": "drug::mirabegron"
+  },
+  {
+    "head": "ctx::bladder",
+    "relation": "supports_use",
+    "tail": "drug::mirabegron"
+  },
+  {
+    "head": "ctx::overactive bladder",
+    "relation": "supports_use",
+    "tail": "drug::antimuscarinics for overactive bladder urge incontinence"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::antimuscarinics for overactive bladder urge incontinence"
+  },
+  {
+    "head": "ctx::urge incontinence",
+    "relation": "supports_use",
+    "tail": "drug::antimuscarinics for overactive bladder urge incontinence"
+  },
+  {
+    "head": "ctx::urinary incontinence",
+    "relation": "supports_use",
+    "tail": "drug::antimuscarinics for overactive bladder urge incontinence"
+  },
+  {
+    "head": "ctx::bladder",
+    "relation": "supports_use",
+    "tail": "drug::antimuscarinics for overactive bladder urge incontinence"
+  },
+  {
+    "head": "ctx::bladder outflow obstruction",
+    "relation": "supports_use",
+    "tail": "drug::mirabegron"
+  },
+  {
+    "head": "ctx::overactive bladder",
+    "relation": "supports_use",
+    "tail": "drug::systemic antimuscarinic drugs e g oxybutynin tolterodine trospium"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::systemic antimuscarinic drugs e g oxybutynin tolterodine trospium"
+  },
+  {
+    "head": "ctx::urge incontinence",
+    "relation": "supports_use",
+    "tail": "drug::systemic antimuscarinic drugs e g oxybutynin tolterodine trospium"
+  },
+  {
+    "head": "ctx::urinary incontinence",
+    "relation": "supports_use",
+    "tail": "drug::systemic antimuscarinic drugs e g oxybutynin tolterodine trospium"
+  },
+  {
+    "head": "ctx::bladder",
+    "relation": "supports_use",
+    "tail": "drug::systemic antimuscarinic drugs e g oxybutynin tolterodine trospium"
+  },
+  {
+    "head": "ctx::bladder outflow obstruction",
+    "relation": "supports_use",
+    "tail": "drug::systemic antimuscarinic drugs e g oxybutynin tolterodine trospium"
+  },
+  {
+    "head": "ctx::overactive bladder",
+    "relation": "supports_use",
+    "tail": "drug::bladder antispasmodics antimuscarinics"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::bladder antispasmodics antimuscarinics"
+  },
+  {
+    "head": "ctx::urge incontinence",
+    "relation": "supports_use",
+    "tail": "drug::bladder antispasmodics antimuscarinics"
+  },
+  {
+    "head": "ctx::urinary incontinence",
+    "relation": "supports_use",
+    "tail": "drug::bladder antispasmodics antimuscarinics"
+  },
+  {
+    "head": "ctx::bladder",
+    "relation": "supports_use",
+    "tail": "drug::bladder antispasmodics antimuscarinics"
+  },
+  {
+    "head": "ctx::bladder outflow obstruction",
+    "relation": "supports_use",
+    "tail": "drug::bladder antispasmodics antimuscarinics"
+  },
+  {
+    "head": "ctx::overactive bladder",
+    "relation": "supports_use",
+    "tail": "drug::bladder antispasmodics antimuscarinics e g oxybutynin tolterodine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::bladder antispasmodics antimuscarinics e g oxybutynin tolterodine"
+  },
+  {
+    "head": "ctx::urge incontinence",
+    "relation": "supports_use",
+    "tail": "drug::bladder antispasmodics antimuscarinics e g oxybutynin tolterodine"
+  },
+  {
+    "head": "ctx::urinary incontinence",
+    "relation": "supports_use",
+    "tail": "drug::bladder antispasmodics antimuscarinics e g oxybutynin tolterodine"
+  },
+  {
+    "head": "ctx::bladder",
+    "relation": "supports_use",
+    "tail": "drug::bladder antispasmodics antimuscarinics e g oxybutynin tolterodine"
+  },
+  {
+    "head": "ctx::bladder outflow obstruction",
+    "relation": "supports_use",
+    "tail": "drug::bladder antispasmodics antimuscarinics e g oxybutynin tolterodine"
+  },
+  {
+    "head": "ctx::overactive bladder",
+    "relation": "supports_use",
+    "tail": "drug::oxybutynin"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::oxybutynin"
+  },
+  {
+    "head": "ctx::urge incontinence",
+    "relation": "supports_use",
+    "tail": "drug::oxybutynin"
+  },
+  {
+    "head": "ctx::urinary incontinence",
+    "relation": "supports_use",
+    "tail": "drug::oxybutynin"
+  },
+  {
+    "head": "ctx::bladder",
+    "relation": "supports_use",
+    "tail": "drug::oxybutynin"
+  },
+  {
+    "head": "ctx::bladder outflow obstruction",
+    "relation": "supports_use",
+    "tail": "drug::oxybutynin"
+  },
+  {
+    "head": "ctx::overactive bladder",
+    "relation": "supports_use",
+    "tail": "drug::tolterodine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::tolterodine"
+  },
+  {
+    "head": "ctx::urge incontinence",
+    "relation": "supports_use",
+    "tail": "drug::tolterodine"
+  },
+  {
+    "head": "ctx::urinary incontinence",
+    "relation": "supports_use",
+    "tail": "drug::tolterodine"
+  },
+  {
+    "head": "ctx::bladder",
+    "relation": "supports_use",
+    "tail": "drug::tolterodine"
+  },
+  {
+    "head": "ctx::bladder outflow obstruction",
+    "relation": "supports_use",
+    "tail": "drug::tolterodine"
+  },
+  {
+    "head": "ctx::overactive bladder",
+    "relation": "supports_use",
+    "tail": "drug::trospium"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::trospium"
+  },
+  {
+    "head": "ctx::urge incontinence",
+    "relation": "supports_use",
+    "tail": "drug::trospium"
+  },
+  {
+    "head": "ctx::urinary incontinence",
+    "relation": "supports_use",
+    "tail": "drug::trospium"
+  },
+  {
+    "head": "ctx::bladder",
+    "relation": "supports_use",
+    "tail": "drug::trospium"
+  },
+  {
+    "head": "ctx::bladder outflow obstruction",
+    "relation": "supports_use",
+    "tail": "drug::trospium"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::daridorexant"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::daridorexant"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::daridorexant"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::daridorexant"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::daridorexant"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::benzodiazepines or z drugs"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::benzodiazepines or z drugs"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::benzodiazepines or z drugs"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::benzodiazepines or z drugs"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::benzodiazepines or z drugs"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::benzodiazepines"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::benzodiazepines"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::benzodiazepines"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::benzodiazepines"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::benzodiazepines"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::benzodiazepines"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::benzodiazepines"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::benzodiazepines or z drugs"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::benzodiazepines or z drugs"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::z drugs zolpidem zopiclone zaleplon"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::z drugs zolpidem zopiclone zaleplon"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::z drugs zolpidem zopiclone zaleplon"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::z drugs zolpidem zopiclone zaleplon"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::z drugs zolpidem zopiclone zaleplon"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::z drugs zolpidem zopiclone zaleplon"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::z drugs zolpidem zopiclone zaleplon"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::lorazepam"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::lorazepam"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::lorazepam"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::lorazepam"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::lorazepam"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::lorazepam"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::lorazepam"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::temazepam"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::temazepam"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::temazepam"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::temazepam"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::temazepam"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::temazepam"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::temazepam"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::diazepam"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::diazepam"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::diazepam"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::diazepam"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::diazepam"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::diazepam"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::diazepam"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::alprazolam"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::alprazolam"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::alprazolam"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::alprazolam"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::alprazolam"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::alprazolam"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::alprazolam"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::triazolam"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::triazolam"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::triazolam"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::triazolam"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::triazolam"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::triazolam"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::triazolam"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::estazolam"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::estazolam"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::estazolam"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::estazolam"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::estazolam"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::estazolam"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::estazolam"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::oxazepam"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::oxazepam"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::oxazepam"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::oxazepam"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::oxazepam"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::oxazepam"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::oxazepam"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::clonazepam"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::clonazepam"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::clonazepam"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::clonazepam"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::clonazepam"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::clonazepam"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::clonazepam"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::zolpidem"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::zolpidem"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::zolpidem"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::zolpidem"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::zolpidem"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::zolpidem"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::zolpidem"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::zaleplon"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::zaleplon"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::zaleplon"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::zaleplon"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::zaleplon"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::zaleplon"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::zaleplon"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::eszopiclone"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::eszopiclone"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::eszopiclone"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::eszopiclone"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::eszopiclone"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::eszopiclone"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::eszopiclone"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::daridorexant"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::daridorexant"
+  },
+  {
+    "head": "ctx::allergy",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::pruritus",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::itch",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::urticaria",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::dementia",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::cognitive impairment",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::delirium",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::history of falls",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::recurrent falls",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::allergy",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::pruritus",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::itch",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::urticaria",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::dementia",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::cognitive impairment",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::delirium",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::history of falls",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::recurrent falls",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::allergy",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::pruritus",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::itch",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::urticaria",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::dementia",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::cognitive impairment",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::delirium",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::history of falls",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::recurrent falls",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::allergy",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::pruritus",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::itch",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::urticaria",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::dementia",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::cognitive impairment",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::delirium",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::history of falls",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::recurrent falls",
+    "relation": "supports_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::allergy",
+    "relation": "supports_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::pruritus",
+    "relation": "supports_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::itch",
+    "relation": "supports_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::urticaria",
+    "relation": "supports_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::dementia",
+    "relation": "supports_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::cognitive impairment",
+    "relation": "supports_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::delirium",
+    "relation": "supports_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::history of falls",
+    "relation": "supports_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::recurrent falls",
+    "relation": "supports_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::allergy",
+    "relation": "supports_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::pruritus",
+    "relation": "supports_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::itch",
+    "relation": "supports_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::urticaria",
+    "relation": "supports_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::dementia",
+    "relation": "supports_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::cognitive impairment",
+    "relation": "supports_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::delirium",
+    "relation": "supports_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::history of falls",
+    "relation": "supports_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::recurrent falls",
+    "relation": "supports_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::allergy",
+    "relation": "supports_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::pruritus",
+    "relation": "supports_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::itch",
+    "relation": "supports_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::urticaria",
+    "relation": "supports_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::dementia",
+    "relation": "supports_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::cognitive impairment",
+    "relation": "supports_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::delirium",
+    "relation": "supports_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::history of falls",
+    "relation": "supports_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::recurrent falls",
+    "relation": "supports_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::allergy",
+    "relation": "supports_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::pruritus",
+    "relation": "supports_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::itch",
+    "relation": "supports_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::urticaria",
+    "relation": "supports_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::anxiety",
+    "relation": "supports_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::dementia",
+    "relation": "supports_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::cognitive impairment",
+    "relation": "supports_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::delirium",
+    "relation": "supports_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::history of falls",
+    "relation": "supports_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::recurrent falls",
+    "relation": "supports_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::antipsychotics as hypnotics"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::antipsychotics as hypnotics"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::antipsychotics as hypnotics"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::antipsychotics as hypnotics"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::antipsychotics as hypnotics"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::antipsychotics as hypnotics"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::antipsychotics as hypnotics especially non clozapine non quetiapine agents"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::antipsychotics as hypnotics especially non clozapine non quetiapine agents"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::antipsychotics as hypnotics especially non clozapine non quetiapine agents"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::antipsychotics as hypnotics especially non clozapine non quetiapine agents"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::antipsychotics as hypnotics especially non clozapine non quetiapine agents"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::antipsychotics as hypnotics especially non clozapine non quetiapine agents"
+  },
+  {
+    "head": "ctx::insomnia",
+    "relation": "supports_use",
+    "tail": "drug::olanzapine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::olanzapine"
+  },
+  {
+    "head": "ctx::sleep disorder",
+    "relation": "supports_use",
+    "tail": "drug::olanzapine"
+  },
+  {
+    "head": "ctx::sleep disorder in dementia",
+    "relation": "supports_use",
+    "tail": "drug::olanzapine"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::olanzapine"
+  },
+  {
+    "head": "ctx::sleep",
+    "relation": "supports_use",
+    "tail": "drug::olanzapine"
+  },
+  {
+    "head": "ctx::bpsd",
+    "relation": "supports_use",
+    "tail": "drug::pipamperone"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::pipamperone"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::pipamperone"
+  },
+  {
+    "head": "ctx::dementia",
+    "relation": "supports_use",
+    "tail": "drug::pipamperone"
+  },
+  {
+    "head": "ctx::dementia with lewy bodies",
+    "relation": "supports_use",
+    "tail": "drug::pipamperone"
+  },
+  {
+    "head": "ctx::behavioral symptoms",
+    "relation": "supports_use",
+    "tail": "drug::pipamperone"
+  },
+  {
+    "head": "ctx::psychosis",
+    "relation": "supports_use",
+    "tail": "drug::pipamperone"
+  },
+  {
+    "head": "ctx::agitation",
+    "relation": "supports_use",
+    "tail": "drug::pipamperone"
+  },
+  {
+    "head": "ctx::delirium",
+    "relation": "supports_use",
+    "tail": "drug::pipamperone"
+  },
+  {
+    "head": "ctx::bpsd",
+    "relation": "supports_use",
+    "tail": "drug::melperone"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::melperone"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::melperone"
+  },
+  {
+    "head": "ctx::dementia",
+    "relation": "supports_use",
+    "tail": "drug::melperone"
+  },
+  {
+    "head": "ctx::dementia with lewy bodies",
+    "relation": "supports_use",
+    "tail": "drug::melperone"
+  },
+  {
+    "head": "ctx::behavioral symptoms",
+    "relation": "supports_use",
+    "tail": "drug::melperone"
+  },
+  {
+    "head": "ctx::psychosis",
+    "relation": "supports_use",
+    "tail": "drug::melperone"
+  },
+  {
+    "head": "ctx::agitation",
+    "relation": "supports_use",
+    "tail": "drug::melperone"
+  },
+  {
+    "head": "ctx::delirium",
+    "relation": "supports_use",
+    "tail": "drug::melperone"
+  },
+  {
+    "head": "ctx::bpsd",
+    "relation": "supports_use",
+    "tail": "drug::haloperidol"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::haloperidol"
+  },
+  {
+    "head": "ctx::bpsd sleep disorders",
+    "relation": "supports_use",
+    "tail": "drug::haloperidol"
+  },
+  {
+    "head": "ctx::dementia",
+    "relation": "supports_use",
+    "tail": "drug::haloperidol"
+  },
+  {
+    "head": "ctx::dementia with lewy bodies",
+    "relation": "supports_use",
+    "tail": "drug::haloperidol"
+  },
+  {
+    "head": "ctx::behavioral symptoms",
+    "relation": "supports_use",
+    "tail": "drug::haloperidol"
+  },
+  {
+    "head": "ctx::psychosis",
+    "relation": "supports_use",
+    "tail": "drug::haloperidol"
+  },
+  {
+    "head": "ctx::agitation",
+    "relation": "supports_use",
+    "tail": "drug::haloperidol"
+  },
+  {
+    "head": "ctx::delirium",
+    "relation": "supports_use",
+    "tail": "drug::haloperidol"
+  },
+  {
+    "head": "ctx::parkinsonism",
+    "relation": "supports_use",
+    "tail": "drug::pipamperone"
+  },
+  {
+    "head": "ctx::parkinsonism",
+    "relation": "supports_use",
+    "tail": "drug::melperone"
+  },
+  {
+    "head": "ctx::parkinsonism",
+    "relation": "supports_use",
+    "tail": "drug::haloperidol"
+  },
+  {
+    "head": "ctx::bpsd",
+    "relation": "supports_use",
+    "tail": "drug::olanzapine"
+  },
+  {
+    "head": "ctx::dementia",
+    "relation": "supports_use",
+    "tail": "drug::olanzapine"
+  },
+  {
+    "head": "ctx::dementia with lewy bodies",
+    "relation": "supports_use",
+    "tail": "drug::olanzapine"
+  },
+  {
+    "head": "ctx::behavioral symptoms",
+    "relation": "supports_use",
+    "tail": "drug::olanzapine"
+  },
+  {
+    "head": "ctx::psychosis",
+    "relation": "supports_use",
+    "tail": "drug::olanzapine"
+  },
+  {
+    "head": "ctx::agitation",
+    "relation": "supports_use",
+    "tail": "drug::olanzapine"
+  },
+  {
+    "head": "ctx::delirium",
+    "relation": "supports_use",
+    "tail": "drug::olanzapine"
+  },
+  {
+    "head": "ctx::parkinsonism",
+    "relation": "supports_use",
+    "tail": "drug::olanzapine"
+  },
+  {
+    "head": "ctx::osteoporosis",
+    "relation": "supports_use",
+    "tail": "drug::teriparatide or romosozumab"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::teriparatide or romosozumab"
+  },
+  {
+    "head": "ctx::documented osteoporosis",
+    "relation": "supports_use",
+    "tail": "drug::teriparatide or romosozumab"
+  },
+  {
+    "head": "ctx::osteoporosis treatment",
+    "relation": "supports_use",
+    "tail": "drug::teriparatide or romosozumab"
+  },
+  {
+    "head": "ctx::fracture",
+    "relation": "supports_use",
+    "tail": "drug::teriparatide or romosozumab"
+  },
+  {
+    "head": "ctx::vertebral fracture",
+    "relation": "supports_use",
+    "tail": "drug::teriparatide or romosozumab"
+  },
+  {
+    "head": "ctx::hip fracture",
+    "relation": "supports_use",
+    "tail": "drug::teriparatide or romosozumab"
+  },
+  {
+    "head": "ctx::high fracture risk",
+    "relation": "supports_use",
+    "tail": "drug::teriparatide or romosozumab"
+  },
+  {
+    "head": "ctx::history of fractures",
+    "relation": "supports_use",
+    "tail": "drug::teriparatide or romosozumab"
+  },
+  {
+    "head": "ctx::previous fragility fracture",
+    "relation": "supports_use",
+    "tail": "drug::teriparatide or romosozumab"
+  },
+  {
+    "head": "ctx::previous fragility fracture s",
+    "relation": "supports_use",
+    "tail": "drug::teriparatide or romosozumab"
+  },
+  {
+    "head": "ctx::osteoporosis",
+    "relation": "supports_use",
+    "tail": "drug::oral bisphosphonate"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::oral bisphosphonate"
+  },
+  {
+    "head": "ctx::documented osteoporosis",
+    "relation": "supports_use",
+    "tail": "drug::oral bisphosphonate"
+  },
+  {
+    "head": "ctx::osteoporosis treatment",
+    "relation": "supports_use",
+    "tail": "drug::oral bisphosphonate"
+  },
+  {
+    "head": "ctx::fracture",
+    "relation": "supports_use",
+    "tail": "drug::oral bisphosphonate"
+  },
+  {
+    "head": "ctx::vertebral fracture",
+    "relation": "supports_use",
+    "tail": "drug::oral bisphosphonate"
+  },
+  {
+    "head": "ctx::hip fracture",
+    "relation": "supports_use",
+    "tail": "drug::oral bisphosphonate"
+  },
+  {
+    "head": "ctx::high fracture risk",
+    "relation": "supports_use",
+    "tail": "drug::oral bisphosphonate"
+  },
+  {
+    "head": "ctx::history of fractures",
+    "relation": "supports_use",
+    "tail": "drug::oral bisphosphonate"
+  },
+  {
+    "head": "ctx::previous fragility fracture",
+    "relation": "supports_use",
+    "tail": "drug::oral bisphosphonate"
+  },
+  {
+    "head": "ctx::previous fragility fracture s",
+    "relation": "supports_use",
+    "tail": "drug::oral bisphosphonate"
+  },
+  {
+    "head": "ctx::type 2 diabetes",
+    "relation": "supports_use",
+    "tail": "drug::metformin"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::metformin"
+  },
+  {
+    "head": "ctx::type 2 diabetes mellitus",
+    "relation": "supports_use",
+    "tail": "drug::metformin"
+  },
+  {
+    "head": "ctx::diabetes",
+    "relation": "supports_use",
+    "tail": "drug::metformin"
+  },
+  {
+    "head": "ctx::diabetes control",
+    "relation": "supports_use",
+    "tail": "drug::metformin"
+  },
+  {
+    "head": "ctx::t2dm",
+    "relation": "supports_use",
+    "tail": "drug::metformin"
+  },
+  {
+    "head": "ctx::type 2 diabetes",
+    "relation": "supports_use",
+    "tail": "drug::sglt2 inhibitor gliflozin class"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::sglt2 inhibitor gliflozin class"
+  },
+  {
+    "head": "ctx::type 2 diabetes mellitus",
+    "relation": "supports_use",
+    "tail": "drug::sglt2 inhibitor gliflozin class"
+  },
+  {
+    "head": "ctx::diabetes",
+    "relation": "supports_use",
+    "tail": "drug::sglt2 inhibitor gliflozin class"
+  },
+  {
+    "head": "ctx::diabetes control",
+    "relation": "supports_use",
+    "tail": "drug::sglt2 inhibitor gliflozin class"
+  },
+  {
+    "head": "ctx::t2dm",
+    "relation": "supports_use",
+    "tail": "drug::sglt2 inhibitor gliflozin class"
+  },
+  {
+    "head": "ctx::type 2 diabetes",
+    "relation": "supports_use",
+    "tail": "drug::acarbose"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::acarbose"
+  },
+  {
+    "head": "ctx::type 2 diabetes mellitus",
+    "relation": "supports_use",
+    "tail": "drug::acarbose"
+  },
+  {
+    "head": "ctx::diabetes",
+    "relation": "supports_use",
+    "tail": "drug::acarbose"
+  },
+  {
+    "head": "ctx::diabetes control",
+    "relation": "supports_use",
+    "tail": "drug::acarbose"
+  },
+  {
+    "head": "ctx::t2dm",
+    "relation": "supports_use",
+    "tail": "drug::acarbose"
+  },
+  {
+    "head": "ctx::hypoglycemia",
+    "relation": "supports_use",
+    "tail": "drug::metformin"
+  },
+  {
+    "head": "ctx::hypoglycemia",
+    "relation": "supports_use",
+    "tail": "drug::sglt2 inhibitor gliflozin class"
+  },
+  {
+    "head": "ctx::hypoglycemia",
+    "relation": "supports_use",
+    "tail": "drug::acarbose"
+  },
+  {
+    "head": "ctx::diabetes",
+    "relation": "supports_use",
+    "tail": "drug::glimepiride"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::glimepiride"
+  },
+  {
+    "head": "ctx::type 2 diabetes",
+    "relation": "supports_use",
+    "tail": "drug::glimepiride"
+  },
+  {
+    "head": "ctx::type 2 diabetes mellitus",
+    "relation": "supports_use",
+    "tail": "drug::glimepiride"
+  },
+  {
+    "head": "ctx::t2dm",
+    "relation": "supports_use",
+    "tail": "drug::glimepiride"
+  },
+  {
+    "head": "ctx::diabetes control",
+    "relation": "supports_use",
+    "tail": "drug::glimepiride"
+  },
+  {
+    "head": "ctx::hypoglycemia",
+    "relation": "supports_use",
+    "tail": "drug::glimepiride"
+  },
+  {
+    "head": "ctx::diabetes",
+    "relation": "supports_use",
+    "tail": "drug::chlorpropamide"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::chlorpropamide"
+  },
+  {
+    "head": "ctx::type 2 diabetes",
+    "relation": "supports_use",
+    "tail": "drug::chlorpropamide"
+  },
+  {
+    "head": "ctx::type 2 diabetes mellitus",
+    "relation": "supports_use",
+    "tail": "drug::chlorpropamide"
+  },
+  {
+    "head": "ctx::t2dm",
+    "relation": "supports_use",
+    "tail": "drug::chlorpropamide"
+  },
+  {
+    "head": "ctx::diabetes control",
+    "relation": "supports_use",
+    "tail": "drug::chlorpropamide"
+  },
+  {
+    "head": "ctx::hypoglycemia",
+    "relation": "supports_use",
+    "tail": "drug::chlorpropamide"
+  },
+  {
+    "head": "ctx::diabetes",
+    "relation": "supports_use",
+    "tail": "drug::sulfonylureas especially long acting agents such as glimepiride glyburide"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::sulfonylureas especially long acting agents such as glimepiride glyburide"
+  },
+  {
+    "head": "ctx::type 2 diabetes",
+    "relation": "supports_use",
+    "tail": "drug::sulfonylureas especially long acting agents such as glimepiride glyburide"
+  },
+  {
+    "head": "ctx::type 2 diabetes mellitus",
+    "relation": "supports_use",
+    "tail": "drug::sulfonylureas especially long acting agents such as glimepiride glyburide"
+  },
+  {
+    "head": "ctx::t2dm",
+    "relation": "supports_use",
+    "tail": "drug::sulfonylureas especially long acting agents such as glimepiride glyburide"
+  },
+  {
+    "head": "ctx::diabetes control",
+    "relation": "supports_use",
+    "tail": "drug::sulfonylureas especially long acting agents such as glimepiride glyburide"
+  },
+  {
+    "head": "ctx::hypoglycemia",
+    "relation": "supports_use",
+    "tail": "drug::sulfonylureas especially long acting agents such as glimepiride glyburide"
+  },
+  {
+    "head": "ctx::diabetes",
+    "relation": "supports_use",
+    "tail": "drug::glibenclamide glyburide"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::glibenclamide glyburide"
+  },
+  {
+    "head": "ctx::type 2 diabetes",
+    "relation": "supports_use",
+    "tail": "drug::glibenclamide glyburide"
+  },
+  {
+    "head": "ctx::type 2 diabetes mellitus",
+    "relation": "supports_use",
+    "tail": "drug::glibenclamide glyburide"
+  },
+  {
+    "head": "ctx::t2dm",
+    "relation": "supports_use",
+    "tail": "drug::glibenclamide glyburide"
+  },
+  {
+    "head": "ctx::diabetes control",
+    "relation": "supports_use",
+    "tail": "drug::glibenclamide glyburide"
+  },
+  {
+    "head": "ctx::hypoglycemia",
+    "relation": "supports_use",
+    "tail": "drug::glibenclamide glyburide"
+  },
+  {
+    "head": "ctx::diabetes",
+    "relation": "supports_use",
+    "tail": "drug::glibenclamide"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::glibenclamide"
+  },
+  {
+    "head": "ctx::type 2 diabetes",
+    "relation": "supports_use",
+    "tail": "drug::glibenclamide"
+  },
+  {
+    "head": "ctx::type 2 diabetes mellitus",
+    "relation": "supports_use",
+    "tail": "drug::glibenclamide"
+  },
+  {
+    "head": "ctx::t2dm",
+    "relation": "supports_use",
+    "tail": "drug::glibenclamide"
+  },
+  {
+    "head": "ctx::diabetes control",
+    "relation": "supports_use",
+    "tail": "drug::glibenclamide"
+  },
+  {
+    "head": "ctx::hypoglycemia",
+    "relation": "supports_use",
+    "tail": "drug::glibenclamide"
+  },
+  {
+    "head": "ctx::diabetes",
+    "relation": "supports_use",
+    "tail": "drug::glyburide"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::glyburide"
+  },
+  {
+    "head": "ctx::type 2 diabetes",
+    "relation": "supports_use",
+    "tail": "drug::glyburide"
+  },
+  {
+    "head": "ctx::type 2 diabetes mellitus",
+    "relation": "supports_use",
+    "tail": "drug::glyburide"
+  },
+  {
+    "head": "ctx::t2dm",
+    "relation": "supports_use",
+    "tail": "drug::glyburide"
+  },
+  {
+    "head": "ctx::diabetes control",
+    "relation": "supports_use",
+    "tail": "drug::glyburide"
+  },
+  {
+    "head": "ctx::hypoglycemia",
+    "relation": "supports_use",
+    "tail": "drug::glyburide"
+  },
+  {
+    "head": "ctx::heart failure",
+    "relation": "supports_use",
+    "tail": "drug::sglt2 inhibitor gliflozin class"
+  },
+  {
+    "head": "ctx::symptomatic heart failure",
+    "relation": "supports_use",
+    "tail": "drug::sglt2 inhibitor gliflozin class"
+  },
+  {
+    "head": "ctx::heart failure with normal systolic ventricular function",
+    "relation": "supports_use",
+    "tail": "drug::sglt2 inhibitor gliflozin class"
+  },
+  {
+    "head": "ctx::heart failure rate",
+    "relation": "supports_use",
+    "tail": "drug::sglt2 inhibitor gliflozin class"
+  },
+  {
+    "head": "ctx::heart failure rate symptom control",
+    "relation": "supports_use",
+    "tail": "drug::sglt2 inhibitor gliflozin class"
+  },
+  {
+    "head": "ctx::hf",
+    "relation": "supports_use",
+    "tail": "drug::sglt2 inhibitor gliflozin class"
+  },
+  {
+    "head": "ctx::ckd",
+    "relation": "supports_use",
+    "tail": "drug::sglt2 inhibitor gliflozin class"
+  },
+  {
+    "head": "ctx::chronic kidney disease",
+    "relation": "supports_use",
+    "tail": "drug::sglt2 inhibitor gliflozin class"
+  },
+  {
+    "head": "ctx::cardiorenal",
+    "relation": "supports_use",
+    "tail": "drug::sglt2 inhibitor gliflozin class"
+  },
+  {
+    "head": "ctx::heart failure",
+    "relation": "supports_use",
+    "tail": "drug::digoxin"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::digoxin"
+  },
+  {
+    "head": "ctx::heart failure with normal systolic ventricular function",
+    "relation": "supports_use",
+    "tail": "drug::digoxin"
+  },
+  {
+    "head": "ctx::heart failure rate",
+    "relation": "supports_use",
+    "tail": "drug::digoxin"
+  },
+  {
+    "head": "ctx::symptom control",
+    "relation": "supports_use",
+    "tail": "drug::digoxin"
+  },
+  {
+    "head": "ctx::heart failure rate symptom control",
+    "relation": "supports_use",
+    "tail": "drug::digoxin"
+  },
+  {
+    "head": "ctx::diabetes",
+    "relation": "supports_use",
+    "tail": "drug::thiazolidinediones pioglitazone rosiglitazone"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::thiazolidinediones pioglitazone rosiglitazone"
+  },
+  {
+    "head": "ctx::type 2 diabetes",
+    "relation": "supports_use",
+    "tail": "drug::thiazolidinediones pioglitazone rosiglitazone"
+  },
+  {
+    "head": "ctx::type 2 diabetes mellitus",
+    "relation": "supports_use",
+    "tail": "drug::thiazolidinediones pioglitazone rosiglitazone"
+  },
+  {
+    "head": "ctx::t2dm",
+    "relation": "supports_use",
+    "tail": "drug::thiazolidinediones pioglitazone rosiglitazone"
+  },
+  {
+    "head": "ctx::diabetes control",
+    "relation": "supports_use",
+    "tail": "drug::thiazolidinediones pioglitazone rosiglitazone"
+  },
+  {
+    "head": "ctx::heart failure",
+    "relation": "supports_use",
+    "tail": "drug::thiazolidinediones pioglitazone rosiglitazone"
+  },
+  {
+    "head": "ctx::symptomatic heart failure",
+    "relation": "supports_use",
+    "tail": "drug::thiazolidinediones pioglitazone rosiglitazone"
+  },
+  {
+    "head": "ctx::hf",
+    "relation": "supports_use",
+    "tail": "drug::thiazolidinediones pioglitazone rosiglitazone"
+  },
+  {
+    "head": "ctx::diabetes",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone thiazolidinediones"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone thiazolidinediones"
+  },
+  {
+    "head": "ctx::type 2 diabetes",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone thiazolidinediones"
+  },
+  {
+    "head": "ctx::type 2 diabetes mellitus",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone thiazolidinediones"
+  },
+  {
+    "head": "ctx::t2dm",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone thiazolidinediones"
+  },
+  {
+    "head": "ctx::diabetes control",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone thiazolidinediones"
+  },
+  {
+    "head": "ctx::heart failure",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone thiazolidinediones"
+  },
+  {
+    "head": "ctx::symptomatic heart failure",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone thiazolidinediones"
+  },
+  {
+    "head": "ctx::hf",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone thiazolidinediones"
+  },
+  {
+    "head": "ctx::diabetes",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone"
+  },
+  {
+    "head": "ctx::type 2 diabetes",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone"
+  },
+  {
+    "head": "ctx::type 2 diabetes mellitus",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone"
+  },
+  {
+    "head": "ctx::t2dm",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone"
+  },
+  {
+    "head": "ctx::diabetes control",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone"
+  },
+  {
+    "head": "ctx::heart failure",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone"
+  },
+  {
+    "head": "ctx::symptomatic heart failure",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone"
+  },
+  {
+    "head": "ctx::hf",
+    "relation": "supports_use",
+    "tail": "drug::pioglitazone"
+  },
+  {
+    "head": "ctx::diabetes",
+    "relation": "supports_use",
+    "tail": "drug::rosiglitazone"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::rosiglitazone"
+  },
+  {
+    "head": "ctx::type 2 diabetes",
+    "relation": "supports_use",
+    "tail": "drug::rosiglitazone"
+  },
+  {
+    "head": "ctx::type 2 diabetes mellitus",
+    "relation": "supports_use",
+    "tail": "drug::rosiglitazone"
+  },
+  {
+    "head": "ctx::t2dm",
+    "relation": "supports_use",
+    "tail": "drug::rosiglitazone"
+  },
+  {
+    "head": "ctx::diabetes control",
+    "relation": "supports_use",
+    "tail": "drug::rosiglitazone"
+  },
+  {
+    "head": "ctx::heart failure",
+    "relation": "supports_use",
+    "tail": "drug::rosiglitazone"
+  },
+  {
+    "head": "ctx::symptomatic heart failure",
+    "relation": "supports_use",
+    "tail": "drug::rosiglitazone"
+  },
+  {
+    "head": "ctx::hf",
+    "relation": "supports_use",
+    "tail": "drug::rosiglitazone"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::benzodiazepines"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::benzodiazepine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::benzodiazepines or z drugs"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::lorazepam"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::temazepam"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::diazepam"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::alprazolam"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::triazolam"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::estazolam"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::oxazepam"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::clonazepam"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::z drugs"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::z drug"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::z drugs zolpidem zopiclone zaleplon"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::zolpidem"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::zopiclone"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::zaleplon"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::eszopiclone"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::antimuscarinic"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::antimuscarinics"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::systemic antimuscarinic"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::systemic antimuscarinic drugs"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::systemic antimuscarinic drugs e g oxybutynin tolterodine trospium"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::anticholinergic"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::oxybutynin"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::tolterodine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::trospium"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::solifenacin"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::bladder antispasmodics"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::bladder antispasmodics antimuscarinics"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::bladder antispasmodics antimuscarinics e g oxybutynin tolterodine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::antispasmodics"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::clopidogrel"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::prasugrel"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::ticagrelor"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::antiplatelet"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::mirabegron"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::daridorexant"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::olanzapine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::antipsychotics as hypnotics"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::antipsychotic as hypnotic"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::antipsychotics as hypnotics especially non clozapine non quetiapine agents"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::antipsychotics for sleep"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::quetiapine for sleep"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::olanzapine for sleep"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::sulfonylureas"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::sulfonylureas especially long acting agents such as glimepiride glyburide"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::glimepiride"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::chlorpropamide"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::glyburide"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::glibenclamide"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::glibenclamide glyburide"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::hydroxyzine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::first generation antihistamine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::first generation antihistamines"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine doxylamine chlorpheniramine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::first generation antihistamine e g diphenhydramine chlorpheniramine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::diphenhydramine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::doxylamine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::chlorpheniramine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::ticlopidine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::thiazolidinediones"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::thiazolidinediones pioglitazone rosiglitazone"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::pioglitazone thiazolidinediones"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::pioglitazone"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::rosiglitazone"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::bempedoic acid"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::dapagliflozin or empagliflozin"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::denosumab"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::diuretic therapy"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::diuretics"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::fentanyl"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::haloperidol"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::ivabradine"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::loop diuretic diuretics"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::melperone"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::metformin"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::pcsk9 inhibitor"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::pcsk9 inhibitor or bempedoic acid"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::pipamperone"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::romosozumab"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::sglt2 inhibitor gliflozin"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::short acting nitrate for acute relief if angina symptoms occur"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::teriparatide"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "requires_monitoring",
+    "tail": "drug::teriparatide or romosozumab"
+  },
+  {
+    "head": "ctx::osteoporosis",
+    "relation": "supports_use",
+    "tail": "drug::denosumab"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "supports_use",
+    "tail": "drug::denosumab"
+  },
+  {
+    "head": "ctx::bone protection",
+    "relation": "supports_use",
+    "tail": "drug::denosumab"
+  },
+  {
+    "head": "ctx::antiresorptive",
+    "relation": "supports_use",
+    "tail": "drug::denosumab"
+  },
+  {
+    "head": "ctx::osteoporosis",
+    "relation": "avoid_use",
+    "tail": "drug::ending antiresorptive therapy without reassessing risk"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::ending antiresorptive therapy without reassessing risk"
+  },
+  {
+    "head": "ctx::bone protection",
+    "relation": "avoid_use",
+    "tail": "drug::ending antiresorptive therapy without reassessing risk"
+  },
+  {
+    "head": "ctx::antiresorptive",
+    "relation": "avoid_use",
+    "tail": "drug::ending antiresorptive therapy without reassessing risk"
+  },
+  {
+    "head": "ctx::osteoporosis",
+    "relation": "avoid_use",
+    "tail": "drug::ending antiresorptive therapy"
+  },
+  {
+    "head": "ctx::older adult",
+    "relation": "avoid_use",
+    "tail": "drug::ending antiresorptive therapy"
+  },
+  {
+    "head": "ctx::bone protection",
+    "relation": "avoid_use",
+    "tail": "drug::ending antiresorptive therapy"
+  },
+  {
+    "head": "ctx::antiresorptive",
+    "relation": "avoid_use",
+    "tail": "drug::ending antiresorptive therapy"
+  }
+]

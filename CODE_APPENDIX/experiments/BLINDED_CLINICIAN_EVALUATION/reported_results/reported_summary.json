@@ -1,0 +1,95 @@
+{
+  "experiment": "BLINDED_CLINICIAN_EVALUATION",
+  "status": "completed_blinded_clinician_evaluation_aggregate_results",
+  "reviewers": 3,
+  "cases": 40,
+  "sampling": {
+    "Western": 20,
+    "GeriMedBench": 20
+  },
+  "comparison": [
+    "ATLAS",
+    "Gemini 3.1 Pro Preview"
+  ],
+  "scale": {
+    "minimum": 1,
+    "maximum": 5,
+    "criteria": [
+      "Clinical correctness",
+      "Medication safety",
+      "Decision completeness",
+      "Actionability",
+      "Evidence consistency"
+    ]
+  },
+  "overall": {
+    "Gemini 3.1 Pro Preview": {
+      "Correct.": 3.77,
+      "Safety": 4.12,
+      "Complete.": 3.67,
+      "Action.": 3.85,
+      "Evidence": 3.8,
+      "Unsafe cases": {
+        "n": 2,
+        "denominator": 40
+      },
+      "Preferred cases": {
+        "n": 5,
+        "denominator": 40
+      }
+    },
+    "ATLAS": {
+      "Correct.": 4.11,
+      "Safety": 4.35,
+      "Complete.": 4.01,
+      "Action.": 4.01,
+      "Evidence": 4.08,
+      "Unsafe cases": {
+        "n": 1,
+        "denominator": 40
+      },
+      "Preferred cases": {
+        "n": 28,
+        "denominator": 40
+      }
+    },
+    "Tie cases": {
+      "n": 7,
+      "denominator": 40
+    }
+  },
+  "by_benchmark": {
+    "Western": {
+      "Gemini 3.1 Pro Preview": {
+        "Correct.": 3.97,
+        "Safety": 4.3,
+        "Complete.": 3.9,
+        "Action.": 4.02,
+        "Evidence": 4.02
+      },
+      "ATLAS": {
+        "Correct.": 4.45,
+        "Safety": 4.6,
+        "Complete.": 4.4,
+        "Action.": 4.22,
+        "Evidence": 4.37
+      }
+    },
+    "GeriMedBench": {
+      "Gemini 3.1 Pro Preview": {
+        "Correct.": 3.57,
+        "Safety": 3.95,
+        "Complete.": 3.43,
+        "Action.": 3.68,
+        "Evidence": 3.58
+      },
+      "ATLAS": {
+        "Correct.": 3.77,
+        "Safety": 4.1,
+        "Complete.": 3.62,
+        "Action.": 3.8,
+        "Evidence": 3.78
+      }
+    }
+  }
+}

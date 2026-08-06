@@ -1,0 +1,12 @@
+{
+  "experiment": "Core Safety-Reasoning Ablations",
+  "rows": [
+    "Full ATLAS",
+    "w/o PMCG",
+    "w/o Geriatric Risk Auditor",
+    "w/o Drug Conflict Auditor",
+    "w/o Safety Gate"
+  ],
+  "result_sha256": "9931e3345ed1b3b113978e7d4aa17df53833b504597eec2805ca1a226b394590",
+  "evaluation_mode": "official_row_verification"
+}

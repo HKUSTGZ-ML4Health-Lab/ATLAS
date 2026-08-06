@@ -1,0 +1,80 @@
+{
+  "name": "Core Safety-Reasoning Ablations",
+  "system": "ATLAS",
+  "evaluation_set": "Western Multimorbidity Evaluation Set",
+  "N": 201,
+  "official_paper_rows": [
+    {
+      "Variant": "Full ATLAS",
+      "N": 201,
+      "Strict Success": 92.04,
+      "M_rec F1": 92.5,
+      "M_avoid Recall": 100.0,
+      "M_avoid F1": 91.57,
+      "M_caution F1": 75.47,
+      "M_alt F1": 92.84,
+      "Unsafe Rate": 0.0,
+      "Trace Pass Rate": 92.04,
+      "OSRS": 97.21,
+      "Safety": 100.0
+    },
+    {
+      "Variant": "w/o PMCG",
+      "N": 201,
+      "Strict Success": 19.9,
+      "M_rec F1": 48.26,
+      "M_avoid Recall": 48.26,
+      "M_avoid F1": 48.26,
+      "M_caution F1": 40.3,
+      "M_alt F1": 48.26,
+      "Unsafe Rate": 51.74,
+      "Trace Pass Rate": 100.0,
+      "OSRS": 48.78,
+      "Safety": 48.26
+    },
+    {
+      "Variant": "w/o Geriatric Risk Auditor",
+      "N": 201,
+      "Strict Success": 38.81,
+      "M_rec F1": 92.7,
+      "M_avoid Recall": 93.53,
+      "M_avoid F1": 87.4,
+      "M_caution F1": 40.3,
+      "M_alt F1": 92.7,
+      "Unsafe Rate": 6.47,
+      "Trace Pass Rate": 100.0,
+      "OSRS": 80.47,
+      "Safety": 93.53
+    },
+    {
+      "Variant": "w/o Drug Conflict Auditor",
+      "N": 201,
+      "Strict Success": 69.15,
+      "M_rec F1": 49.59,
+      "M_avoid Recall": 69.15,
+      "M_avoid F1": 69.15,
+      "M_caution F1": 59.7,
+      "M_alt F1": 49.59,
+      "Unsafe Rate": 30.85,
+      "Trace Pass Rate": 100.0,
+      "OSRS": 74.41,
+      "Safety": 69.15
+    },
+    {
+      "Variant": "w/o Safety Gate",
+      "N": 201,
+      "Strict Success": 26.87,
+      "M_rec F1": 73.13,
+      "M_avoid Recall": 73.13,
+      "M_avoid F1": 73.13,
+      "M_caution F1": 40.3,
+      "M_alt F1": 73.13,
+      "Unsafe Rate": 26.87,
+      "Trace Pass Rate": 98.01,
+      "OSRS": 65.9,
+      "Safety": 73.13
+    }
+  ],
+  "paper_figure": 4,
+  "note": "This paper-facing table contains Full ATLAS and the four component ablations shown in Figure 4. Other historical ablations are retained only in supplementary_archive."
+}

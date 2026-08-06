@@ -1,0 +1,34 @@
+{
+  "experiment_id": "BLINDED_CLINICIAN_EVALUATION",
+  "status": "completed",
+  "source_type": "completed_blinded_clinician_evaluation",
+  "reviewers": 3,
+  "cases": 40,
+  "sampling": {
+    "Western": 20,
+    "GeriMedBench": 20
+  },
+  "comparison": [
+    "ATLAS",
+    "Gemini 3.1 Pro Preview"
+  ],
+  "reported_summary": {
+    "path": "reported_results/reported_summary.json",
+    "sha256": "e3686673057a0fde91b9ceddf44723b67819250fc290dfa0d23432ab03c450d5"
+  },
+  "supported_from_released_summary": [
+    "overall means",
+    "benchmark-stratified means",
+    "unsafe case counts",
+    "preference counts",
+    "tie count"
+  ],
+  "source_summary": {
+    "path": "reported_results/source/ATLAS_Blinded_Clinician_Evaluation_Reported_Summary.docx",
+    "sha256": "347842e257202b97fba314634fe5abcaca9b3c1ffc34ae1208c1ec592fa02279"
+  },
+  "evaluation_modes": [
+    "released_aggregate_summary_validation",
+    "optional_reviewer_level_aggregation"
+  ]
+}

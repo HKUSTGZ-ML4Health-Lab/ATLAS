@@ -1,0 +1,1 @@
+# ATLAS core uses the Python standard library only.

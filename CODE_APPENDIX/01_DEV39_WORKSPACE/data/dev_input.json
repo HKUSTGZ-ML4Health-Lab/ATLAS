@@ -1,0 +1,1648 @@
+[
+  {
+    "case_id": "dev_001",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "HFrEF with persistent symptoms and no SGLT2 inhibitor",
+        "Heart failure with reduced EF"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "cardiovascular_secondary_prevention",
+        "heart_failure_fluid_retention_risk",
+        "potential_prescribing_omission"
+      ],
+      "context": {
+        "conflicting_condition": "HFrEF with persistent symptoms and no SGLT2 inhibitor",
+        "therapeutic_goal": "Heart failure with reduced EF"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Dapagliflozin or empagliflozin",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "No SGLT2 inhibitor despite eligibility",
+        "entity_type": "treatment_strategy"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_002",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "HFmrEF with ongoing symptoms and preserved renal eligibility",
+        "Heart failure with mildly reduced EF"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "heart_failure_fluid_retention_risk",
+        "potential_prescribing_omission",
+        "renal_impairment_risk"
+      ],
+      "context": {
+        "conflicting_condition": "HFmrEF with ongoing symptoms and preserved renal eligibility",
+        "therapeutic_goal": "Heart failure with mildly reduced EF"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Dapagliflozin or empagliflozin",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Treatment plan omits SGLT2 inhibitor",
+        "entity_type": "treatment_strategy"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_003",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "HFpEF with exercise limitation and no cardiorenal agent",
+        "Heart failure with preserved EF"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "heart_failure_fluid_retention_risk",
+        "potential_prescribing_omission",
+        "renal_impairment_risk"
+      ],
+      "context": {
+        "conflicting_condition": "HFpEF with exercise limitation and no cardiorenal agent",
+        "therapeutic_goal": "Heart failure with preserved EF"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Dapagliflozin or empagliflozin",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Routine nitrate-focused approach without SGLT2 consideration",
+        "entity_type": "treatment_strategy"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_004",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Type 2 diabetes with established ASCVD risk",
+        "Cardiorenal risk reduction in diabetes"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "cardiovascular_secondary_prevention",
+        "hypoglycemia_metabolic_risk",
+        "potential_prescribing_omission",
+        "renal_impairment_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Type 2 diabetes with established ASCVD risk",
+        "therapeutic_goal": "Cardiorenal risk reduction in diabetes"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "SGLT2 inhibitor / gliflozin",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Glucose-only therapy without outcome-focused agent",
+        "entity_type": "treatment_strategy"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_005",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Type 2 diabetes with CKD and albuminuria",
+        "Kidney and cardiovascular risk reduction"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "hypoglycemia_metabolic_risk",
+        "renal_impairment_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Type 2 diabetes with CKD and albuminuria",
+        "therapeutic_goal": "Kidney and cardiovascular risk reduction"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Glucose-only diabetes regimen",
+        "entity_type": "treatment_strategy"
+      },
+      {
+        "name": "SGLT2 inhibitor / gliflozin",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_006",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "CKD progression risk with eligible eGFR",
+        "CKD progression delay"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "potential_prescribing_omission",
+        "renal_impairment_risk"
+      ],
+      "context": {
+        "conflicting_condition": "CKD progression risk with eligible eGFR",
+        "therapeutic_goal": "CKD progression delay"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "SGLT2 inhibitor / gliflozin",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "No kidney-protective SGLT2 inhibitor despite indication",
+        "entity_type": "treatment_strategy"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_007",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Diabetic kidney disease with cardiovascular vulnerability",
+        "Diabetes plus CKD cardiovascular protection"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "hypoglycemia_metabolic_risk",
+        "renal_impairment_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Diabetic kidney disease with cardiovascular vulnerability",
+        "therapeutic_goal": "Diabetes plus CKD cardiovascular protection"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Only HbA1c-driven treatment selection",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "SGLT2 inhibitor / gliflozin",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_008",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Type 2 diabetes without metformin contraindication",
+        "First-line glycemic control"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "hypoglycemia_metabolic_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Type 2 diabetes without metformin contraindication",
+        "therapeutic_goal": "First-line glycemic control"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Unnecessary complex regimen before metformin review",
+        "entity_type": "treatment_strategy"
+      },
+      {
+        "name": "Metformin",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_009",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Type 2 diabetes with cardiorenal-metabolic treatment goal",
+        "Cardiovascular-kidney-metabolic management"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "hypoglycemia_metabolic_risk",
+        "potential_prescribing_omission",
+        "renal_impairment_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Type 2 diabetes with cardiorenal-metabolic treatment goal",
+        "therapeutic_goal": "Cardiovascular-kidney-metabolic management"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "SGLT2 inhibitor / gliflozin",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Selecting therapy without cardiorenal or weight considerations",
+        "entity_type": "treatment_strategy"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_010",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Older adult with diabetes and cardiac disease needing outcome benefit",
+        "Diabetes with cardiac comorbidity"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "hypoglycemia_metabolic_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Older adult with diabetes and cardiac disease needing outcome benefit",
+        "therapeutic_goal": "Diabetes with cardiac comorbidity"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "SGLT2 inhibitor / gliflozin",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Therapy chosen only for HbA1c lowering",
+        "entity_type": "treatment_strategy"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_011",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "HFrEF with clinical congestion",
+        "Decongestion in heart failure"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "heart_failure_fluid_retention_risk",
+        "potential_prescribing_omission"
+      ],
+      "context": {
+        "conflicting_condition": "HFrEF with clinical congestion",
+        "therapeutic_goal": "Decongestion in heart failure"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Insufficient diuretic plan for fluid overload",
+        "entity_type": "treatment_strategy"
+      },
+      {
+        "name": "Loop diuretic / diuretics",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_012",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Acute decompensated HF with volume overload",
+        "Hospital decongestion"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "heart_failure_fluid_retention_risk",
+        "potential_prescribing_omission"
+      ],
+      "context": {
+        "conflicting_condition": "Acute decompensated HF with volume overload",
+        "therapeutic_goal": "Hospital decongestion"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Loop diuretic / diuretics",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Delaying diuretic optimization",
+        "entity_type": "treatment_strategy"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_013",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "CKD with edema and salt-sensitive hypertension",
+        "Volume and BP control in CKD"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "potential_prescribing_omission",
+        "renal_impairment_risk"
+      ],
+      "context": {
+        "conflicting_condition": "CKD with edema and salt-sensitive hypertension",
+        "therapeutic_goal": "Volume and BP control in CKD"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Diuretic therapy",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Ignoring volume contribution to hypertension",
+        "entity_type": "treatment_strategy"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_014",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Cardiac insufficiency with recurrent fluid retention",
+        "Fluid overload control"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "heart_failure_fluid_retention_risk",
+        "potential_prescribing_omission"
+      ],
+      "context": {
+        "conflicting_condition": "Cardiac insufficiency with recurrent fluid retention",
+        "therapeutic_goal": "Fluid overload control"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Non-diuretic-only symptom strategy",
+        "entity_type": "treatment_strategy"
+      },
+      {
+        "name": "Diuretics",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_015",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "HF congestion not controlled by thiazide-only approach",
+        "Heart failure decongestion"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "heart_failure_fluid_retention_risk"
+      ],
+      "context": {
+        "conflicting_condition": "HF congestion not controlled by thiazide-only approach",
+        "therapeutic_goal": "Heart failure decongestion"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Thiazide-only strategy as main decongestion",
+        "entity_type": "treatment_strategy"
+      },
+      {
+        "name": "Loop diuretic / diuretics",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_016",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Urge incontinence with cognitive impairment risk",
+        "Drug therapy for urge incontinence"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "anticholinergic_burden",
+        "cognitive_delirium_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Urge incontinence with cognitive impairment risk",
+        "therapeutic_goal": "Drug therapy for urge incontinence"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Mirabegron",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Oxybutynin or high-anticholinergic bladder drug",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_017",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Overactive bladder with constipation burden",
+        "Urinary urgency and frequency"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "anticholinergic_burden"
+      ],
+      "context": {
+        "conflicting_condition": "Overactive bladder with constipation burden",
+        "therapeutic_goal": "Urinary urgency and frequency"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Solifenacin/tolterodine with constipation burden",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Mirabegron",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_018",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Urinary urgency with high anticholinergic burden",
+        "Overactive bladder treatment"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "anticholinergic_burden"
+      ],
+      "context": {
+        "conflicting_condition": "Urinary urgency with high anticholinergic burden",
+        "therapeutic_goal": "Overactive bladder treatment"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Multiple anticholinergic medicines including bladder agent",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Mirabegron",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_019",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Urge incontinence with falls vulnerability",
+        "Bladder symptom control"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "anticholinergic_burden",
+        "fall_fracture_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Urge incontinence with falls vulnerability",
+        "therapeutic_goal": "Bladder symptom control"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Mirabegron",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Sedating anticholinergic bladder treatment",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_020",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Insomnia after benzodiazepine taper where medicine is still justified",
+        "Insomnia pharmacotherapy"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "potential_prescribing_omission",
+        "sedation_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Insomnia after benzodiazepine taper where medicine is still justified",
+        "therapeutic_goal": "Insomnia pharmacotherapy"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Chronic hypnotic benzodiazepine",
+        "entity_type": "treatment_strategy"
+      },
+      {
+        "name": "Daridorexant",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_021",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Persistent insomnia after non-drug measures in older adult",
+        "Sleep disorder treatment"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "cardiovascular_secondary_prevention",
+        "potential_prescribing_omission",
+        "sedation_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Persistent insomnia after non-drug measures in older adult",
+        "therapeutic_goal": "Sleep disorder treatment"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Daridorexant",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Long-term Z-drug or benzodiazepine hypnotic",
+        "entity_type": "treatment_strategy"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_022",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Insomnia with high fall-risk from sedative hypnotics",
+        "Fall-risk-sensitive sleep treatment"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "fall_fracture_risk",
+        "potential_prescribing_omission",
+        "sedation_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Insomnia with high fall-risk from sedative hypnotics",
+        "therapeutic_goal": "Fall-risk-sensitive sleep treatment"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Continuing sedative-hypnotic without reassessment",
+        "entity_type": "treatment_strategy"
+      },
+      {
+        "name": "Daridorexant",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_023",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Dementia-associated sleep disturbance requiring short-term drug review",
+        "BPSD sleep disorders"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "cognitive_delirium_risk",
+        "sedation_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Dementia-associated sleep disturbance requiring short-term drug review",
+        "therapeutic_goal": "BPSD sleep disorders"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "melperone",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Benzodiazepine for dementia-related sleep disorder",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_024",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "BPSD sleep disruption with benzodiazepine harm risk",
+        "Dementia-related sleep symptoms"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "cognitive_delirium_risk",
+        "sedation_risk"
+      ],
+      "context": {
+        "conflicting_condition": "BPSD sleep disruption with benzodiazepine harm risk",
+        "therapeutic_goal": "Dementia-related sleep symptoms"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "pipamperone",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Benzodiazepine used for BPSD sleep symptoms",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_025",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Severe dementia aggression with immediate safety risk",
+        "BPSD aggression management"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "cognitive_delirium_risk",
+        "sedation_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Severe dementia aggression with immediate safety risk",
+        "therapeutic_goal": "BPSD aggression management"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Unstructured long-term sedative use",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Haloperidol",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_026",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Dementia restlessness with aggressive behaviour after non-drug measures",
+        "BPSD agitation/aggressiveness"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "cognitive_delirium_risk",
+        "potential_prescribing_omission",
+        "sedation_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Dementia restlessness with aggressive behaviour after non-drug measures",
+        "therapeutic_goal": "BPSD agitation/aggressiveness"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Haloperidol",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Non-specific sedative escalation",
+        "entity_type": "treatment_strategy"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_027",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Nocturnal dementia agitation with oversedation concern",
+        "BPSD sleep/agitation overlap"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "cognitive_delirium_risk",
+        "potential_prescribing_omission",
+        "sedation_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Nocturnal dementia agitation with oversedation concern",
+        "therapeutic_goal": "BPSD sleep/agitation overlap"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "melperone",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Broad sedative regimen without clear target",
+        "entity_type": "treatment_strategy"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_028",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Post-MI older adult with LDL not controlled despite usual therapy",
+        "Chronic therapy after myocardial infarction"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "cardiovascular_secondary_prevention",
+        "potential_prescribing_omission"
+      ],
+      "context": {
+        "conflicting_condition": "Post-MI older adult with LDL not controlled despite usual therapy",
+        "therapeutic_goal": "Chronic therapy after myocardial infarction"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "No add-on LDL-lowering option despite persistent risk",
+        "entity_type": "treatment_strategy"
+      },
+      {
+        "name": "PCSK9 inhibitor",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_029",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Post-MI statin intolerance with remaining lipid risk",
+        "LDL lowering after myocardial infarction"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "cardiovascular_secondary_prevention",
+        "potential_prescribing_omission"
+      ],
+      "context": {
+        "conflicting_condition": "Post-MI statin intolerance with remaining lipid risk",
+        "therapeutic_goal": "LDL lowering after myocardial infarction"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Ceasing lipid strategy entirely",
+        "entity_type": "treatment_strategy"
+      },
+      {
+        "name": "Bempedoic acid",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_030",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Chronic coronary disease after MI with insufficient LDL response",
+        "Secondary prevention lipid therapy"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "cardiovascular_secondary_prevention",
+        "potential_prescribing_omission"
+      ],
+      "context": {
+        "conflicting_condition": "Chronic coronary disease after MI with insufficient LDL response",
+        "therapeutic_goal": "Secondary prevention lipid therapy"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "No intensification despite persistent LDL risk",
+        "entity_type": "treatment_strategy"
+      },
+      {
+        "name": "PCSK9 inhibitor or bempedoic acid",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_031",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Post-MI polypharmacy where lipid benefit remains relevant",
+        "Medication review after myocardial infarction"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "cardiovascular_secondary_prevention",
+        "potential_prescribing_omission"
+      ],
+      "context": {
+        "conflicting_condition": "Post-MI polypharmacy where lipid benefit remains relevant",
+        "therapeutic_goal": "Medication review after myocardial infarction"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Ceasing all non-statin lipid options by default",
+        "entity_type": "treatment_strategy"
+      },
+      {
+        "name": "Bempedoic acid",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_032",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Osteoporosis with high fracture risk needing anabolic option",
+        "Osteoporosis treatment"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "bone_fracture_risk",
+        "fall_fracture_risk",
+        "potential_prescribing_omission"
+      ],
+      "context": {
+        "conflicting_condition": "Osteoporosis with high fracture risk needing anabolic option",
+        "therapeutic_goal": "Osteoporosis treatment"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Teriparatide",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "No active bone-protective therapy despite high risk",
+        "entity_type": "treatment_strategy"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_033",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Severe osteoporosis needing specialist anabolic treatment",
+        "Osteoporosis fracture prevention"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "bone_fracture_risk",
+        "fall_fracture_risk",
+        "potential_prescribing_omission"
+      ],
+      "context": {
+        "conflicting_condition": "Severe osteoporosis needing specialist anabolic treatment",
+        "therapeutic_goal": "Osteoporosis fracture prevention"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Inadequate bone therapy after high-risk reassessment",
+        "entity_type": "treatment_strategy"
+      },
+      {
+        "name": "Romosozumab",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_034",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Osteoporosis requiring ongoing antiresorptive protection",
+        "Long-term bone protection"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "bone_fracture_risk",
+        "potential_prescribing_omission"
+      ],
+      "context": {
+        "conflicting_condition": "Osteoporosis requiring ongoing antiresorptive protection",
+        "therapeutic_goal": "Long-term bone protection"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Ending antiresorptive therapy without reassessing risk",
+        "entity_type": "treatment_strategy"
+      },
+      {
+        "name": "Denosumab",
+        "entity_type": "treatment_strategy"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_035",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Osteoporosis after unsuitable strontium option removed",
+        "Alternative osteoporosis therapy"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "bone_fracture_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Osteoporosis after unsuitable strontium option removed",
+        "therapeutic_goal": "Alternative osteoporosis therapy"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Using removed/unsuitable strontium approach",
+        "entity_type": "treatment_strategy"
+      },
+      {
+        "name": "Teriparatide or romosozumab",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_036",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Chronic severe pain where oral NSAID is unsafe",
+        "Chronic pain management"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "pain_opioid_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Chronic severe pain where oral NSAID is unsafe",
+        "therapeutic_goal": "Chronic pain management"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Regular oral NSAID despite high harm risk",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "Fentanyl",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_037",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Older adult with stable coronary heart disease / angina-free for ≥6 months",
+        "Stable coronary heart disease / angina prophylaxis"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "cardiovascular_secondary_prevention",
+        "potential_prescribing_omission"
+      ],
+      "context": {
+        "conflicting_condition": "Older adult with stable coronary heart disease / angina-free for ≥6 months",
+        "therapeutic_goal": "Stable coronary heart disease / angina prophylaxis"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Unreviewed long-acting nitrate therapy despite no recent angina symptoms",
+        "entity_type": "treatment_strategy"
+      },
+      {
+        "name": "Short-acting nitrate for acute relief if angina symptoms occur",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_038",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "HFrEF sinus rhythm with persistent high heart rate",
+        "Heart rate reduction in HFrEF"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "cardiovascular_secondary_prevention",
+        "heart_failure_fluid_retention_risk",
+        "potential_prescribing_omission"
+      ],
+      "context": {
+        "conflicting_condition": "HFrEF sinus rhythm with persistent high heart rate",
+        "therapeutic_goal": "Heart rate reduction in HFrEF"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "Ivabradine",
+        "entity_type": "medication_or_class"
+      },
+      {
+        "name": "No rate-specific add-on despite persistent indication",
+        "entity_type": "treatment_strategy"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  },
+  {
+    "case_id": "dev_039",
+    "patient": {
+      "age_group": "older_adult",
+      "age_min": 65,
+      "sex": "unknown"
+    },
+    "clinical_state": {
+      "diseases": [
+        "Type 2 diabetes with HF risk and no SGLT2 counselling",
+        "Diabetes with heart failure/cardiorenal risk"
+      ],
+      "current_medications": [],
+      "age_related_factors": [
+        "older_age"
+      ],
+      "risk_factors": [
+        "heart_failure_fluid_retention_risk",
+        "hypoglycemia_metabolic_risk",
+        "potential_prescribing_omission",
+        "renal_impairment_risk"
+      ],
+      "context": {
+        "conflicting_condition": "Type 2 diabetes with HF risk and no SGLT2 counselling",
+        "therapeutic_goal": "Diabetes with heart failure/cardiorenal risk"
+      }
+    },
+    "candidate_medications": [
+      {
+        "name": "SGLT2 inhibitor omitted or not considered in HF/CKD risk context",
+        "entity_type": "treatment_strategy"
+      },
+      {
+        "name": "SGLT2 inhibitor / gliflozin",
+        "entity_type": "medication_or_class"
+      }
+    ],
+    "task": "risk_first_candidate_constrained_medication_safety_reasoning",
+    "input_safety": {
+      "candidate_order_randomized": true,
+      "contains_gold_labels": false,
+      "contains_source_answer": false
+    }
+  }
+]

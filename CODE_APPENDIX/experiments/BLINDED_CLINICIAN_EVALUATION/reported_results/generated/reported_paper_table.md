@@ -1,0 +1,4 @@
+| Method | Correct. | Safety | Complete. | Action. | Evidence | Unsafe |
+|---|---:|---:|---:|---:|---:|---:|
+| Gemini 3.1 Pro Preview | 3.77 | 4.12 | 3.67 | 3.85 | 3.80 | 2/40 |
+| **ATLAS** | 4.11 | 4.35 | 4.01 | 4.01 | 4.08 | 1/40 |

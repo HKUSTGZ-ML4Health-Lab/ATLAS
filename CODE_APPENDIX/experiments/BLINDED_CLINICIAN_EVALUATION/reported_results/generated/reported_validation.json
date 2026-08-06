@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "summary": "reported_results/reported_summary.json",
+  "cases": 40,
+  "reviewers": 3,
+  "validated_fields": {
+    "overall_means": true,
+    "benchmark_means": true,
+    "unsafe_case_counts": true,
+    "preference_counts": true,
+    "tie_count": true,
+    "equal_stratum_arithmetic": true
+  },
+  "source_docx": "reported_results/source/ATLAS_Blinded_Clinician_Evaluation_Reported_Summary.docx",
+  "source_docx_sha256": "347842e257202b97fba314634fe5abcaca9b3c1ffc34ae1208c1ec592fa02279"
+}

@@ -1,0 +1,15 @@
+{
+  "experiment": "GeriMedBench / Asian Multimorbidity Evaluation Set",
+  "N": 76,
+  "K": 3,
+  "Information Gain": 73.9,
+  "Query Efficiency": 35.75,
+  "Revision Accuracy": 44.17,
+  "Final Strict": 23.68,
+  "Unsafe Rate": 0.0,
+  "Trace Consistency": 85.53,
+  "Agent OSRS": 64.09,
+  "prediction_sha256": "d1afce8b9c749874fd3b6a021acacdccf52e1ce9c711e2efe7f12040be44ec7a",
+  "benchmark_name": "GeriMedBench",
+  "evaluation_mode": "released_prediction_locked_evaluator"
+}

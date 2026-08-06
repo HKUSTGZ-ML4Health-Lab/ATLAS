@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Western deterministic inference",
+    "GeriMedBench locked evaluator",
+    "Single-disease macro evaluation",
+    "Ablation row verification",
+    "Clinician aggregate validation"
+  ]
+}

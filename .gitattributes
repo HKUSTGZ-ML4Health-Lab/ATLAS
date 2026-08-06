@@ -1,0 +1,2 @@
+CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/outputs/ATLAS_predictions.json filter=lfs diff=lfs merge=lfs -text
+*.sh text eol=lf

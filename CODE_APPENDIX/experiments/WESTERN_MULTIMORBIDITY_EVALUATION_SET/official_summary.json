@@ -1,0 +1,39 @@
+{
+  "N": 201,
+  "strict_success_count": 185,
+  "strict_failed_count": 16,
+  "success_rate_strict": 92.04,
+  "M_rec_f1": 92.5,
+  "M_avoid_recall": 100.0,
+  "M_avoid_f1": 91.57,
+  "M_caution_f1": 75.47,
+  "M_alt_f1": 92.84,
+  "unsafe_rate": 0.0,
+  "trace_pass_rate": 92.04,
+  "OSRS": 97.21,
+  "evaluation_provenance": {
+    "evaluator_wrapper": "ATLAS_V3_OFFICIAL_EVALUATOR_V1",
+    "official_metrics_path": "CODE_APPENDIX/framework_src/evaluation/metrics.py",
+    "official_metrics_sha256": "f28bc7348e0a2ee998eccbc79e43a34fe7682d72abd0782d5af4e08ab44857b3",
+    "official_callable": "evaluate_predictions",
+    "predictions_path": "CODE_APPENDIX/02_FROZEN_INFERENCE/outputs/final_predictions.json",
+    "predictions_sha256": "302da182682a0078265bd458c45abcc2b0cb2d5ea33667a249582eb120858d01",
+    "gold_path": "CODE_APPENDIX/03_OFFLINE_EVALUATION/gold/final_test_gold.json",
+    "gold_sha256": "193a067eeef89d61ba4c9ea80b785a22f0dd4036fd62b540fd4261a494eb350b",
+    "alignment": {
+      "N_predictions": 201,
+      "N_gold": 201,
+      "same_order": true,
+      "case_id_sets_equal": true
+    },
+    "gold_used_during_inference": false,
+    "gold_used_by_offline_evaluator_only": true,
+    "evaluated_at_utc": "2026-07-26T17:03:11.657117+00:00",
+    "call_attempts": [
+      {
+        "callable": "evaluate_predictions",
+        "status": "success"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+Architecture: x86_64
+CPU model: Intel(R) Xeon(R) Platinum 8470Q
+Logical CPUs: 208
+Physical cores: 104
+Sockets: 2
+Threads per core: 2
+Operating mode: 64-bit

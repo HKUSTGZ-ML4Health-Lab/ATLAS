@@ -1,0 +1,5 @@
+Dataset,Method,Correct.,Safety,Complete.,Action.,Evidence
+Western,Gemini 3.1 Pro Preview,3.97,4.30,3.90,4.02,4.02
+Western,ATLAS,4.45,4.60,4.40,4.22,4.37
+GeriMedBench,Gemini 3.1 Pro Preview,3.57,3.95,3.43,3.68,3.58
+GeriMedBench,ATLAS,3.77,4.10,3.62,3.80,3.78

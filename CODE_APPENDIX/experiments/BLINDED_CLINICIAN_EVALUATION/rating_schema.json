@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ATLAS blinded clinician rating row",
+  "type": "object",
+  "required": [
+    "reviewer_id", "packet_case",
+    "A_correctness", "A_safety", "A_completeness", "A_actionability", "A_evidence_consistency", "A_unsafe",
+    "B_correctness", "B_safety", "B_completeness", "B_actionability", "B_evidence_consistency", "B_unsafe",
+    "preference"
+  ],
+  "properties": {
+    "reviewer_id": {"type": "string"},
+    "packet_case": {"type": "string"},
+    "A_correctness": {"type": "integer", "minimum": 1, "maximum": 5},
+    "A_safety": {"type": "integer", "minimum": 1, "maximum": 5},
+    "A_completeness": {"type": "integer", "minimum": 1, "maximum": 5},
+    "A_actionability": {"type": "integer", "minimum": 1, "maximum": 5},
+    "A_evidence_consistency": {"type": "integer", "minimum": 1, "maximum": 5},
+    "A_unsafe": {"enum": ["Yes", "No"]},
+    "B_correctness": {"type": "integer", "minimum": 1, "maximum": 5},
+    "B_safety": {"type": "integer", "minimum": 1, "maximum": 5},
+    "B_completeness": {"type": "integer", "minimum": 1, "maximum": 5},
+    "B_actionability": {"type": "integer", "minimum": 1, "maximum": 5},
+    "B_evidence_consistency": {"type": "integer", "minimum": 1, "maximum": 5},
+    "B_unsafe": {"enum": ["Yes", "No"]},
+    "preference": {"enum": ["A", "B", "Tie"]},
+    "reference_issue_pass2": {"enum": ["Yes", "No", ""]},
+    "comments": {"type": "string"}
+  }
+}

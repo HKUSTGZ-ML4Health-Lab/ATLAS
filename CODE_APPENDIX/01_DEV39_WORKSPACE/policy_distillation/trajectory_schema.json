@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "atlas-policy-distillation-trajectory-v1",
+  "title": "ATLAS Dev39 teacher trajectory",
+  "type": "object",
+  "required": [
+    "trajectory_id",
+    "development_case_id",
+    "teacher_review_budget",
+    "teacher_mode",
+    "input_snapshot",
+    "questions",
+    "patient_state_updates",
+    "pmcg_transitions",
+    "risk_assessments",
+    "decision_revisions",
+    "stopping_decision",
+    "evidence_paths",
+    "activated_rule_ids",
+    "task_sequence",
+    "final_decision",
+    "provenance"
+  ],
+  "properties": {
+    "trajectory_id": {"type": "string"},
+    "development_case_id": {"type": "string", "pattern": "^dev_[0-9]+$"},
+    "teacher_review_budget": {"type": "integer", "enum": [1, 2, 3]},
+    "teacher_mode": {"const": "bounded_multi_agent_review"},
+    "questions": {
+      "type": "array",
+      "description": "Unique internal safety and decision questions recorded by the teacher. These are not GeriMedBench patient-facing questions."
+    },
+    "patient_state_updates": {"type": "array"},
+    "pmcg_transitions": {"type": "array"},
+    "risk_assessments": {"type": "array"},
+    "decision_revisions": {"type": "array"},
+    "stopping_decision": {"type": "object"},
+    "evidence_paths": {"type": "object"},
+    "activated_rule_ids": {"type": "array", "items": {"type": "string"}},
+    "task_sequence": {"type": "array", "items": {"type": "string"}},
+    "final_decision": {"type": "object"},
+    "provenance": {"type": "object"}
+  },
+  "additionalProperties": false
+}

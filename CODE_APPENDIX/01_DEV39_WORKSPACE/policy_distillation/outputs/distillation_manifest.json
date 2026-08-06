@@ -1,0 +1,37 @@
+{
+  "development_case_count": 39,
+  "inputs": {
+    "dev39_k1_k2_k3.jsonl": "e18f3cab950c69307bd511f7c061dbb88b53ae1e175b8c0292fe850080528de6",
+    "teacher_config.json": "3a5f98244893760d7263d2ef65fd1c679a11693d05504ffacf421bdf57d979b3",
+    "working_rules.json": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a"
+  },
+  "outputs": {
+    "distilled_policy_candidate.json": "beac24086b931af687a471b2b5ef1115e71c1de79506479e3055ff2352c057fa"
+  },
+  "policy_freeze_verification": {
+    "development_and_frozen_policy_byte_identical": true,
+    "development_and_frozen_policy_json_identical": true,
+    "distillation_artifact_policy_payload_exact_match": true,
+    "policy_sha256": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a",
+    "reported_inference_loads_frozen_policy": true
+  },
+  "production_policy": {
+    "modified": false,
+    "sha256_expected": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a",
+    "sha256_observed": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a"
+  },
+  "result_invariance_scope": [
+    "Western Multimorbidity Evaluation Set",
+    "GeriMedBench",
+    "Cross-Regional Single-Disease Generalization Set",
+    "Core Safety-Reasoning Ablations"
+  ],
+  "schema_version": "atlas-policy-distillation-freeze-manifest-v2",
+  "status": "policy_freeze_verification_complete",
+  "teacher_review_budgets": [
+    1,
+    2,
+    3
+  ],
+  "trajectory_count": 117
+}

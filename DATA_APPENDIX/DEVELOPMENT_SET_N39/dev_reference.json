@@ -1,0 +1,1912 @@
+[
+  {
+    "case_id": "dev_001",
+    "gold_label": {
+      "M_rec": [
+        "Dapagliflozin or empagliflozin"
+      ],
+      "M_avoid": [
+        "No SGLT2 inhibitor despite eligibility"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Dapagliflozin or empagliflozin"
+      ],
+      "M_level": {
+        "Dapagliflozin or empagliflozin": "B"
+      },
+      "E": {
+        "risk_types": [
+          "cardiovascular_secondary_prevention",
+          "heart_failure_fluid_retention_risk",
+          "potential_prescribing_omission"
+        ],
+        "reasoning_path": [
+          "No SGLT2 inhibitor despite eligibility supports or appears relevant to Heart failure with reduced EF",
+          "No SGLT2 inhibitor despite eligibility conflicts with or increases risk under HFrEF with persistent symptoms and no SGLT2 inhibitor",
+          "Dapagliflozin or empagliflozin supports Heart failure with reduced EF with lower conflict burden",
+          "Dapagliflozin or empagliflozin is a safer alternative to No SGLT2 inhibitor despite eligibility"
+        ],
+        "source_text": "F source: HF 2022 p.38-39: omission reviewed because SGLT2i benefit shown\nC s...",
+        "explanation": "No SGLT2 inhibitor despite eligibility (treats Heart failure with reduced EF,..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "No SGLT2 inhibitor despite eligibility"
+      ]
+    },
+    "provenance": {
+      "source_row": 1,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_002",
+    "gold_label": {
+      "M_rec": [
+        "Dapagliflozin or empagliflozin"
+      ],
+      "M_avoid": [
+        "Treatment plan omits SGLT2 inhibitor"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Dapagliflozin or empagliflozin"
+      ],
+      "M_level": {
+        "Dapagliflozin or empagliflozin": "B"
+      },
+      "E": {
+        "risk_types": [
+          "heart_failure_fluid_retention_risk",
+          "potential_prescribing_omission",
+          "renal_impairment_risk"
+        ],
+        "reasoning_path": [
+          "Treatment plan omits SGLT2 inhibitor supports or appears relevant to Heart failure with mildly reduced EF",
+          "Treatment plan omits SGLT2 inhibitor conflicts with or increases risk under HFmrEF with ongoing symptoms and preserved renal eligibility",
+          "Dapagliflozin or empagliflozin supports Heart failure with mildly reduced EF with lower conflict burden",
+          "Dapagliflozin or empagliflozin is a safer alternative to Treatment plan omits SGLT2 inhibitor"
+        ],
+        "source_text": "F source: HF 2022 p.54: HFmrEF SGLT2i benefit supports reviewing omission\nC s...",
+        "explanation": "Treatment plan omits SGLT2 inhibitor (treats Heart failure with mildly reduce..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Treatment plan omits SGLT2 inhibitor"
+      ]
+    },
+    "provenance": {
+      "source_row": 2,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_003",
+    "gold_label": {
+      "M_rec": [
+        "Dapagliflozin or empagliflozin"
+      ],
+      "M_avoid": [
+        "Routine nitrate-focused approach without SGLT2 consideration"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Dapagliflozin or empagliflozin"
+      ],
+      "M_level": {
+        "Dapagliflozin or empagliflozin": "B"
+      },
+      "E": {
+        "risk_types": [
+          "heart_failure_fluid_retention_risk",
+          "potential_prescribing_omission",
+          "renal_impairment_risk"
+        ],
+        "reasoning_path": [
+          "Routine nitrate-focused approach without SGLT2 consideration supports or appears relevant to Heart failure with preserved EF",
+          "Routine nitrate-focused approach without SGLT2 consideration conflicts with or increases risk under HFpEF with exercise limitation and no cardiorenal agent",
+          "Dapagliflozin or empagliflozin supports Heart failure with preserved EF with lower conflict burden",
+          "Dapagliflozin or empagliflozin is a safer alternative to Routine nitrate-focused approach without SGLT2 consideration"
+        ],
+        "source_text": "F source: HF 2022 p.55: routine nitrates ineffective in HFpEF; p.56 SGLT2i be...",
+        "explanation": "Routine nitrate-focused approach without SGLT2 consideration (treats Heart fa..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Routine nitrate-focused approach without SGLT2 consideration"
+      ]
+    },
+    "provenance": {
+      "source_row": 3,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_004",
+    "gold_label": {
+      "M_rec": [
+        "SGLT2 inhibitor / gliflozin"
+      ],
+      "M_avoid": [
+        "Glucose-only therapy without outcome-focused agent"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "SGLT2 inhibitor / gliflozin"
+      ],
+      "M_level": {
+        "SGLT2 inhibitor / gliflozin": "B"
+      },
+      "E": {
+        "risk_types": [
+          "cardiovascular_secondary_prevention",
+          "hypoglycemia_metabolic_risk",
+          "potential_prescribing_omission",
+          "renal_impairment_risk"
+        ],
+        "reasoning_path": [
+          "Glucose-only therapy without outcome-focused agent supports or appears relevant to Cardiorenal risk reduction in diabetes",
+          "Glucose-only therapy without outcome-focused agent conflicts with or increases risk under Type 2 diabetes with established ASCVD risk",
+          "SGLT2 inhibitor / gliflozin supports Cardiorenal risk reduction in diabetes with lower conflict burden",
+          "SGLT2 inhibitor / gliflozin is a safer alternative to Glucose-only therapy without outcome-focused agent"
+        ],
+        "source_text": "F source: ADA 2025 p.6: therapy should account for ASCVD/HF/CKD goals\nC sourc...",
+        "explanation": "Glucose-only therapy without outcome-focused agent (treats Cardiorenal risk r..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Glucose-only therapy without outcome-focused agent"
+      ]
+    },
+    "provenance": {
+      "source_row": 4,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_005",
+    "gold_label": {
+      "M_rec": [
+        "SGLT2 inhibitor / gliflozin"
+      ],
+      "M_avoid": [
+        "Glucose-only diabetes regimen"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "SGLT2 inhibitor / gliflozin"
+      ],
+      "M_level": {
+        "SGLT2 inhibitor / gliflozin": "B"
+      },
+      "E": {
+        "risk_types": [
+          "hypoglycemia_metabolic_risk",
+          "renal_impairment_risk"
+        ],
+        "reasoning_path": [
+          "Glucose-only diabetes regimen supports or appears relevant to Kidney and cardiovascular risk reduction",
+          "Glucose-only diabetes regimen conflicts with or increases risk under Type 2 diabetes with CKD and albuminuria",
+          "SGLT2 inhibitor / gliflozin supports Kidney and cardiovascular risk reduction with lower conflict burden",
+          "SGLT2 inhibitor / gliflozin is a safer alternative to Glucose-only diabetes regimen"
+        ],
+        "source_text": "F source: ADA 2025 p.8 and KDIGO 2024 p.44: CKD risk treatment not glucose on...",
+        "explanation": "Glucose-only diabetes regimen (treats Kidney and cardiovascular risk reductio..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Glucose-only diabetes regimen"
+      ]
+    },
+    "provenance": {
+      "source_row": 5,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_006",
+    "gold_label": {
+      "M_rec": [
+        "SGLT2 inhibitor / gliflozin"
+      ],
+      "M_avoid": [
+        "No kidney-protective SGLT2 inhibitor despite indication"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "SGLT2 inhibitor / gliflozin"
+      ],
+      "M_level": {
+        "SGLT2 inhibitor / gliflozin": "B"
+      },
+      "E": {
+        "risk_types": [
+          "potential_prescribing_omission",
+          "renal_impairment_risk"
+        ],
+        "reasoning_path": [
+          "No kidney-protective SGLT2 inhibitor despite indication supports or appears relevant to CKD progression delay",
+          "No kidney-protective SGLT2 inhibitor despite indication conflicts with or increases risk under CKD progression risk with eligible eGFR",
+          "SGLT2 inhibitor / gliflozin supports CKD progression delay with lower conflict burden",
+          "SGLT2 inhibitor / gliflozin is a safer alternative to No kidney-protective SGLT2 inhibitor despite indication"
+        ],
+        "source_text": "F source: KDIGO 2024 p.44/p.99: omission of indicated SGLT2i should be review...",
+        "explanation": "No kidney-protective SGLT2 inhibitor despite indication (treats CKD progressi..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "No kidney-protective SGLT2 inhibitor despite indication"
+      ]
+    },
+    "provenance": {
+      "source_row": 6,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_007",
+    "gold_label": {
+      "M_rec": [
+        "SGLT2 inhibitor / gliflozin"
+      ],
+      "M_avoid": [
+        "Only HbA1c-driven treatment selection"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "SGLT2 inhibitor / gliflozin"
+      ],
+      "M_level": {
+        "SGLT2 inhibitor / gliflozin": "B"
+      },
+      "E": {
+        "risk_types": [
+          "hypoglycemia_metabolic_risk",
+          "renal_impairment_risk"
+        ],
+        "reasoning_path": [
+          "Only HbA1c-driven treatment selection supports or appears relevant to Diabetes plus CKD cardiovascular protection",
+          "Only HbA1c-driven treatment selection conflicts with or increases risk under Diabetic kidney disease with cardiovascular vulnerability",
+          "SGLT2 inhibitor / gliflozin supports Diabetes plus CKD cardiovascular protection with lower conflict burden",
+          "SGLT2 inhibitor / gliflozin is a safer alternative to Only HbA1c-driven treatment selection"
+        ],
+        "source_text": "F source: ADA 2025 p.6 and p.8: therapy based on cardiorenal goals, not HbA1c...",
+        "explanation": "Only HbA1c-driven treatment selection (treats Diabetes plus CKD cardiovascula..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Only HbA1c-driven treatment selection"
+      ]
+    },
+    "provenance": {
+      "source_row": 7,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_008",
+    "gold_label": {
+      "M_rec": [
+        "Metformin"
+      ],
+      "M_avoid": [
+        "Unnecessary complex regimen before metformin review"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Metformin"
+      ],
+      "M_level": {
+        "Metformin": "A"
+      },
+      "E": {
+        "risk_types": [
+          "hypoglycemia_metabolic_risk"
+        ],
+        "reasoning_path": [
+          "Unnecessary complex regimen before metformin review supports or appears relevant to First-line glycemic control",
+          "Unnecessary complex regimen before metformin review conflicts with or increases risk under Type 2 diabetes without metformin contraindication",
+          "Metformin supports First-line glycemic control with lower conflict burden",
+          "Metformin is a safer alternative to Unnecessary complex regimen before metformin review"
+        ],
+        "source_text": "F source: ADA 2025 p.6: metformin as starting/add-on agent when appropriate\nC...",
+        "explanation": "Unnecessary complex regimen before metformin review (treats First-line glycem..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Unnecessary complex regimen before metformin review"
+      ]
+    },
+    "provenance": {
+      "source_row": 8,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_009",
+    "gold_label": {
+      "M_rec": [
+        "SGLT2 inhibitor / gliflozin"
+      ],
+      "M_avoid": [
+        "Selecting therapy without cardiorenal or weight considerations"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "SGLT2 inhibitor / gliflozin"
+      ],
+      "M_level": {
+        "SGLT2 inhibitor / gliflozin": "B"
+      },
+      "E": {
+        "risk_types": [
+          "hypoglycemia_metabolic_risk",
+          "potential_prescribing_omission",
+          "renal_impairment_risk"
+        ],
+        "reasoning_path": [
+          "Selecting therapy without cardiorenal or weight considerations supports or appears relevant to Cardiovascular-kidney-metabolic management",
+          "Selecting therapy without cardiorenal or weight considerations conflicts with or increases risk under Type 2 diabetes with cardiorenal-metabolic treatment goal",
+          "SGLT2 inhibitor / gliflozin supports Cardiovascular-kidney-metabolic management with lower conflict burden",
+          "SGLT2 inhibitor / gliflozin is a safer alternative to Selecting therapy without cardiorenal or weight considerations"
+        ],
+        "source_text": "F source: ADA 2025 p.1 and p.6: CKM/cardiorenal and weight-focused selection\n...",
+        "explanation": "Selecting therapy without cardiorenal or weight considerations (treats Cardio..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Selecting therapy without cardiorenal or weight considerations"
+      ]
+    },
+    "provenance": {
+      "source_row": 9,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_010",
+    "gold_label": {
+      "M_rec": [
+        "SGLT2 inhibitor / gliflozin"
+      ],
+      "M_avoid": [
+        "Therapy chosen only for HbA1c lowering"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "SGLT2 inhibitor / gliflozin"
+      ],
+      "M_level": {
+        "SGLT2 inhibitor / gliflozin": "B"
+      },
+      "E": {
+        "risk_types": [
+          "hypoglycemia_metabolic_risk"
+        ],
+        "reasoning_path": [
+          "Therapy chosen only for HbA1c lowering supports or appears relevant to Diabetes with cardiac comorbidity",
+          "Therapy chosen only for HbA1c lowering conflicts with or increases risk under Older adult with diabetes and cardiac disease needing outcome benefit",
+          "SGLT2 inhibitor / gliflozin supports Diabetes with cardiac comorbidity with lower conflict burden",
+          "SGLT2 inhibitor / gliflozin is a safer alternative to Therapy chosen only for HbA1c lowering"
+        ],
+        "source_text": "F source: ADA 2025 p.6; HF 2022 p.38-39: cardiac outcome benefit\nC source: AD...",
+        "explanation": "Therapy chosen only for HbA1c lowering (treats Diabetes with cardiac comorbid..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Therapy chosen only for HbA1c lowering"
+      ]
+    },
+    "provenance": {
+      "source_row": 10,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_011",
+    "gold_label": {
+      "M_rec": [
+        "Loop diuretic / diuretics"
+      ],
+      "M_avoid": [
+        "Insufficient diuretic plan for fluid overload"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Loop diuretic / diuretics"
+      ],
+      "M_level": {
+        "Loop diuretic / diuretics": "A"
+      },
+      "E": {
+        "risk_types": [
+          "heart_failure_fluid_retention_risk",
+          "potential_prescribing_omission"
+        ],
+        "reasoning_path": [
+          "Insufficient diuretic plan for fluid overload supports or appears relevant to Decongestion in heart failure",
+          "Insufficient diuretic plan for fluid overload conflicts with or increases risk under HFrEF with clinical congestion",
+          "Loop diuretic / diuretics supports Decongestion in heart failure with lower conflict burden",
+          "Loop diuretic / diuretics is a safer alternative to Insufficient diuretic plan for fluid overload"
+        ],
+        "source_text": "F source: HF 2022 p.33: diuretics for fluid retention\nC source: HF 2022 PDF p...",
+        "explanation": "Insufficient diuretic plan for fluid overload (treats Decongestion in heart f..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Insufficient diuretic plan for fluid overload"
+      ]
+    },
+    "provenance": {
+      "source_row": 11,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_012",
+    "gold_label": {
+      "M_rec": [
+        "Loop diuretic / diuretics"
+      ],
+      "M_avoid": [
+        "Delaying diuretic optimization"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Loop diuretic / diuretics"
+      ],
+      "M_level": {
+        "Loop diuretic / diuretics": "A"
+      },
+      "E": {
+        "risk_types": [
+          "heart_failure_fluid_retention_risk",
+          "potential_prescribing_omission"
+        ],
+        "reasoning_path": [
+          "Delaying diuretic optimization supports or appears relevant to Hospital decongestion",
+          "Delaying diuretic optimization conflicts with or increases risk under Acute decompensated HF with volume overload",
+          "Loop diuretic / diuretics supports Hospital decongestion with lower conflict burden",
+          "Loop diuretic / diuretics is a safer alternative to Delaying diuretic optimization"
+        ],
+        "source_text": "F source: HF 2022 p.69: prompt IV loop diuretics for significant fluid overlo...",
+        "explanation": "Delaying diuretic optimization (treats Hospital decongestion, worsens Acute d..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Delaying diuretic optimization"
+      ]
+    },
+    "provenance": {
+      "source_row": 12,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_013",
+    "gold_label": {
+      "M_rec": [
+        "Diuretic therapy"
+      ],
+      "M_avoid": [
+        "Ignoring volume contribution to hypertension"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Diuretic therapy"
+      ],
+      "M_level": {
+        "Diuretic therapy": "A"
+      },
+      "E": {
+        "risk_types": [
+          "potential_prescribing_omission",
+          "renal_impairment_risk"
+        ],
+        "reasoning_path": [
+          "Ignoring volume contribution to hypertension supports or appears relevant to Volume and BP control in CKD",
+          "Ignoring volume contribution to hypertension conflicts with or increases risk under CKD with edema and salt-sensitive hypertension",
+          "Diuretic therapy supports Volume and BP control in CKD with lower conflict burden",
+          "Diuretic therapy is a safer alternative to Ignoring volume contribution to hypertension"
+        ],
+        "source_text": "F source: KDIGO 2024 p.91 Figure 18: diuretic can be considered in CKD BP tre...",
+        "explanation": "Ignoring volume contribution to hypertension (treats Volume and BP control in..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Ignoring volume contribution to hypertension"
+      ]
+    },
+    "provenance": {
+      "source_row": 13,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_014",
+    "gold_label": {
+      "M_rec": [
+        "Diuretics"
+      ],
+      "M_avoid": [
+        "Non-diuretic-only symptom strategy"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Diuretics"
+      ],
+      "M_level": {
+        "Diuretics": "A"
+      },
+      "E": {
+        "risk_types": [
+          "heart_failure_fluid_retention_risk",
+          "potential_prescribing_omission"
+        ],
+        "reasoning_path": [
+          "Non-diuretic-only symptom strategy supports or appears relevant to Fluid overload control",
+          "Non-diuretic-only symptom strategy conflicts with or increases risk under Cardiac insufficiency with recurrent fluid retention",
+          "Diuretics supports Fluid overload control with lower conflict burden",
+          "Diuretics is a safer alternative to Non-diuretic-only symptom strategy"
+        ],
+        "source_text": "F source: HF 2022 p.33: HF with fluid retention and congestion\nC source: HF 2...",
+        "explanation": "Non-diuretic-only symptom strategy (treats Fluid overload control, worsens Ca..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Non-diuretic-only symptom strategy"
+      ]
+    },
+    "provenance": {
+      "source_row": 14,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_015",
+    "gold_label": {
+      "M_rec": [
+        "Loop diuretic / diuretics"
+      ],
+      "M_avoid": [
+        "Thiazide-only strategy as main decongestion"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Loop diuretic / diuretics"
+      ],
+      "M_level": {
+        "Loop diuretic / diuretics": "A"
+      },
+      "E": {
+        "risk_types": [
+          "heart_failure_fluid_retention_risk"
+        ],
+        "reasoning_path": [
+          "Thiazide-only strategy as main decongestion supports or appears relevant to Heart failure decongestion",
+          "Thiazide-only strategy as main decongestion conflicts with or increases risk under HF congestion not controlled by thiazide-only approach",
+          "Loop diuretic / diuretics supports Heart failure decongestion with lower conflict burden",
+          "Loop diuretic / diuretics is a safer alternative to Thiazide-only strategy as main decongestion"
+        ],
+        "source_text": "F source: HF 2022 p.33: loop diuretics and thiazide add-on reserved for nonre...",
+        "explanation": "Thiazide-only strategy as main decongestion (treats Heart failure decongestio..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Thiazide-only strategy as main decongestion"
+      ]
+    },
+    "provenance": {
+      "source_row": 15,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_016",
+    "gold_label": {
+      "M_rec": [
+        "Mirabegron"
+      ],
+      "M_avoid": [
+        "Oxybutynin or high-anticholinergic bladder drug"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Mirabegron"
+      ],
+      "M_level": {
+        "Mirabegron": "B"
+      },
+      "E": {
+        "risk_types": [
+          "anticholinergic_burden",
+          "cognitive_delirium_risk"
+        ],
+        "reasoning_path": [
+          "Oxybutynin or high-anticholinergic bladder drug supports or appears relevant to Drug therapy for urge incontinence",
+          "Oxybutynin or high-anticholinergic bladder drug conflicts with or increases risk under Urge incontinence with cognitive impairment risk",
+          "Mirabegron supports Drug therapy for urge incontinence with lower conflict burden",
+          "Mirabegron is a safer alternative to Oxybutynin or high-anticholinergic bladder drug"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.122-123, Anticholinergics (genitourin...",
+        "explanation": "Oxybutynin or high-anticholinergic bladder drug (treats Drug therapy for urge..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Oxybutynin or high-anticholinergic bladder drug"
+      ]
+    },
+    "provenance": {
+      "source_row": 16,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_017",
+    "gold_label": {
+      "M_rec": [
+        "Mirabegron"
+      ],
+      "M_avoid": [
+        "Solifenacin/tolterodine with constipation burden"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Mirabegron"
+      ],
+      "M_level": {
+        "Mirabegron": "B"
+      },
+      "E": {
+        "risk_types": [
+          "anticholinergic_burden"
+        ],
+        "reasoning_path": [
+          "Solifenacin/tolterodine with constipation burden supports or appears relevant to Urinary urgency and frequency",
+          "Solifenacin/tolterodine with constipation burden conflicts with or increases risk under Overactive bladder with constipation burden",
+          "Mirabegron supports Urinary urgency and frequency with lower conflict burden",
+          "Mirabegron is a safer alternative to Solifenacin/tolterodine with constipation burden"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.122-123, Anticholinergics (genitourin...",
+        "explanation": "Solifenacin/tolterodine with constipation burden (treats Urinary urgency and ..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Solifenacin/tolterodine with constipation burden"
+      ]
+    },
+    "provenance": {
+      "source_row": 17,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_018",
+    "gold_label": {
+      "M_rec": [
+        "Mirabegron"
+      ],
+      "M_avoid": [
+        "Multiple anticholinergic medicines including bladder agent"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Mirabegron"
+      ],
+      "M_level": {
+        "Mirabegron": "B"
+      },
+      "E": {
+        "risk_types": [
+          "anticholinergic_burden"
+        ],
+        "reasoning_path": [
+          "Multiple anticholinergic medicines including bladder agent supports or appears relevant to Overactive bladder treatment",
+          "Multiple anticholinergic medicines including bladder agent conflicts with or increases risk under Urinary urgency with high anticholinergic burden",
+          "Mirabegron supports Overactive bladder treatment with lower conflict burden",
+          "Mirabegron is a safer alternative to Multiple anticholinergic medicines including bladder agent"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.122-123, Anticholinergics (genitourin...",
+        "explanation": "Multiple anticholinergic medicines including bladder agent (treats Overactive..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Multiple anticholinergic medicines including bladder agent"
+      ]
+    },
+    "provenance": {
+      "source_row": 18,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_019",
+    "gold_label": {
+      "M_rec": [
+        "Mirabegron"
+      ],
+      "M_avoid": [
+        "Sedating anticholinergic bladder treatment"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Mirabegron"
+      ],
+      "M_level": {
+        "Mirabegron": "B"
+      },
+      "E": {
+        "risk_types": [
+          "anticholinergic_burden",
+          "fall_fracture_risk"
+        ],
+        "reasoning_path": [
+          "Sedating anticholinergic bladder treatment supports or appears relevant to Bladder symptom control",
+          "Sedating anticholinergic bladder treatment conflicts with or increases risk under Urge incontinence with falls vulnerability",
+          "Mirabegron supports Bladder symptom control with lower conflict burden",
+          "Mirabegron is a safer alternative to Sedating anticholinergic bladder treatment"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.122-123, Anticholinergics (genitourin...",
+        "explanation": "Sedating anticholinergic bladder treatment (treats Bladder symptom control, w..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Sedating anticholinergic bladder treatment"
+      ]
+    },
+    "provenance": {
+      "source_row": 19,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_020",
+    "gold_label": {
+      "M_rec": [
+        "Daridorexant"
+      ],
+      "M_avoid": [
+        "Chronic hypnotic benzodiazepine"
+      ],
+      "M_caution": [
+        "Daridorexant"
+      ],
+      "M_alt": [
+        "Daridorexant"
+      ],
+      "M_level": {
+        "Daridorexant": "C"
+      },
+      "E": {
+        "risk_types": [
+          "potential_prescribing_omission",
+          "sedation_risk"
+        ],
+        "reasoning_path": [
+          "Chronic hypnotic benzodiazepine supports or appears relevant to Insomnia pharmacotherapy",
+          "Chronic hypnotic benzodiazepine conflicts with or increases risk under Insomnia after benzodiazepine taper where medicine is still justified",
+          "Daridorexant supports Insomnia pharmacotherapy with lower conflict burden",
+          "Daridorexant is a safer alternative to Chronic hypnotic benzodiazepine"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.197-198, hypnotics and sedatives; Dep...",
+        "explanation": "Chronic hypnotic benzodiazepine (treats Insomnia pharmacotherapy, worsens Ins..."
+      },
+      "U": true,
+      "clinician_review_reason": "FORTA C / benefit-risk review required",
+      "trap_medications": [
+        "Chronic hypnotic benzodiazepine"
+      ]
+    },
+    "provenance": {
+      "source_row": 20,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_021",
+    "gold_label": {
+      "M_rec": [
+        "Daridorexant"
+      ],
+      "M_avoid": [
+        "Long-term Z-drug or benzodiazepine hypnotic"
+      ],
+      "M_caution": [
+        "Daridorexant"
+      ],
+      "M_alt": [
+        "Daridorexant"
+      ],
+      "M_level": {
+        "Daridorexant": "C"
+      },
+      "E": {
+        "risk_types": [
+          "cardiovascular_secondary_prevention",
+          "potential_prescribing_omission",
+          "sedation_risk"
+        ],
+        "reasoning_path": [
+          "Long-term Z-drug or benzodiazepine hypnotic supports or appears relevant to Sleep disorder treatment",
+          "Long-term Z-drug or benzodiazepine hypnotic conflicts with or increases risk under Persistent insomnia after non-drug measures in older adult",
+          "Daridorexant supports Sleep disorder treatment with lower conflict burden",
+          "Daridorexant is a safer alternative to Long-term Z-drug or benzodiazepine hypnotic"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.197-198, hypnotics and sedatives\nC so...",
+        "explanation": "Long-term Z-drug or benzodiazepine hypnotic (treats Sleep disorder treatment,..."
+      },
+      "U": true,
+      "clinician_review_reason": "FORTA C / benefit-risk review required",
+      "trap_medications": [
+        "Long-term Z-drug or benzodiazepine hypnotic"
+      ]
+    },
+    "provenance": {
+      "source_row": 21,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_022",
+    "gold_label": {
+      "M_rec": [
+        "Daridorexant"
+      ],
+      "M_avoid": [
+        "Continuing sedative-hypnotic without reassessment"
+      ],
+      "M_caution": [
+        "Daridorexant"
+      ],
+      "M_alt": [
+        "Daridorexant"
+      ],
+      "M_level": {
+        "Daridorexant": "C"
+      },
+      "E": {
+        "risk_types": [
+          "fall_fracture_risk",
+          "potential_prescribing_omission",
+          "sedation_risk"
+        ],
+        "reasoning_path": [
+          "Continuing sedative-hypnotic without reassessment supports or appears relevant to Fall-risk-sensitive sleep treatment",
+          "Continuing sedative-hypnotic without reassessment conflicts with or increases risk under Insomnia with high fall-risk from sedative hypnotics",
+          "Daridorexant supports Fall-risk-sensitive sleep treatment with lower conflict burden",
+          "Daridorexant is a safer alternative to Continuing sedative-hypnotic without reassessment"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.197-198, hypnotics and sedatives; Dep...",
+        "explanation": "Continuing sedative-hypnotic without reassessment (treats Fall-risk-sensitive..."
+      },
+      "U": true,
+      "clinician_review_reason": "FORTA C / benefit-risk review required",
+      "trap_medications": [
+        "Continuing sedative-hypnotic without reassessment"
+      ]
+    },
+    "provenance": {
+      "source_row": 22,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_023",
+    "gold_label": {
+      "M_rec": [
+        "melperone"
+      ],
+      "M_avoid": [
+        "Benzodiazepine for dementia-related sleep disorder"
+      ],
+      "M_caution": [
+        "melperone"
+      ],
+      "M_alt": [
+        "melperone"
+      ],
+      "M_level": {
+        "melperone": "C"
+      },
+      "E": {
+        "risk_types": [
+          "cognitive_delirium_risk",
+          "sedation_risk"
+        ],
+        "reasoning_path": [
+          "Benzodiazepine for dementia-related sleep disorder supports or appears relevant to BPSD sleep disorders",
+          "Benzodiazepine for dementia-related sleep disorder conflicts with or increases risk under Dementia-associated sleep disturbance requiring short-term drug review",
+          "melperone supports BPSD sleep disorders with lower conflict burden",
+          "melperone is a safer alternative to Benzodiazepine for dementia-related sleep disorder"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.178-180, antipsychotics; Deprescribin...",
+        "explanation": "Benzodiazepine for dementia-related sleep disorder (treats BPSD sleep disorde..."
+      },
+      "U": true,
+      "clinician_review_reason": "FORTA C / benefit-risk review required",
+      "trap_medications": [
+        "Benzodiazepine for dementia-related sleep disorder"
+      ]
+    },
+    "provenance": {
+      "source_row": 23,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_024",
+    "gold_label": {
+      "M_rec": [
+        "pipamperone"
+      ],
+      "M_avoid": [
+        "Benzodiazepine used for BPSD sleep symptoms"
+      ],
+      "M_caution": [
+        "pipamperone"
+      ],
+      "M_alt": [
+        "pipamperone"
+      ],
+      "M_level": {
+        "pipamperone": "C"
+      },
+      "E": {
+        "risk_types": [
+          "cognitive_delirium_risk",
+          "sedation_risk"
+        ],
+        "reasoning_path": [
+          "Benzodiazepine used for BPSD sleep symptoms supports or appears relevant to Dementia-related sleep symptoms",
+          "Benzodiazepine used for BPSD sleep symptoms conflicts with or increases risk under BPSD sleep disruption with benzodiazepine harm risk",
+          "pipamperone supports Dementia-related sleep symptoms with lower conflict burden",
+          "pipamperone is a safer alternative to Benzodiazepine used for BPSD sleep symptoms"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.178-180, antipsychotics; Deprescribin...",
+        "explanation": "Benzodiazepine used for BPSD sleep symptoms (treats Dementia-related sleep sy..."
+      },
+      "U": true,
+      "clinician_review_reason": "FORTA C / benefit-risk review required",
+      "trap_medications": [
+        "Benzodiazepine used for BPSD sleep symptoms"
+      ]
+    },
+    "provenance": {
+      "source_row": 24,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_025",
+    "gold_label": {
+      "M_rec": [
+        "Haloperidol"
+      ],
+      "M_avoid": [
+        "Unstructured long-term sedative use"
+      ],
+      "M_caution": [
+        "Haloperidol"
+      ],
+      "M_alt": [
+        "Haloperidol"
+      ],
+      "M_level": {
+        "Haloperidol": "C"
+      },
+      "E": {
+        "risk_types": [
+          "cognitive_delirium_risk",
+          "sedation_risk"
+        ],
+        "reasoning_path": [
+          "Unstructured long-term sedative use supports or appears relevant to BPSD aggression management",
+          "Unstructured long-term sedative use conflicts with or increases risk under Severe dementia aggression with immediate safety risk",
+          "Haloperidol supports BPSD aggression management with lower conflict burden",
+          "Haloperidol is a safer alternative to Unstructured long-term sedative use"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.178-180, antipsychotics\nC source: FOR...",
+        "explanation": "Unstructured long-term sedative use (treats BPSD aggression management, worse..."
+      },
+      "U": true,
+      "clinician_review_reason": "FORTA C / benefit-risk review required",
+      "trap_medications": [
+        "Unstructured long-term sedative use"
+      ]
+    },
+    "provenance": {
+      "source_row": 25,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_026",
+    "gold_label": {
+      "M_rec": [
+        "Haloperidol"
+      ],
+      "M_avoid": [
+        "Non-specific sedative escalation"
+      ],
+      "M_caution": [
+        "Haloperidol"
+      ],
+      "M_alt": [
+        "Haloperidol"
+      ],
+      "M_level": {
+        "Haloperidol": "C"
+      },
+      "E": {
+        "risk_types": [
+          "cognitive_delirium_risk",
+          "potential_prescribing_omission",
+          "sedation_risk"
+        ],
+        "reasoning_path": [
+          "Non-specific sedative escalation supports or appears relevant to BPSD agitation/aggressiveness",
+          "Non-specific sedative escalation conflicts with or increases risk under Dementia restlessness with aggressive behaviour after non-drug measures",
+          "Haloperidol supports BPSD agitation/aggressiveness with lower conflict burden",
+          "Haloperidol is a safer alternative to Non-specific sedative escalation"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.178-180, antipsychotics\nC source: FOR...",
+        "explanation": "Non-specific sedative escalation (treats BPSD agitation/aggressiveness, worse..."
+      },
+      "U": true,
+      "clinician_review_reason": "FORTA C / benefit-risk review required",
+      "trap_medications": [
+        "Non-specific sedative escalation"
+      ]
+    },
+    "provenance": {
+      "source_row": 26,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_027",
+    "gold_label": {
+      "M_rec": [
+        "melperone"
+      ],
+      "M_avoid": [
+        "Broad sedative regimen without clear target"
+      ],
+      "M_caution": [
+        "melperone"
+      ],
+      "M_alt": [
+        "melperone"
+      ],
+      "M_level": {
+        "melperone": "C"
+      },
+      "E": {
+        "risk_types": [
+          "cognitive_delirium_risk",
+          "potential_prescribing_omission",
+          "sedation_risk"
+        ],
+        "reasoning_path": [
+          "Broad sedative regimen without clear target supports or appears relevant to BPSD sleep/agitation overlap",
+          "Broad sedative regimen without clear target conflicts with or increases risk under Nocturnal dementia agitation with oversedation concern",
+          "melperone supports BPSD sleep/agitation overlap with lower conflict burden",
+          "melperone is a safer alternative to Broad sedative regimen without clear target"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.178-180, antipsychotics; Deprescribin...",
+        "explanation": "Broad sedative regimen without clear target (treats BPSD sleep/agitation over..."
+      },
+      "U": true,
+      "clinician_review_reason": "FORTA C / benefit-risk review required",
+      "trap_medications": [
+        "Broad sedative regimen without clear target"
+      ]
+    },
+    "provenance": {
+      "source_row": 27,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_028",
+    "gold_label": {
+      "M_rec": [
+        "PCSK9 inhibitor"
+      ],
+      "M_avoid": [
+        "No add-on LDL-lowering option despite persistent risk"
+      ],
+      "M_caution": [
+        "PCSK9 inhibitor"
+      ],
+      "M_alt": [
+        "PCSK9 inhibitor"
+      ],
+      "M_level": {
+        "PCSK9 inhibitor": "C"
+      },
+      "E": {
+        "risk_types": [
+          "cardiovascular_secondary_prevention",
+          "potential_prescribing_omission"
+        ],
+        "reasoning_path": [
+          "No add-on LDL-lowering option despite persistent risk supports or appears relevant to Chronic therapy after myocardial infarction",
+          "No add-on LDL-lowering option despite persistent risk conflicts with or increases risk under Post-MI older adult with LDL not controlled despite usual therapy",
+          "PCSK9 inhibitor supports Chronic therapy after myocardial infarction with lower conflict burden",
+          "PCSK9 inhibitor is a safer alternative to No add-on LDL-lowering option despite persistent risk"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.108-109, lipid-modifying agents\nC sou...",
+        "explanation": "No add-on LDL-lowering option despite persistent risk (treats Chronic therapy..."
+      },
+      "U": true,
+      "clinician_review_reason": "FORTA C / benefit-risk review required",
+      "trap_medications": [
+        "No add-on LDL-lowering option despite persistent risk"
+      ]
+    },
+    "provenance": {
+      "source_row": 28,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_029",
+    "gold_label": {
+      "M_rec": [
+        "Bempedoic acid"
+      ],
+      "M_avoid": [
+        "Ceasing lipid strategy entirely"
+      ],
+      "M_caution": [
+        "Bempedoic acid"
+      ],
+      "M_alt": [
+        "Bempedoic acid"
+      ],
+      "M_level": {
+        "Bempedoic acid": "C"
+      },
+      "E": {
+        "risk_types": [
+          "cardiovascular_secondary_prevention",
+          "potential_prescribing_omission"
+        ],
+        "reasoning_path": [
+          "Ceasing lipid strategy entirely supports or appears relevant to LDL lowering after myocardial infarction",
+          "Ceasing lipid strategy entirely conflicts with or increases risk under Post-MI statin intolerance with remaining lipid risk",
+          "Bempedoic acid supports LDL lowering after myocardial infarction with lower conflict burden",
+          "Bempedoic acid is a safer alternative to Ceasing lipid strategy entirely"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.108-109, lipid-modifying agents\nC sou...",
+        "explanation": "Ceasing lipid strategy entirely (treats LDL lowering after myocardial infarct..."
+      },
+      "U": true,
+      "clinician_review_reason": "FORTA C / benefit-risk review required",
+      "trap_medications": [
+        "Ceasing lipid strategy entirely"
+      ]
+    },
+    "provenance": {
+      "source_row": 29,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_030",
+    "gold_label": {
+      "M_rec": [
+        "PCSK9 inhibitor or bempedoic acid"
+      ],
+      "M_avoid": [
+        "No intensification despite persistent LDL risk"
+      ],
+      "M_caution": [
+        "PCSK9 inhibitor or bempedoic acid"
+      ],
+      "M_alt": [
+        "PCSK9 inhibitor or bempedoic acid"
+      ],
+      "M_level": {
+        "PCSK9 inhibitor or bempedoic acid": "C"
+      },
+      "E": {
+        "risk_types": [
+          "cardiovascular_secondary_prevention",
+          "potential_prescribing_omission"
+        ],
+        "reasoning_path": [
+          "No intensification despite persistent LDL risk supports or appears relevant to Secondary prevention lipid therapy",
+          "No intensification despite persistent LDL risk conflicts with or increases risk under Chronic coronary disease after MI with insufficient LDL response",
+          "PCSK9 inhibitor or bempedoic acid supports Secondary prevention lipid therapy with lower conflict burden",
+          "PCSK9 inhibitor or bempedoic acid is a safer alternative to No intensification despite persistent LDL risk"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.108-109, lipid-modifying agents\nC sou...",
+        "explanation": "No intensification despite persistent LDL risk (treats Secondary prevention l..."
+      },
+      "U": true,
+      "clinician_review_reason": "FORTA C / benefit-risk review required",
+      "trap_medications": [
+        "No intensification despite persistent LDL risk"
+      ]
+    },
+    "provenance": {
+      "source_row": 30,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_031",
+    "gold_label": {
+      "M_rec": [
+        "Bempedoic acid"
+      ],
+      "M_avoid": [
+        "Ceasing all non-statin lipid options by default"
+      ],
+      "M_caution": [
+        "Bempedoic acid"
+      ],
+      "M_alt": [
+        "Bempedoic acid"
+      ],
+      "M_level": {
+        "Bempedoic acid": "C"
+      },
+      "E": {
+        "risk_types": [
+          "cardiovascular_secondary_prevention",
+          "potential_prescribing_omission"
+        ],
+        "reasoning_path": [
+          "Ceasing all non-statin lipid options by default supports or appears relevant to Medication review after myocardial infarction",
+          "Ceasing all non-statin lipid options by default conflicts with or increases risk under Post-MI polypharmacy where lipid benefit remains relevant",
+          "Bempedoic acid supports Medication review after myocardial infarction with lower conflict burden",
+          "Bempedoic acid is a safer alternative to Ceasing all non-statin lipid options by default"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.108-109, lipid-modifying agents; Depr...",
+        "explanation": "Ceasing all non-statin lipid options by default (treats Medication review aft..."
+      },
+      "U": true,
+      "clinician_review_reason": "FORTA C / benefit-risk review required",
+      "trap_medications": [
+        "Ceasing all non-statin lipid options by default"
+      ]
+    },
+    "provenance": {
+      "source_row": 31,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_032",
+    "gold_label": {
+      "M_rec": [
+        "Teriparatide"
+      ],
+      "M_avoid": [
+        "No active bone-protective therapy despite high risk"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Teriparatide"
+      ],
+      "M_level": {
+        "Teriparatide": "B"
+      },
+      "E": {
+        "risk_types": [
+          "bone_fracture_risk",
+          "fall_fracture_risk",
+          "potential_prescribing_omission"
+        ],
+        "reasoning_path": [
+          "No active bone-protective therapy despite high risk supports or appears relevant to Osteoporosis treatment",
+          "No active bone-protective therapy despite high risk conflicts with or increases risk under Osteoporosis with high fracture risk needing anabolic option",
+          "Teriparatide supports Osteoporosis treatment with lower conflict burden",
+          "Teriparatide is a safer alternative to No active bone-protective therapy despite high risk"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.137-138, teriparatide\nC source: FORTA...",
+        "explanation": "No active bone-protective therapy despite high risk (treats Osteoporosis trea..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "No active bone-protective therapy despite high risk"
+      ]
+    },
+    "provenance": {
+      "source_row": 32,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_033",
+    "gold_label": {
+      "M_rec": [
+        "Romosozumab"
+      ],
+      "M_avoid": [
+        "Inadequate bone therapy after high-risk reassessment"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Romosozumab"
+      ],
+      "M_level": {
+        "Romosozumab": "B"
+      },
+      "E": {
+        "risk_types": [
+          "bone_fracture_risk",
+          "fall_fracture_risk",
+          "potential_prescribing_omission"
+        ],
+        "reasoning_path": [
+          "Inadequate bone therapy after high-risk reassessment supports or appears relevant to Osteoporosis fracture prevention",
+          "Inadequate bone therapy after high-risk reassessment conflicts with or increases risk under Severe osteoporosis needing specialist anabolic treatment",
+          "Romosozumab supports Osteoporosis fracture prevention with lower conflict burden",
+          "Romosozumab is a safer alternative to Inadequate bone therapy after high-risk reassessment"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.137-138, teriparatide; bone drug revi...",
+        "explanation": "Inadequate bone therapy after high-risk reassessment (treats Osteoporosis fra..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Inadequate bone therapy after high-risk reassessment"
+      ]
+    },
+    "provenance": {
+      "source_row": 33,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_034",
+    "gold_label": {
+      "M_rec": [
+        "Denosumab"
+      ],
+      "M_avoid": [
+        "Ending antiresorptive therapy without reassessing risk"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Denosumab"
+      ],
+      "M_level": {
+        "Denosumab": "B"
+      },
+      "E": {
+        "risk_types": [
+          "bone_fracture_risk",
+          "potential_prescribing_omission"
+        ],
+        "reasoning_path": [
+          "Ending antiresorptive therapy without reassessing risk supports or appears relevant to Long-term bone protection",
+          "Ending antiresorptive therapy without reassessing risk conflicts with or increases risk under Osteoporosis requiring ongoing antiresorptive protection",
+          "Denosumab supports Long-term bone protection with lower conflict burden",
+          "Denosumab is a safer alternative to Ending antiresorptive therapy without reassessing risk"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.154-156, denosumab/bisphosphonates\nC ...",
+        "explanation": "Ending antiresorptive therapy without reassessing risk (treats Long-term bone..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Ending antiresorptive therapy without reassessing risk"
+      ]
+    },
+    "provenance": {
+      "source_row": 34,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_035",
+    "gold_label": {
+      "M_rec": [
+        "Teriparatide or romosozumab"
+      ],
+      "M_avoid": [
+        "Using removed/unsuitable strontium approach"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "Teriparatide or romosozumab"
+      ],
+      "M_level": {
+        "Teriparatide or romosozumab": "B"
+      },
+      "E": {
+        "risk_types": [
+          "bone_fracture_risk"
+        ],
+        "reasoning_path": [
+          "Using removed/unsuitable strontium approach supports or appears relevant to Alternative osteoporosis therapy",
+          "Using removed/unsuitable strontium approach conflicts with or increases risk under Osteoporosis after unsuitable strontium option removed",
+          "Teriparatide or romosozumab supports Alternative osteoporosis therapy with lower conflict burden",
+          "Teriparatide or romosozumab is a safer alternative to Using removed/unsuitable strontium approach"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.137-138, teriparatide\nC source: FORTA...",
+        "explanation": "Using removed/unsuitable strontium approach (treats Alternative osteoporosis ..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "Using removed/unsuitable strontium approach"
+      ]
+    },
+    "provenance": {
+      "source_row": 35,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_036",
+    "gold_label": {
+      "M_rec": [
+        "Fentanyl"
+      ],
+      "M_avoid": [
+        "Regular oral NSAID despite high harm risk"
+      ],
+      "M_caution": [
+        "Fentanyl"
+      ],
+      "M_alt": [
+        "Fentanyl"
+      ],
+      "M_level": {
+        "Fentanyl": "C"
+      },
+      "E": {
+        "risk_types": [
+          "pain_opioid_risk"
+        ],
+        "reasoning_path": [
+          "Regular oral NSAID despite high harm risk supports or appears relevant to Chronic pain management",
+          "Regular oral NSAID despite high harm risk conflicts with or increases risk under Chronic severe pain where oral NSAID is unsafe",
+          "Fentanyl supports Chronic pain management with lower conflict burden",
+          "Fentanyl is a safer alternative to Regular oral NSAID despite high harm risk"
+        ],
+        "source_text": "F source: Deprescribing 2025 document p.141-144, non-steroidal anti-inflammat...",
+        "explanation": "Regular oral NSAID despite high harm risk (treats Chronic pain management, wo..."
+      },
+      "U": true,
+      "clinician_review_reason": "FORTA C / benefit-risk review required",
+      "trap_medications": [
+        "Regular oral NSAID despite high harm risk"
+      ]
+    },
+    "provenance": {
+      "source_row": 36,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_037",
+    "gold_label": {
+      "M_rec": [
+        "Short-acting nitrate for acute relief if angina symptoms occur"
+      ],
+      "M_avoid": [
+        "Unreviewed long-acting nitrate therapy despite no recent angina symptoms"
+      ],
+      "M_caution": [
+        "Short-acting nitrate for acute relief if angina symptoms occur"
+      ],
+      "M_alt": [
+        "Short-acting nitrate for acute relief if angina symptoms occur"
+      ],
+      "M_level": {
+        "Short-acting nitrate for acute relief if angina symptoms occur": "C"
+      },
+      "E": {
+        "risk_types": [
+          "cardiovascular_secondary_prevention",
+          "potential_prescribing_omission"
+        ],
+        "reasoning_path": [
+          "Unreviewed long-acting nitrate therapy despite no recent angina symptoms supports or appears relevant to Stable coronary heart disease / angina prophylaxis",
+          "Unreviewed long-acting nitrate therapy despite no recent angina symptoms conflicts with or increases risk under Older adult with stable coronary heart disease / angina-free for ≥6 months",
+          "Short-acting nitrate for acute relief if angina symptoms occur supports Stable coronary heart disease / angina prophylaxis with lower conflict burden",
+          "Short-acting nitrate for acute relief if angina symptoms occur is a safer alternative to Unreviewed long-acting nitrate therapy despite no recent angina symptoms"
+        ],
+        "source_text": "F source: Deprescribing in Older People 2025 – Organic nitrates\nC source: Dep...",
+        "explanation": "Unreviewed long-acting nitrate therapy despite no recent angina symptoms (tre..."
+      },
+      "U": true,
+      "clinician_review_reason": "FORTA C / benefit-risk review required",
+      "trap_medications": [
+        "Unreviewed long-acting nitrate therapy despite no recent angina symptoms"
+      ]
+    },
+    "provenance": {
+      "source_row": 37,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_038",
+    "gold_label": {
+      "M_rec": [
+        "Ivabradine"
+      ],
+      "M_avoid": [
+        "No rate-specific add-on despite persistent indication"
+      ],
+      "M_caution": [
+        "Ivabradine"
+      ],
+      "M_alt": [
+        "Ivabradine"
+      ],
+      "M_level": {
+        "Ivabradine": "C"
+      },
+      "E": {
+        "risk_types": [
+          "cardiovascular_secondary_prevention",
+          "heart_failure_fluid_retention_risk",
+          "potential_prescribing_omission"
+        ],
+        "reasoning_path": [
+          "No rate-specific add-on despite persistent indication supports or appears relevant to Heart rate reduction in HFrEF",
+          "No rate-specific add-on despite persistent indication conflicts with or increases risk under HFrEF sinus rhythm with persistent high heart rate",
+          "Ivabradine supports Heart rate reduction in HFrEF with lower conflict burden",
+          "Ivabradine is a safer alternative to No rate-specific add-on despite persistent indication"
+        ],
+        "source_text": "F source: HF 2022 p.45: ivabradine recommendation for selected symptomatic st...",
+        "explanation": "No rate-specific add-on despite persistent indication (treats Heart rate redu..."
+      },
+      "U": true,
+      "clinician_review_reason": "FORTA C / benefit-risk review required",
+      "trap_medications": [
+        "No rate-specific add-on despite persistent indication"
+      ]
+    },
+    "provenance": {
+      "source_row": 38,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  },
+  {
+    "case_id": "dev_039",
+    "gold_label": {
+      "M_rec": [
+        "SGLT2 inhibitor / gliflozin"
+      ],
+      "M_avoid": [
+        "SGLT2 inhibitor omitted or not considered in HF/CKD risk context"
+      ],
+      "M_caution": [],
+      "M_alt": [
+        "SGLT2 inhibitor / gliflozin"
+      ],
+      "M_level": {
+        "SGLT2 inhibitor / gliflozin": "B"
+      },
+      "E": {
+        "risk_types": [
+          "heart_failure_fluid_retention_risk",
+          "hypoglycemia_metabolic_risk",
+          "potential_prescribing_omission",
+          "renal_impairment_risk"
+        ],
+        "reasoning_path": [
+          "SGLT2 inhibitor omitted or not considered in HF/CKD risk context supports or appears relevant to Diabetes with heart failure/cardiorenal risk",
+          "SGLT2 inhibitor omitted or not considered in HF/CKD risk context conflicts with or increases risk under Type 2 diabetes with HF risk and no SGLT2 counselling",
+          "SGLT2 inhibitor / gliflozin supports Diabetes with heart failure/cardiorenal risk with lower conflict burden",
+          "SGLT2 inhibitor / gliflozin is a safer alternative to SGLT2 inhibitor omitted or not considered in HF/CKD risk context"
+        ],
+        "source_text": "F source: ADA 2025 p.6: SGLT2i in HF/CKD algorithm; HF 2022 p.38-39: SGLT2i b...",
+        "explanation": "SGLT2 inhibitor omitted or not considered in HF/CKD risk context (treats Diab..."
+      },
+      "U": false,
+      "clinician_review_reason": "routine clinician confirmation",
+      "trap_medications": [
+        "SGLT2 inhibitor omitted or not considered in HF/CKD risk context"
+      ]
+    },
+    "provenance": {
+      "source_row": 39,
+      "source_split": "dev",
+      "source_columns_used_for_gold": [
+        "F",
+        "C",
+        "C Level",
+        "Source",
+        "Explain"
+      ]
+    }
+  }
+]

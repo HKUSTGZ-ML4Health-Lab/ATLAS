@@ -1,0 +1,6 @@
+﻿Variant,N,Strict Success,M_rec F1,M_avoid Recall,M_avoid F1,M_caution F1,M_alt F1,Unsafe Rate,Safety,Trace Pass Rate,OSRS
+Full ATLAS,201,92.04,92.5,100.0,91.57,75.47,92.84,0.0,100.0,92.04,97.21
+w/o PMCG,201,19.9,48.26,48.26,48.26,40.3,48.26,51.74,48.26,100.0,48.78
+w/o Geriatric Risk Auditor,201,38.81,92.7,93.53,87.4,40.3,92.7,6.47,93.53,100.0,80.47
+w/o Drug Conflict Auditor,201,69.15,49.59,69.15,69.15,59.7,49.59,30.85,69.15,100.0,74.41
+w/o Safety Gate,201,26.87,73.13,73.13,73.13,40.3,73.13,26.87,73.13,98.01,65.9

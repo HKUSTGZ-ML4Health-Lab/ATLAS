@@ -1,0 +1,41 @@
+{
+  "candidate_sha256": "beac24086b931af687a471b2b5ef1115e71c1de79506479e3055ff2352c057fa",
+  "case_budget_coverage_complete": true,
+  "critical_file_sha256": {
+    "02_FROZEN_INFERENCE/frozen/frozen_rules.json": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a",
+    "02_FROZEN_INFERENCE/scripts/run_final.py": "7a91033da34d376580b02609d7114160a6247e2ae67b93a7d432ac75760c38f8",
+    "RUN_TRACE/CORE_SAFETY_REASONING_ABLATIONS.json": "8bdec2cf3e6277046a45ea4a29ef42e6c35fb978e38594befaf55fede9d9d1b0",
+    "RUN_TRACE/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET.json": "1272166c5dcd5477c047910d4da214b5ead97203eddf383da4cad38f8d0b0bca",
+    "RUN_TRACE/GERIMEDBENCH.json": "a44e75948cb70d933015f5d75618656e41f9ef75e1ad2fec6bc5bf788bcd4b5a",
+    "RUN_TRACE/WESTERN_MULTIMORBIDITY_EVALUATION_SET.json": "dd0be76d49c3f1760ce46216fc4d4ebd885a5113e324a50e7db389a8cd8e5d59",
+    "experiments/CORE_SAFETY_REASONING_ABLATIONS/results/CORE_SAFETY_REASONING_ABLATIONS.json": "9931e3345ed1b3b113978e7d4aa17df53833b504597eec2805ca1a226b394590",
+    "experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/outputs/ATLAS_predictions.json": "3b1a12d082ec75e1a704b7c3f92e9982ac91f32c980beadf091d0a0d40a999ec",
+    "experiments/GERIMEDBENCH/outputs/ATLAS_predictions.json": "4e65955390ca5b723c34f023ee83d7ed0b4a323a948fbfe128fca81d3c03e5b3",
+    "experiments/WESTERN_MULTIMORBIDITY_EVALUATION_SET/official_summary.json": "72cf6f6e3f434f7d146e80ce93fc538a131c520aa56e3af88dbd4eb2d54f85aa",
+    "framework_src/agents/unified_orchestrator.py": "d1b88481cb5d6b7055177badaf0ddd8977143894bc36887ddb942e5f72ab7346",
+    "framework_src/system_impl/agents_impl.py": "ba2713fa648849a925bec1491ad276f3bd209fe9940f4b71459570a56b497b28"
+  },
+  "development_case_count": 39,
+  "evaluation_reference_access": false,
+  "manifest_sha256": "09819f3db6969b2f4a5680e60348f7c3d158f0b769561f0d36b92bcf89c0f6c5",
+  "policy_freeze_verification": {
+    "development_and_frozen_policy_byte_identical": true,
+    "development_and_frozen_policy_json_identical": true,
+    "development_policy_path": "01_DEV39_WORKSPACE/rules/working_rules.json",
+    "distillation_artifact_policy_payload_exact_match": true,
+    "policy_sha256": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a",
+    "reported_inference_loads_frozen_policy": true,
+    "reported_runtime_policy_path": "02_FROZEN_INFERENCE/frozen/frozen_rules.json"
+  },
+  "production_policy_unchanged": true,
+  "reported_experiment_artifacts_unchanged": true,
+  "schema_version": "atlas-policy-distillation-freeze-verification-v2",
+  "status": "pass",
+  "teacher_review_budgets": [
+    1,
+    2,
+    3
+  ],
+  "trajectory_count": 117,
+  "trajectory_sha256": "e18f3cab950c69307bd511f7c061dbb88b53ae1e175b8c0292fe850080528de6"
+}

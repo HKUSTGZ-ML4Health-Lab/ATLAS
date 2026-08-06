@@ -1,0 +1,34 @@
+You are evaluating medication safety for an elderly patient with multimorbidity.
+
+Use the retrieved evidence below, but make the final decision yourself.
+Return JSON only. Do not include markdown.
+
+Required JSON schema:
+{
+  "M_rec": ["..."],
+  "M_avoid": ["..."],
+  "M_caution": ["..."],
+  "M_alt": ["..."],
+  "M_level": {"drug": "A/B/C/D"},
+  "E": {
+    "reasoning_path": ["short auditable step 1", "short auditable step 2"],
+    "explanation": "brief explanation"
+  },
+  "S": ["evidence source or rationale"],
+  "U": false
+}
+
+Rules:
+- Recommend medications only from candidate_medications when possible.
+- M_avoid should contain medications that are unsafe or should be avoided for this patient's diseases, risks, or age-related factors.
+- M_caution should contain medications requiring monitoring or caution, but not full avoidance.
+- M_alt should contain safer alternatives when an avoided medication exists.
+- Do not put the same medication in M_rec and M_avoid.
+- Prefer concise generic medication names.
+- Return JSON only.
+
+Retrieved evidence:
+{retrieved_evidence}
+
+Patient case:
+{case_json}

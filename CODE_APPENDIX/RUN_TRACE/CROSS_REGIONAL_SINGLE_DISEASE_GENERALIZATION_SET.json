@@ -1,0 +1,15 @@
+{
+  "experiment": "Cross-Regional Single-Disease Generalization Set",
+  "N": 612,
+  "Strict Success": 94.12,
+  "M_rec F1": 91.83,
+  "M_avoid Recall": 98.04,
+  "M_avoid F1": 92.81,
+  "M_caution F1": 96.08,
+  "M_alt F1": 86.6,
+  "Unsafe Rate": 0.0,
+  "Trace Pass Rate": 100.0,
+  "OSRS": 97.55,
+  "prediction_sha256": "3b1a12d082ec75e1a704b7c3f92e9982ac91f32c980beadf091d0a0d40a999ec",
+  "evaluation_mode": "released_prediction_macro_evaluation"
+}

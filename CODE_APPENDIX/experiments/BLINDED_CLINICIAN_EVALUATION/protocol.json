@@ -1,0 +1,35 @@
+{
+  "name": "ATLAS blinded clinician evaluation",
+  "cases": 40,
+  "reviewers": 3,
+  "sampling": {
+    "Western Multimorbidity Evaluation Set": 20,
+    "GeriMedBench": 20,
+    "selection_rule": "benchmark-stratified sampling independent of automatic scores and model wins"
+  },
+  "systems": [
+    "ATLAS",
+    "Gemini 3.1 Pro Preview"
+  ],
+  "blinding": {
+    "model_identifiers_removed": true,
+    "automated_scores_hidden": true,
+    "reference_labels_hidden_in_primary_pass": true,
+    "independent_case_order_per_reviewer": true,
+    "independent_A_B_assignment_per_reviewer": true
+  },
+  "criteria": [
+    "Clinical correctness",
+    "Medication safety",
+    "Decision completeness",
+    "Actionability",
+    "Evidence consistency"
+  ],
+  "scale": "integer 1-5",
+  "additional_judgments": [
+    "potentially unsafe recommendation",
+    "pairwise output preference"
+  ],
+  "status": "completed",
+  "result_source": "completed blinded clinician evaluation"
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "atlas-policy-distillation-stage1-v1",
+  "purpose": "Record reproducible Dev39 teacher trajectories and verify the released symbolic policy artifact against the frozen runtime policy.",
+  "development_input": "../data/dev_input.json",
+  "development_reference_access": false,
+  "development_case_count": 39,
+  "teacher_review_budgets": [
+    1,
+    2,
+    3
+  ],
+  "expected_trajectory_count": 117,
+  "teacher_class": "framework_src.agents.unified_orchestrator.UnifiedOrchestratorAgent",
+  "teacher_policy": "../rules/working_rules.json",
+  "budget_semantics": "K bounds post-draft multi-agent review rounds in the archived Dev39 teacher rollout. It is separate from the GeriMedBench patient-query budget.",
+  "recorded_fields": [
+    "internal safety questions",
+    "patient-state grounding summary",
+    "PMCG transitions",
+    "risk assessments",
+    "decision revisions",
+    "stopping decision",
+    "evidence paths",
+    "final decision"
+  ],
+  "forbidden_inputs": [
+    "final_test_gold.json",
+    "test_gold.json",
+    "evaluation references",
+    "evaluation case identifiers"
+  ],
+  "production_policy": "../../02_FROZEN_INFERENCE/frozen/frozen_rules.json",
+  "production_policy_sha256": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a",
+  "candidate_status": "verified_policy_distillation_artifact",
+  "policy_freeze_verification_required": true
+}

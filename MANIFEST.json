@@ -1,0 +1,1084 @@
+{
+  "files": [
+    {
+      "path": "CODE_APPENDIX/01_DEV39_WORKSPACE/data/dev_gold.json",
+      "size_bytes": 63351,
+      "sha256": "d52098ddf45b99b05fb3b24596e980ca483fde9f0b19d842891831ef36fd8ece"
+    },
+    {
+      "path": "CODE_APPENDIX/01_DEV39_WORKSPACE/data/dev_input.json",
+      "size_bytes": 45996,
+      "sha256": "9073ba86aed04e9bca911b20ea6430ccb6483d4859251f4457c7104d532eca42"
+    },
+    {
+      "path": "CODE_APPENDIX/01_DEV39_WORKSPACE/policy_distillation/README.md",
+      "size_bytes": 860,
+      "sha256": "ad7046262fabb1ec866d941fdeaf643ef5b4f9ef3201d9dc60d0d597a780b07a"
+    },
+    {
+      "path": "CODE_APPENDIX/01_DEV39_WORKSPACE/policy_distillation/freeze_guard.json",
+      "size_bytes": 1740,
+      "sha256": "b700bc765b6f6cbdccf00e19a85e131974668eee5e46478cb67d89850181010a"
+    },
+    {
+      "path": "CODE_APPENDIX/01_DEV39_WORKSPACE/policy_distillation/outputs/distillation_manifest.json",
+      "size_bytes": 1451,
+      "sha256": "09819f3db6969b2f4a5680e60348f7c3d158f0b769561f0d36b92bcf89c0f6c5"
+    },
+    {
+      "path": "CODE_APPENDIX/01_DEV39_WORKSPACE/policy_distillation/outputs/distilled_policy_candidate.json",
+      "size_bytes": 143627,
+      "sha256": "beac24086b931af687a471b2b5ef1115e71c1de79506479e3055ff2352c057fa"
+    },
+    {
+      "path": "CODE_APPENDIX/01_DEV39_WORKSPACE/policy_distillation/outputs/stage1_verification.json",
+      "size_bytes": 2774,
+      "sha256": "b719ed8e3ff873e026f9fb5f86fc368b65504d1a9aa70b3dc5cd4bac0c05390e"
+    },
+    {
+      "path": "CODE_APPENDIX/01_DEV39_WORKSPACE/policy_distillation/scripts/extract_symbolic_policy.py",
+      "size_bytes": 9737,
+      "sha256": "4e30dd66a368402ac3ee6fcd5573850b644b9b71bee721564ae21b95db9d1ef9"
+    },
+    {
+      "path": "CODE_APPENDIX/01_DEV39_WORKSPACE/policy_distillation/scripts/generate_teacher_trajectories.py",
+      "size_bytes": 9142,
+      "sha256": "0bbd4d4de374be53b8cdb985c1c952905eb80b2870b3320031d27bf4f4fb3c6e"
+    },
+    {
+      "path": "CODE_APPENDIX/01_DEV39_WORKSPACE/policy_distillation/scripts/verify_stage1_integrity.py",
+      "size_bytes": 9235,
+      "sha256": "af6eaf1396aa8450a8d88be1cc181f3ec9f86a8091696f2aebae167c60dd9d69"
+    },
+    {
+      "path": "CODE_APPENDIX/01_DEV39_WORKSPACE/policy_distillation/teacher_config.json",
+      "size_bytes": 1400,
+      "sha256": "3a5f98244893760d7263d2ef65fd1c679a11693d05504ffacf421bdf57d979b3"
+    },
+    {
+      "path": "CODE_APPENDIX/01_DEV39_WORKSPACE/policy_distillation/trajectories/dev39_k1_k2_k3.jsonl",
+      "size_bytes": 8525571,
+      "sha256": "e18f3cab950c69307bd511f7c061dbb88b53ae1e175b8c0292fe850080528de6"
+    },
+    {
+      "path": "CODE_APPENDIX/01_DEV39_WORKSPACE/policy_distillation/trajectory_schema.json",
+      "size_bytes": 1559,
+      "sha256": "e03e1f868878cd4b4ab62f2402a576a98acf5f6db120fe75711b58198deba8f7"
+    },
+    {
+      "path": "CODE_APPENDIX/01_DEV39_WORKSPACE/rules/working_rules.json",
+      "size_bytes": 107360,
+      "sha256": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a"
+    },
+    {
+      "path": "CODE_APPENDIX/01_DEV39_WORKSPACE/scripts/evaluate_dev.py",
+      "size_bytes": 601,
+      "sha256": "92ddc090ea76ee1ccb438c9e744f3aa85170bf1fd425a470229581da074a38e6"
+    },
+    {
+      "path": "CODE_APPENDIX/01_DEV39_WORKSPACE/scripts/run_dev.py",
+      "size_bytes": 657,
+      "sha256": "eeb816d70b899dabd4a2fb29a325a93af1681c336dfa54d2b006b3bc16f50a49"
+    },
+    {
+      "path": "CODE_APPENDIX/02_FROZEN_INFERENCE/data/final_test_input.json",
+      "size_bytes": 207202,
+      "sha256": "4d035a70296b135f78e67d281004726f47d3df2aacc391f20870905c1085ae64"
+    },
+    {
+      "path": "CODE_APPENDIX/02_FROZEN_INFERENCE/frozen/freeze_manifest.json",
+      "size_bytes": 691,
+      "sha256": "daf8c41d36c23bb88a2ecd3d51a2cf3f867f617f909e12220995b13d0dd917dc"
+    },
+    {
+      "path": "CODE_APPENDIX/02_FROZEN_INFERENCE/frozen/frozen_rules.json",
+      "size_bytes": 107360,
+      "sha256": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a"
+    },
+    {
+      "path": "CODE_APPENDIX/02_FROZEN_INFERENCE/scripts/run_final.py",
+      "size_bytes": 668,
+      "sha256": "7a91033da34d376580b02609d7114160a6247e2ae67b93a7d432ac75760c38f8"
+    },
+    {
+      "path": "CODE_APPENDIX/03_OFFLINE_EVALUATION/evaluate_v3_official.py",
+      "size_bytes": 24677,
+      "sha256": "a07714c8e2515788c57ad92b3e4eca9479e81ef927f29c88c1a732add40b037a"
+    },
+    {
+      "path": "CODE_APPENDIX/03_OFFLINE_EVALUATION/gold/final_test_gold.json",
+      "size_bytes": 288624,
+      "sha256": "193a067eeef89d61ba4c9ea80b785a22f0dd4036fd62b540fd4261a494eb350b"
+    },
+    {
+      "path": "CODE_APPENDIX/03_OFFLINE_EVALUATION/scripts/evaluate_final.py",
+      "size_bytes": 618,
+      "sha256": "4c18110f7dc8ec5eddc41d6bc2266686b739ff24d8cd78c50dd3934cef9a6460"
+    },
+    {
+      "path": "CODE_APPENDIX/CODE_APPENDIX_MANIFEST.json",
+      "size_bytes": 36927,
+      "sha256": "17bbf9c103bdeced03bcb545933549b18b1013d96740cbf57b3d9da29dcddeb9"
+    },
+    {
+      "path": "CODE_APPENDIX/README.md",
+      "size_bytes": 665,
+      "sha256": "b0a912985a1bee410e30bdf045020860a06187e1d465417bea9bd0ccf6318b9b"
+    },
+    {
+      "path": "CODE_APPENDIX/RUN_TRACE/BLINDED_CLINICIAN_EVALUATION.json",
+      "size_bytes": 404,
+      "sha256": "86316afaf43294efa32df49d9dd2bed1000ab4a2e24f0f9206e7e53bbb72ec14"
+    },
+    {
+      "path": "CODE_APPENDIX/RUN_TRACE/CORE_SAFETY_REASONING_ABLATIONS.json",
+      "size_bytes": 331,
+      "sha256": "8bdec2cf3e6277046a45ea4a29ef42e6c35fb978e38594befaf55fede9d9d1b0"
+    },
+    {
+      "path": "CODE_APPENDIX/RUN_TRACE/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET.json",
+      "size_bytes": 445,
+      "sha256": "1272166c5dcd5477c047910d4da214b5ead97203eddf383da4cad38f8d0b0bca"
+    },
+    {
+      "path": "CODE_APPENDIX/RUN_TRACE/GERIMEDBENCH.json",
+      "size_bytes": 469,
+      "sha256": "a44e75948cb70d933015f5d75618656e41f9ef75e1ad2fec6bc5bf788bcd4b5a"
+    },
+    {
+      "path": "CODE_APPENDIX/RUN_TRACE/VALIDATION.json",
+      "size_bytes": 227,
+      "sha256": "ed8b265c40324333262c184ccbf1fc50e3d8717909157685aca858cc5160ab7d"
+    },
+    {
+      "path": "CODE_APPENDIX/RUN_TRACE/WESTERN_MULTIMORBIDITY_EVALUATION_SET.json",
+      "size_bytes": 535,
+      "sha256": "dd0be76d49c3f1760ce46216fc4d4ebd885a5113e324a50e7db389a8cd8e5d59"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/ablation_scripts/run_all_atlas_ablations.sh",
+      "size_bytes": 1505,
+      "sha256": "d82679586b8c72885922c1d69c1a5d7b7863a845a88dcecb744d7a288e7cd3d4"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/common.py",
+      "size_bytes": 4670,
+      "sha256": "384429f8baf3f713581282b8882a8604897299e8d5fcbe993d8154d8ca534a82"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/experiment_scripts/run_safety_gate_v2_direct_ablation.py",
+      "size_bytes": 4594,
+      "sha256": "a9bcac4ee7a3de69738750aaedc7e5e0012ca81207aac4763b8d18239bfa18bb"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/kg/pykeen_rotate_training_triples.json",
+      "size_bytes": 70776,
+      "sha256": "9305e101efd88fb79383f888917bbcb978fe4bbcb7ad59c52e386edf4a007bcb"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/prompts/llm_only_prompt.txt",
+      "size_bytes": 986,
+      "sha256": "1079652fc81c1c4e3b48d8fc1d70aad99c928c21d0fe8a8c3f38241884cd7982"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/prompts/rag_prompt.txt",
+      "size_bytes": 1100,
+      "sha256": "a609987419fbe22deb4ce91e656258c4a06f1c08db5729f919fce617a3aa7e6b"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/retrieval/bge_m3_evidence_docs.json",
+      "size_bytes": 198094,
+      "sha256": "2fd477b85f895518a73f56fdd223b675bb77fd92617e04886443312f668b8355"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/retrieval/bge_m3_faiss.index",
+      "size_bytes": 524333,
+      "sha256": "98ff148eb29493e3aa563609adcf175e402c3afb44bee80ab3e057f90b63099d"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/run1_scripts/run_all_12_baselines_run1.sh",
+      "size_bytes": 10432,
+      "sha256": "9fde783a7002faa206e01a5b7ddcde716af12f2d9c634260f493a6cffab9ced7"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/build_bge_faiss_index.py",
+      "size_bytes": 2383,
+      "sha256": "f3932c21aa7d38541611e4e48fb8222004c8d0e4b64958d65ad86820cfc0bb0c"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/check_all_model_downloads.py",
+      "size_bytes": 946,
+      "sha256": "1295b3aa26076e1cc08a654a90f88d0f94451d7cbe792cc7908ca72a2d808691"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/compare_ablation_final_decision.py",
+      "size_bytes": 3495,
+      "sha256": "7e69016857207a3b8b621b811bb6ef6db5efffe1af5b2fc138d0567b9f35a488"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/download_deepseek_r1_distill_qwen32b_modelscope.py",
+      "size_bytes": 710,
+      "sha256": "393da8e49610d973876811a871188ca03d58269d8ca9354130b1d30db81d94a0"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/download_qwen3_30b_a3b_2507_modelscope.py",
+      "size_bytes": 679,
+      "sha256": "8a84acf21e2182b6cd77d1e0cca1a0ac337a545b07f828f8eac6c9e80c7792ec"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/evaluate_one.py",
+      "size_bytes": 2117,
+      "sha256": "d53401b6b6aa60942d2d37c001050aba1acd3ebfcdf6e8ae0ec0d60f13f41081"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/make_table1_run1.py",
+      "size_bytes": 6829,
+      "sha256": "7ec5a5d370b404296c88967a21fbdf76be55ac80204586fba3707caaedb03a33"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/make_table2_ablations.py",
+      "size_bytes": 3924,
+      "sha256": "c518c4c918f41018d7d9a7f54a86b45e8422be6e628a4fce66744c5d690b1d72"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/run_atlas_ablations.py",
+      "size_bytes": 15034,
+      "sha256": "bd8317db3a964706df126bcc92a99536628ad486da9a02901300ad30657dcee7"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/run_bge_faiss_rag_openai.py",
+      "size_bytes": 9685,
+      "sha256": "9af26e5d731ad275d8abe278c48342ebc8721688e3f5231d926d320a34a21d9d"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/run_bm25_rag_openai.py",
+      "size_bytes": 8867,
+      "sha256": "5c205c73c2c167ce42402cfc5691be353a3d80ed24c551576d87ddd219a29d54"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/run_first_batch_baselines.py",
+      "size_bytes": 14003,
+      "sha256": "1889eae11174bf86f387a3fcbf6d732156e9e0d8566230786f0151bb6eb7f362"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/run_mdagents_shared_rag_openai.py",
+      "size_bytes": 9470,
+      "sha256": "e9bfc78e1eb73da56a27f4c375b2cb479baedb9aaf9b1d7cc1c1de162d8461fd"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/run_openai_compatible_llm.py",
+      "size_bytes": 7954,
+      "sha256": "9feb4701e1696a9fa076333fcc7be36f7a16749fa585f518eab460fce04a88b2"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/run_pykeen_rotate.py",
+      "size_bytes": 8183,
+      "sha256": "73038f3438d1fad060715c2b76d6002b1df3aaa2e34fd5de987ab424b0fccbb1"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/test_remote_api.py",
+      "size_bytes": 815,
+      "sha256": "ee91ba08a8e215e350d78e50410e06ae7567c98961f0a333fe97a93d2d4c10ba"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/baselines_12/runners/evaluate_one.py",
+      "size_bytes": 2216,
+      "sha256": "55a93fbd5b4463dd572b653d41da8e65b81dc256c879b678e60eb92054200b48"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/baselines_12/runners/make_table1_run1.py",
+      "size_bytes": 6895,
+      "sha256": "80bf900b5fec1e627f845669e111327ea90c3bb1e19f9145d0f57ac577b6c96b"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/offline_evaluator/evaluate_v3_official.py",
+      "size_bytes": 23310,
+      "sha256": "acf79dfd0faa3e67e3f0f0c4268b92ff65827bbbc63ebd51f5bc939b768ecaaa"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/scripts/apply_atlas_candidate_caution_canonicalizer.py",
+      "size_bytes": 11337,
+      "sha256": "86195ea778abb534e8cc51ca500a17e2348881bc315b16f911a5b962d96f9f48"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/scripts/rebuild_table1_single_disease_run1.py",
+      "size_bytes": 2900,
+      "sha256": "f1bee0c6bb862f9edc9b9d556dfdbfbb63900217e4330be6883eb277dcd9e6cb"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/GERIMEDBENCH/scripts/evaluate_agent_benchmark.py",
+      "size_bytes": 7955,
+      "sha256": "4b38106918aaa0dcbbadec70569c5e8efb246461df9bceb19f199cdca30707fe"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/GERIMEDBENCH/scripts/make_agent_table.py",
+      "size_bytes": 1942,
+      "sha256": "68d506f36490b61432df4796d0b07954c23912a7c96e864bfca1c4f4e40bed28"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/GERIMEDBENCH/scripts/postprocess_atlas_agent_targeted_safety.py",
+      "size_bytes": 12746,
+      "sha256": "0c8574c8b207a52d1531f3c35dd548b9aacec74f32124217c7aa31de9048b02b"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/GERIMEDBENCH/scripts/rebuild_final_table.sh",
+      "size_bytes": 675,
+      "sha256": "c8eb80e574025b4294a34eaf30c5ee122ddef5bc4cf017fde5bea7de768e1b17"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/GERIMEDBENCH/scripts/recompute_atlas_agent_evaluation.sh",
+      "size_bytes": 490,
+      "sha256": "d6a7898b577ac709c8e089b52b5320c8005bc6fe93704e56a50485c46426161d"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/GERIMEDBENCH/scripts/run_agent_benchmark.py",
+      "size_bytes": 7663,
+      "sha256": "bf460d2176528d644f1eb9173172648bdcc096ca0521fd0ce70db79a165dceaf"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/GERIMEDBENCH/scripts/run_atlas_agent_adapter.py",
+      "size_bytes": 14198,
+      "sha256": "c61a1d44674f9e228dfc7f878ecc3414016152dfbc02f041771dad9f478036df"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/GERIMEDBENCH/scripts/run_one_agent_llm.sh",
+      "size_bytes": 2657,
+      "sha256": "df35f411662650232d1ef2417a5554ca83bff4566e785ad76514f40a0d98d619"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/GERIMEDBENCH/scripts/run_remaining_agent_llms.sh",
+      "size_bytes": 1525,
+      "sha256": "e975534c6d3db625dd6d78a224c6bc93c6ffe9fae99d4176374bfda21ac10f39"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/common.py",
+      "size_bytes": 4670,
+      "sha256": "384429f8baf3f713581282b8882a8604897299e8d5fcbe993d8154d8ca534a82"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/kg/pykeen_rotate_training_triples.json",
+      "size_bytes": 70776,
+      "sha256": "9305e101efd88fb79383f888917bbcb978fe4bbcb7ad59c52e386edf4a007bcb"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/prompts/llm_only_prompt.txt",
+      "size_bytes": 986,
+      "sha256": "1079652fc81c1c4e3b48d8fc1d70aad99c928c21d0fe8a8c3f38241884cd7982"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/prompts/rag_prompt.txt",
+      "size_bytes": 1100,
+      "sha256": "a609987419fbe22deb4ce91e656258c4a06f1c08db5729f919fce617a3aa7e6b"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/retrieval/bge_m3_evidence_docs.json",
+      "size_bytes": 198094,
+      "sha256": "2fd477b85f895518a73f56fdd223b675bb77fd92617e04886443312f668b8355"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/retrieval/bge_m3_faiss.index",
+      "size_bytes": 524333,
+      "sha256": "98ff148eb29493e3aa563609adcf175e402c3afb44bee80ab3e057f90b63099d"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/run1_scripts/run_all_12_baselines_run1.sh",
+      "size_bytes": 10432,
+      "sha256": "9fde783a7002faa206e01a5b7ddcde716af12f2d9c634260f493a6cffab9ced7"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/runners/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/runners/build_bge_faiss_index.py",
+      "size_bytes": 2383,
+      "sha256": "f3932c21aa7d38541611e4e48fb8222004c8d0e4b64958d65ad86820cfc0bb0c"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/runners/check_all_model_downloads.py",
+      "size_bytes": 946,
+      "sha256": "1295b3aa26076e1cc08a654a90f88d0f94451d7cbe792cc7908ca72a2d808691"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/runners/download_deepseek_r1_distill_qwen32b_modelscope.py",
+      "size_bytes": 710,
+      "sha256": "393da8e49610d973876811a871188ca03d58269d8ca9354130b1d30db81d94a0"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/runners/download_qwen3_30b_a3b_2507_modelscope.py",
+      "size_bytes": 679,
+      "sha256": "8a84acf21e2182b6cd77d1e0cca1a0ac337a545b07f828f8eac6c9e80c7792ec"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/runners/evaluate_one.py",
+      "size_bytes": 2117,
+      "sha256": "d53401b6b6aa60942d2d37c001050aba1acd3ebfcdf6e8ae0ec0d60f13f41081"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/runners/make_table1_run1.py",
+      "size_bytes": 6829,
+      "sha256": "7ec5a5d370b404296c88967a21fbdf76be55ac80204586fba3707caaedb03a33"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/runners/run_bge_faiss_rag_openai.py",
+      "size_bytes": 9685,
+      "sha256": "9af26e5d731ad275d8abe278c48342ebc8721688e3f5231d926d320a34a21d9d"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/runners/run_bm25_rag_openai.py",
+      "size_bytes": 8867,
+      "sha256": "5c205c73c2c167ce42402cfc5691be353a3d80ed24c551576d87ddd219a29d54"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/runners/run_first_batch_baselines.py",
+      "size_bytes": 14003,
+      "sha256": "1889eae11174bf86f387a3fcbf6d732156e9e0d8566230786f0151bb6eb7f362"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/runners/run_mdagents_shared_rag_openai.py",
+      "size_bytes": 9470,
+      "sha256": "e9bfc78e1eb73da56a27f4c375b2cb479baedb9aaf9b1d7cc1c1de162d8461fd"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/runners/run_openai_compatible_llm.py",
+      "size_bytes": 7954,
+      "sha256": "9feb4701e1696a9fa076333fcc7be36f7a16749fa585f518eab460fce04a88b2"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/runners/run_pykeen_rotate.py",
+      "size_bytes": 8183,
+      "sha256": "73038f3438d1fad060715c2b76d6002b1df3aaa2e34fd5de987ab424b0fccbb1"
+    },
+    {
+      "path": "CODE_APPENDIX/baselines/WESTERN_MULTIMORBIDITY_EVALUATION_SET/runners/test_remote_api.py",
+      "size_bytes": 815,
+      "sha256": "ee91ba08a8e215e350d78e50410e06ae7567c98961f0a333fe97a93d2d4c10ba"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/README.md",
+      "size_bytes": 508,
+      "sha256": "0d99f0b31b7fccc6c9602b823c75b10002f19e9a3774aa1e383e686a479adc5e"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/clinician_evaluation_manifest.json",
+      "size_bytes": 949,
+      "sha256": "c518cd6682b2ce26df96aabb71d659cc0b6e6607c2363f8eda3c8a9772b3c2fe"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/preservation_guard.json",
+      "size_bytes": 3728,
+      "sha256": "a8426b692886ea9fcc5b4b245b6502c91ec3f15bcde51d743a4353d0b63a6f12"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/private_inputs/README.md",
+      "size_bytes": 381,
+      "sha256": "85a8bec415ad38726bef8fd31a8d90736e78530e5b2712e5b9ffb26b8d17388b"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/protocol.json",
+      "size_bytes": 962,
+      "sha256": "1a9593c736f38cdfdf16dd98d8c89311bd176ee9b98327535a1ba06474c27158"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/rating_schema.json",
+      "size_bytes": 1458,
+      "sha256": "cb39dc4362ecbf6dcb692e987a12a61303257966933ad425a193dc3169c2e398"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/reported_results/generated/reported_paper_table.md",
+      "size_bytes": 234,
+      "sha256": "d37ae35787c82c886c276866e925b26365238303fde3e325d3b45b0ed27fc406"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/reported_results/generated/reported_paper_table.tex",
+      "size_bytes": 599,
+      "sha256": "1816aaddb800211ec0a2c467afe4e0685a81b83e3987ab9f7f1a7a658bf39154"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/reported_results/generated/reported_results_paragraph.tex",
+      "size_bytes": 510,
+      "sha256": "3f95ce67ff690e3057fe750635f2bdacbb8c34c58bc51b8a3bfb7748d7e5bd09"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/reported_results/generated/reported_validation.json",
+      "size_bytes": 512,
+      "sha256": "4c1c00fa3ba7175e6f7057a8fc5c4c8d17f8cc421baf1b179b8eaf94af29379e"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/reported_results/reported_by_benchmark.csv",
+      "size_bytes": 258,
+      "sha256": "100018434d7f28451982ed666d772cb2346e6bce9e440ca9bb7d6c4ced3207a3"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/reported_results/reported_overall.csv",
+      "size_bytes": 179,
+      "sha256": "d790124185669a532f3f769649f985cf55d161f846553bb7e8bba2260ed6610a"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/reported_results/reported_summary.json",
+      "size_bytes": 1901,
+      "sha256": "e3686673057a0fde91b9ceddf44723b67819250fc290dfa0d23432ab03c450d5"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/reported_results/source/ATLAS_Blinded_Clinician_Evaluation_Reported_Summary.docx",
+      "size_bytes": 29571,
+      "sha256": "347842e257202b97fba314634fe5abcaca9b3c1ffc34ae1208c1ec592fa02279"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/reported_results/source/README.md",
+      "size_bytes": 266,
+      "sha256": "68cf4f7175e2c019dbabc5c2e7658810bdc0ec4e5a42dc72dcd369537dc6af64"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/scripts/aggregate_clinician_review.py",
+      "size_bytes": 21759,
+      "sha256": "8ebf67996e60ab37d14ecbb532e6d4a25ce1cd3e46215e764f9dda1209fc87a1"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/scripts/compare_aggregate_to_reported.py",
+      "size_bytes": 2043,
+      "sha256": "fac1ea391c7f9112c93c1fd510f4264b3d6bca24e841e06ec155d9675beee497"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/scripts/prepare_blinded_clinician_review.py",
+      "size_bytes": 17686,
+      "sha256": "0f141eee5c1fcb5d52218bce2ce0210ed2be1625d9084332d26e8f3f50c7bda3"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/scripts/render_reported_outputs.py",
+      "size_bytes": 3607,
+      "sha256": "3763cab5b16d20edcfa23fbb72e138d88405a0d9356b71771d7a26606cec84ad"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/scripts/validate_reported_summary.py",
+      "size_bytes": 5581,
+      "sha256": "c0c3001900911bb62b2d0ce49030f5df15b9af653085ad989f7b871e677a4d02"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/scripts/verify_experiment_preservation.py",
+      "size_bytes": 1408,
+      "sha256": "1f0a7475ebc070c7b566e4d4aaae5de92aea1a74d3ff79225401419008c9bc32"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CORE_SAFETY_REASONING_ABLATIONS/results/CORE_SAFETY_REASONING_ABLATIONS.csv",
+      "size_bytes": 527,
+      "sha256": "d044c10e7e762e7636dd9ef35c4bfadc6e48fd17d1eebbbb2eb08638d9c4479f"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CORE_SAFETY_REASONING_ABLATIONS/results/CORE_SAFETY_REASONING_ABLATIONS.json",
+      "size_bytes": 2050,
+      "sha256": "9931e3345ed1b3b113978e7d4aa17df53833b504597eec2805ca1a226b394590"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CORE_SAFETY_REASONING_ABLATIONS/results/CORE_SAFETY_REASONING_ABLATIONS.md",
+      "size_bytes": 913,
+      "sha256": "f1d4ff841f4960ab04f0a9ff156b3dc1083e192fa8307122c4e9ac89f5a970b0"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/data/input.json",
+      "size_bytes": 2486454,
+      "sha256": "22e138c362894cbb52dfa062a34dad94e49211a659b30f2822f17dab9f5537a0"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/data/reference.json",
+      "size_bytes": 998583,
+      "sha256": "da4c60da1d4203fda52314d9adc7287782936419f5a0b38d135416162723bf95"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/agents/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/agents/alternative_agent.py",
+      "size_bytes": 601,
+      "sha256": "aa7fd4f7d08640f899d245878134ad403b14f264de1052dbe81dd2dc6aa00323"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/agents/clinical_state_grounder.py",
+      "size_bytes": 60,
+      "sha256": "d5b258fed90bb5fe0ec5782e307e3564f133d19dce18bf01bd2c1c705076ac47"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/agents/drug_conflict_auditor.py",
+      "size_bytes": 87,
+      "sha256": "871a6abf8e036661d211df755a7025529d13e8e2bd96500475fbdc959f99f831"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/agents/geriatric_risk_auditor.py",
+      "size_bytes": 59,
+      "sha256": "a9c33e2461a00fed2ddd92fa4e99cc154a9ae297ef03f65d04b465e0eccf1195"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/agents/guideline_candidate_agent.py",
+      "size_bytes": 418,
+      "sha256": "466526f2068e08e91e5dafbd642da7dd095affa0f77accb04458a23b77165c1a"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/agents/revision_agent.py",
+      "size_bytes": 52,
+      "sha256": "84286be782723c0c49102a2856401ba258c7d2f203dc3de7e58ee1e274d1116b"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/agents/risk_benefit_deliberator.py",
+      "size_bytes": 767,
+      "sha256": "6e7c93e14eb16aa3eaa2fd47e950be40d1709e536fa7b26145cf866130865197"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/agents/safety_critic.py",
+      "size_bytes": 51,
+      "sha256": "49a111dfbffd9eca608b0e133b2526ed39f83aadbf029c450336573ecae94041"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/agents/trace_verifier.py",
+      "size_bytes": 80,
+      "sha256": "ec2ff079df83b5b6beebc99a929628c3bab8a1bdb18abee5502d6b00049809ce"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/agents/unified_orchestrator.py",
+      "size_bytes": 7958,
+      "sha256": "5a5545243cc5fb742ca348f4b93a734facd95ffb78df6671f127e65b52b8f939"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/docs/ATLAS_MULTI_AGENT_FRAMEWORK.png",
+      "size_bytes": 267529,
+      "sha256": "b58957c6d8b31c31742761315503b29923e119703f3c5733922268b6ffd66f01"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/evaluation/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/evaluation/metrics.py",
+      "size_bytes": 173,
+      "sha256": "f28bc7348e0a2ee998eccbc79e43a34fe7682d72abd0782d5af4e08ab44857b3"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/pmcg/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/pmcg/builder.py",
+      "size_bytes": 354,
+      "sha256": "527785ec1d1107aeffb3ac833367175556359e290db9582059adc420bbb5d498"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/system_impl/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/system_impl/agents_impl.py",
+      "size_bytes": 51146,
+      "sha256": "00fe107732d12833478d255a664bd40820a4312f4bc0f11e26d2cff5fc34bcc3"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/system_impl/metrics_impl.py",
+      "size_bytes": 16482,
+      "sha256": "7cd13e972de79ce44235c7270b7ca7f4c3b777eeb7d902d2276dc53f62c9cd72"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/system_impl/normalization.py",
+      "size_bytes": 453,
+      "sha256": "7e3e5464a756425414ff86f62e71ebc28ff732772e5e6f4fa85543b1a0791c22"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/outputs/ATLAS_predictions.json",
+      "size_bytes": 255553892,
+      "sha256": "3b1a12d082ec75e1a704b7c3f92e9982ac91f32c980beadf091d0a0d40a999ec"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/scripts/evaluate_v3_official.py",
+      "size_bytes": 23310,
+      "sha256": "acf79dfd0faa3e67e3f0f0c4268b92ff65827bbbc63ebd51f5bc939b768ecaaa"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/GERIMEDBENCH/data/hidden_environment.json",
+      "size_bytes": 230873,
+      "sha256": "02f0d0492d1e0816f795765ad1f22490120c8c495c8bca0892b6193a19803085"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/GERIMEDBENCH/data/public.json",
+      "size_bytes": 320111,
+      "sha256": "6d4f956097c097c3aab42fb38a273c000d1d571813a8059b146be53fa4395dae"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/GERIMEDBENCH/outputs/ATLAS_predictions.json",
+      "size_bytes": 19325386,
+      "sha256": "4e65955390ca5b723c34f023ee83d7ed0b4a323a948fbfe128fca81d3c03e5b3"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/GERIMEDBENCH/scripts/evaluate_agent_benchmark.py",
+      "size_bytes": 7955,
+      "sha256": "4b38106918aaa0dcbbadec70569c5e8efb246461df9bceb19f199cdca30707fe"
+    },
+    {
+      "path": "CODE_APPENDIX/experiments/WESTERN_MULTIMORBIDITY_EVALUATION_SET/official_summary.json",
+      "size_bytes": 1369,
+      "sha256": "72cf6f6e3f434f7d146e80ce93fc538a131c520aa56e3af88dbd4eb2d54f85aa"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/agents/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/agents/alternative_agent.py",
+      "size_bytes": 816,
+      "sha256": "fc6bb113fd9401556d4c081985d324bdc0eb97f6c6fa28137821679da040ef0c"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/agents/clinical_state_grounder.py",
+      "size_bytes": 286,
+      "sha256": "7f6e524165c53900d04ec1a38470bda8584354b6b47c3769332dae16ec327956"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/agents/drug_conflict_auditor.py",
+      "size_bytes": 313,
+      "sha256": "b000fb760a844500c1108a8b24256ad686aed22fb93688d06ca46cd794740d6d"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/agents/evidence_completion_agent.py",
+      "size_bytes": 9264,
+      "sha256": "daafeed31f4f8fa0a573c336a99bb945895716e4310fbb199aa8ea09f32dca68"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/agents/evidence_sufficiency_gate.py",
+      "size_bytes": 3700,
+      "sha256": "7553bd40d454d9f4b060c7f79ce8c0df494a9fef885994dafc19ba164f49ca6f"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/agents/geriatric_risk_auditor.py",
+      "size_bytes": 286,
+      "sha256": "b78fbd5019e4fbc918f5307c62c87a4bb13185fa5a8c0a1746e020b77e05c36d"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/agents/guideline_candidate_agent.py",
+      "size_bytes": 666,
+      "sha256": "24e003d36bf63d3222434158a828df08195af90d638cfb6e89530210b38820e3"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/agents/revision_agent.py",
+      "size_bytes": 263,
+      "sha256": "3629545e831a73cfda16162c6430e42739a82517dd5f218768960ac07cb22621"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/agents/risk_benefit_deliberator.py",
+      "size_bytes": 1012,
+      "sha256": "ff20c166da82219898c046c1aa64e2b0d9e8dd08ae93b0b87c0e50d81f3c67d2"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/agents/safety_critic.py",
+      "size_bytes": 302,
+      "sha256": "d69555b474396abd522b96a9046feaa4e7c26fe64f13d327f82f7ec88789e757"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/agents/trace_verifier.py",
+      "size_bytes": 291,
+      "sha256": "e3d206d5d03b354f32a1428b3d442e80ce45071225d14b41668c7cfca3f3a298"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/agents/unified_orchestrator.py",
+      "size_bytes": 8695,
+      "sha256": "d1b88481cb5d6b7055177badaf0ddd8977143894bc36887ddb942e5f72ab7346"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/docs/ATLAS_MULTI_AGENT_FRAMEWORK.png",
+      "size_bytes": 267529,
+      "sha256": "b58957c6d8b31c31742761315503b29923e119703f3c5733922268b6ffd66f01"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/evaluation/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/evaluation/metrics.py",
+      "size_bytes": 389,
+      "sha256": "065ea2137462854828f11e07387ecdfcb32d7a070e4c00e21d640be4b4788b67"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/pmcg/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/pmcg/builder.py",
+      "size_bytes": 613,
+      "sha256": "400658ea9206e1c269ee447027c9b541551ead184ea95afc363d600449150f68"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/system_impl/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/system_impl/agents_impl.py",
+      "size_bytes": 62443,
+      "sha256": "ba2713fa648849a925bec1491ad276f3bd209fe9940f4b71459570a56b497b28"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/system_impl/metrics_impl.py",
+      "size_bytes": 16712,
+      "sha256": "88dbae40b3bb82d0244845ae9c929717a5f3449cfd223a58813ad71e2e58f918"
+    },
+    {
+      "path": "CODE_APPENDIX/framework_src/system_impl/normalization.py",
+      "size_bytes": 453,
+      "sha256": "7e3e5464a756425414ff86f62e71ebc28ff732772e5e6f4fa85543b1a0791c22"
+    },
+    {
+      "path": "CODE_APPENDIX/reproduce_BLINDED_CLINICIAN_EVALUATION.sh",
+      "size_bytes": 1371,
+      "sha256": "fceb2b37f116e955d308f56a654a77a62e4d2fe2b93468999a394b5c706694e3"
+    },
+    {
+      "path": "CODE_APPENDIX/reproduce_CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET.sh",
+      "size_bytes": 1712,
+      "sha256": "ca1727fe717a1e6187ef9a0d7cad187f82434dfe88bc6626d886eb18d6e2bc62"
+    },
+    {
+      "path": "CODE_APPENDIX/reproduce_GERIMEDBENCH.sh",
+      "size_bytes": 921,
+      "sha256": "97f9a77f47079a56361a51d7742dd78f2f02741ad404f083d5192c1861dc3ca0"
+    },
+    {
+      "path": "CODE_APPENDIX/reproduce_POLICY_DISTILLATION_STAGE1.sh",
+      "size_bytes": 461,
+      "sha256": "ed6494e63b9d1cc68dde608fe3543b7791e664d57d56ef48bd8e99a5496fb6a8"
+    },
+    {
+      "path": "CODE_APPENDIX/reproduce_WESTERN_MULTIMORBIDITY_EVALUATION_SET.sh",
+      "size_bytes": 2401,
+      "sha256": "99a9815908cdde6a83bffa2fbd1c8dbaad8ce5f7abcb4fe7d43c41e2dd9358f6"
+    },
+    {
+      "path": "CODE_APPENDIX/reproduce_all.sh",
+      "size_bytes": 487,
+      "sha256": "e45abe85f45a1a5e8982d49a5e75fe0522a452d0b11e8cfcdcc056268615dca5"
+    },
+    {
+      "path": "CODE_APPENDIX/verify_CORE_SAFETY_REASONING_ABLATIONS.sh",
+      "size_bytes": 1051,
+      "sha256": "64061781db52fe8240b20b5453cf4c93966e053dda3690ff6d16403f7adae327"
+    },
+    {
+      "path": "DATASETS.md",
+      "size_bytes": 587,
+      "sha256": "91a0295b03d1680a622ec9a54020423a251914ecc97967863596c8741957aaac"
+    },
+    {
+      "path": "DATA_APPENDIX/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET_N612/input.json",
+      "size_bytes": 2486454,
+      "sha256": "22e138c362894cbb52dfa062a34dad94e49211a659b30f2822f17dab9f5537a0"
+    },
+    {
+      "path": "DATA_APPENDIX/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET_N612/reference.json",
+      "size_bytes": 998583,
+      "sha256": "da4c60da1d4203fda52314d9adc7287782936419f5a0b38d135416162723bf95"
+    },
+    {
+      "path": "DATA_APPENDIX/DATA_APPENDIX_MANIFEST.json",
+      "size_bytes": 2385,
+      "sha256": "e22db1f993c1688dc13525aaded9184ada11c108882fa077299f3cadc0f50507"
+    },
+    {
+      "path": "DATA_APPENDIX/DEVELOPMENT_SET_N39/dev_input.json",
+      "size_bytes": 45996,
+      "sha256": "9073ba86aed04e9bca911b20ea6430ccb6483d4859251f4457c7104d532eca42"
+    },
+    {
+      "path": "DATA_APPENDIX/DEVELOPMENT_SET_N39/dev_reference.json",
+      "size_bytes": 63351,
+      "sha256": "d52098ddf45b99b05fb3b24596e980ca483fde9f0b19d842891831ef36fd8ece"
+    },
+    {
+      "path": "DATA_APPENDIX/DEVELOPMENT_SET_N39/working_rules.json",
+      "size_bytes": 107360,
+      "sha256": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a"
+    },
+    {
+      "path": "DATA_APPENDIX/GERIMEDBENCH_ASIAN_MULTIMORBIDITY_N76/hidden_environment.json",
+      "size_bytes": 230873,
+      "sha256": "02f0d0492d1e0816f795765ad1f22490120c8c495c8bca0892b6193a19803085"
+    },
+    {
+      "path": "DATA_APPENDIX/GERIMEDBENCH_ASIAN_MULTIMORBIDITY_N76/public_state.json",
+      "size_bytes": 320111,
+      "sha256": "6d4f956097c097c3aab42fb38a273c000d1d571813a8059b146be53fa4395dae"
+    },
+    {
+      "path": "DATA_APPENDIX/README.md",
+      "size_bytes": 382,
+      "sha256": "e2e63c342f194f80316dc857be5173d335fea2e5e6a3732445e3a7dee9e736f7"
+    },
+    {
+      "path": "DATA_APPENDIX/WESTERN_MULTIMORBIDITY_EVALUATION_SET_N201/input.json",
+      "size_bytes": 207202,
+      "sha256": "4d035a70296b135f78e67d281004726f47d3df2aacc391f20870905c1085ae64"
+    },
+    {
+      "path": "DATA_APPENDIX/WESTERN_MULTIMORBIDITY_EVALUATION_SET_N201/reference.json",
+      "size_bytes": 288624,
+      "sha256": "193a067eeef89d61ba4c9ea80b785a22f0dd4036fd62b540fd4261a494eb350b"
+    },
+    {
+      "path": "ENVIRONMENT/README.md",
+      "size_bytes": 256,
+      "sha256": "ec25d8c3d8deb83bfbee8f8ce250460e81898a7b897133475554ec98e81dac41"
+    },
+    {
+      "path": "ENVIRONMENT/cpu.txt",
+      "size_bytes": 156,
+      "sha256": "6cbb8e9a34c992d7751c11235b52ff61cddeb3c6a95d51bc7e2ea710e0aa3eee"
+    },
+    {
+      "path": "ENVIRONMENT/environment.json",
+      "size_bytes": 272,
+      "sha256": "c87c3d3905b4629ea4cb7ca5d7e16fcc10b740f9df9a4102b656e9e8c0e4d8fb"
+    },
+    {
+      "path": "ENVIRONMENT/gpu.txt",
+      "size_bytes": 139,
+      "sha256": "ae0288b97754a8a87e638b7bfebc1b01ad94b6aaeb35b2d31df9d8bb151dc3de"
+    },
+    {
+      "path": "ENVIRONMENT/memory.txt",
+      "size_bytes": 207,
+      "sha256": "b89edce81bac488ca9447229629a021710168058bfab51cb30fb268b4b7ab92a"
+    },
+    {
+      "path": "ENVIRONMENT/os_release.txt",
+      "size_bytes": 386,
+      "sha256": "594d5ddd35aedb47f00d9c34d140017907a5b9f93c975aba125fc924daac5c07"
+    },
+    {
+      "path": "ENVIRONMENT/pip_freeze.txt",
+      "size_bytes": 6371,
+      "sha256": "b8de61c9d3392afed50f19a5920603849886187427ef5618a643f19ec0300154"
+    },
+    {
+      "path": "EXPERIMENT_SETTINGS.md",
+      "size_bytes": 2159,
+      "sha256": "1aef220baaa8eab0c5f1847fedc03e14c1d3caa3a620063762917bad873b000b"
+    },
+    {
+      "path": "METHOD_OVERVIEW.md",
+      "size_bytes": 2051,
+      "sha256": "500bf0cbf49934f5fa4fdb588368c538d4499f0dbeab14a3081399b13227dceb"
+    },
+    {
+      "path": "METRICS.md",
+      "size_bytes": 1383,
+      "sha256": "5fcc158e60507e29e00f6aa31ee4a94d4eca228ef4f5ceacce3b9e6e52a97341"
+    },
+    {
+      "path": "PAPER_COMPONENT_MAPPING.md",
+      "size_bytes": 1404,
+      "sha256": "d35f3d58266edb355ab113fa4656470573cdc6488e2dbc4b17c7fba19b1c1e17"
+    },
+    {
+      "path": "PREPROCESSING.md",
+      "size_bytes": 1026,
+      "sha256": "14ca0250c24c1a335fc969106d76ce58ff74ff2745e2bc478f03d05030aff464"
+    },
+    {
+      "path": "PROPRIETARY_LLM_BASELINES.md",
+      "size_bytes": 3569,
+      "sha256": "9425198c55a2ddfa63a15414b20d4e26dfa7898e77cb83dccefb8cb8ccfc95f7"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2295,
+      "sha256": "a61d4b1ee82a554e66906e8a644b9976781a226502d1b5e8fc28f2a34bcc216d"
+    },
+    {
+      "path": "RESULT_REGISTRY.json",
+      "size_bytes": 8506,
+      "sha256": "9bfeb3bc9590652f8a6443c9f8f484f5b5b1f5f47cdfcf0672d014c60be49425"
+    },
+    {
+      "path": "RUN_POLICY.md",
+      "size_bytes": 684,
+      "sha256": "66d5c6c0ce884892f7e2aaa2637185621950c16a4d698a71eb2969e93836779d"
+    },
+    {
+      "path": "SEEDS.md",
+      "size_bytes": 474,
+      "sha256": "57b02cf854704b8456f79cb45776497691973198fd2b2758705bae3f4a02b663"
+    },
+    {
+      "path": "reproduce_BLINDED_CLINICIAN_EVALUATION.sh",
+      "size_bytes": 161,
+      "sha256": "9310392d010612b13c9a42a63f87d328336240694fb1bad0ef6375d4289ee998"
+    },
+    {
+      "path": "reproduce_all.sh",
+      "size_bytes": 313,
+      "sha256": "80ccd226c4ad1fb099e6d9dc7698b97aa229fe3603fe15472a5197d88d1a5bd5"
+    },
+    {
+      "path": "requirements-baselines.txt",
+      "size_bytes": 202,
+      "sha256": "014e63fe2365c8f3c4e5d68ef3398b43c4b8db1c5fe66acf228915be712fbab8"
+    },
+    {
+      "path": "requirements-clinician-review.txt",
+      "size_bytes": 60,
+      "sha256": "183b40c3b120526e91f6f39dc9756da84e867fe5b6b556109c9e34619efd7bd9"
+    },
+    {
+      "path": "requirements-core.txt",
+      "size_bytes": 52,
+      "sha256": "f6b7ca426fa47af78a33e39e2a032933422ac80e68509343fe97cb8c2d3c3f49"
+    },
+    {
+      "path": "scripts/run_all_checks.sh",
+      "size_bytes": 793,
+      "sha256": "1568549e85d635415a07aeff13fd1d5398bbea7654bb46560f27a52d48a0e31f"
+    },
+    {
+      "path": "scripts/verify_anonymity.py",
+      "size_bytes": 9809,
+      "sha256": "2da7cadfa305e7e097c179d5376750dbdf6ad768ea875a2448273651ff18f1a2"
+    },
+    {
+      "path": "scripts/verify_code_appendix.py",
+      "size_bytes": 2887,
+      "sha256": "b03e176be48418846a7bed2736b47b736379e3f13912f1ce18321daa6e585323"
+    },
+    {
+      "path": "scripts/verify_gold_isolation.py",
+      "size_bytes": 1328,
+      "sha256": "e95208f6493c71b8fbae65a6a5939afe7031d5b21480b73116e61dbe36c8d056"
+    },
+    {
+      "path": "scripts/verify_manifests.py",
+      "size_bytes": 1196,
+      "sha256": "2b2ca046d9d968f5cecc2e1e697f98e3fd338aa273be87ae8c1170ebb6c7ef00"
+    },
+    {
+      "path": "scripts/verify_results_registry.py",
+      "size_bytes": 4432,
+      "sha256": "f2e264cd5b8cb59671a5a31540936007d5e481ae15b03b7f96c0f001f5830194"
+    }
+  ]
+}

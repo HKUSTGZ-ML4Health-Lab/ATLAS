@@ -1,0 +1,63 @@
+{
+  "paper_dataset_names": [
+    "Western Multimorbidity Evaluation Set",
+    "GeriMedBench / Asian Multimorbidity Evaluation Set",
+    "Cross-Regional Single-Disease Generalization Set"
+  ],
+  "files": [
+    {
+      "path": "DEVELOPMENT_SET_N39/dev_input.json",
+      "description": "Development input",
+      "size_bytes": 45996,
+      "sha256": "9073ba86aed04e9bca911b20ea6430ccb6483d4859251f4457c7104d532eca42"
+    },
+    {
+      "path": "DEVELOPMENT_SET_N39/dev_reference.json",
+      "description": "Development reference",
+      "size_bytes": 63351,
+      "sha256": "d52098ddf45b99b05fb3b24596e980ca483fde9f0b19d842891831ef36fd8ece"
+    },
+    {
+      "path": "DEVELOPMENT_SET_N39/working_rules.json",
+      "description": "Development rules",
+      "size_bytes": 107360,
+      "sha256": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a"
+    },
+    {
+      "path": "WESTERN_MULTIMORBIDITY_EVALUATION_SET_N201/input.json",
+      "description": "Western evaluation input",
+      "size_bytes": 207202,
+      "sha256": "4d035a70296b135f78e67d281004726f47d3df2aacc391f20870905c1085ae64"
+    },
+    {
+      "path": "WESTERN_MULTIMORBIDITY_EVALUATION_SET_N201/reference.json",
+      "description": "Western evaluation reference",
+      "size_bytes": 288624,
+      "sha256": "193a067eeef89d61ba4c9ea80b785a22f0dd4036fd62b540fd4261a494eb350b"
+    },
+    {
+      "path": "GERIMEDBENCH_ASIAN_MULTIMORBIDITY_N76/public_state.json",
+      "description": "Interactive public state",
+      "size_bytes": 320111,
+      "sha256": "6d4f956097c097c3aab42fb38a273c000d1d571813a8059b146be53fa4395dae"
+    },
+    {
+      "path": "GERIMEDBENCH_ASIAN_MULTIMORBIDITY_N76/hidden_environment.json",
+      "description": "Interactive hidden environment",
+      "size_bytes": 230873,
+      "sha256": "02f0d0492d1e0816f795765ad1f22490120c8c495c8bca0892b6193a19803085"
+    },
+    {
+      "path": "CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET_N612/input.json",
+      "description": "Single-disease input",
+      "size_bytes": 2486454,
+      "sha256": "22e138c362894cbb52dfa062a34dad94e49211a659b30f2822f17dab9f5537a0"
+    },
+    {
+      "path": "CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET_N612/reference.json",
+      "description": "Single-disease reference",
+      "size_bytes": 998583,
+      "sha256": "da4c60da1d4203fda52314d9adc7287782936419f5a0b38d135416162723bf95"
+    }
+  ]
+}

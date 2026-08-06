@@ -1,0 +1,16 @@
+{
+  "experiment": "Western Multimorbidity Evaluation Set",
+  "N": 201,
+  "Strict Success": 92.04,
+  "M_rec F1": 92.5,
+  "M_avoid Recall": 100.0,
+  "M_avoid F1": 91.57,
+  "M_caution F1": 75.47,
+  "M_alt F1": 92.84,
+  "Unsafe Rate": 0.0,
+  "Trace Pass Rate": 92.04,
+  "OSRS": 97.21,
+  "prediction_sha256": "302da182682a0078265bd458c45abcc2b0cb2d5ea33667a249582eb120858d01",
+  "evaluation_sha256": "38c54d2fe20f22ae5440ea5ab5180c47fb89a0a336acc6271458f5c754640ea6",
+  "evaluation_mode": "deterministic_inference_and_offline_evaluation"
+}

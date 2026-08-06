@@ -1,0 +1,5 @@
+GPU count: 2
+GPU model: NVIDIA RTX PRO 6000 Blackwell
+Memory per GPU: 97887 MiB
+NVIDIA driver: 595.58.03
+CUDA reported by nvidia-smi: 13.2

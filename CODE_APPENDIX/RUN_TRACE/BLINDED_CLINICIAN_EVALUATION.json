@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "N": 40,
+  "reviewers": 3,
+  "source_summary": "experiments/BLINDED_CLINICIAN_EVALUATION/reported_results/reported_summary.json",
+  "source_summary_sha256": "e3686673057a0fde91b9ceddf44723b67819250fc290dfa0d23432ab03c450d5",
+  "source_docx_sha256": "347842e257202b97fba314634fe5abcaca9b3c1ffc34ae1208c1ec592fa02279",
+  "evaluation_mode": "released_aggregate_summary_validation"
+}

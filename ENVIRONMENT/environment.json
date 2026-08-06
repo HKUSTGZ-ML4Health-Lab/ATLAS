@@ -1,0 +1,7 @@
+{
+  "python_executable": "python (resolved from PATH)",
+  "python_version": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "machine": "x86_64",
+  "processor": "x86_64"
+}

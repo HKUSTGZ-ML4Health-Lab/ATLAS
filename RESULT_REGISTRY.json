@@ -1,0 +1,275 @@
+{
+  "system": "ATLAS",
+  "reported_runs_per_case": 1,
+  "WESTERN_MULTIMORBIDITY_EVALUATION_SET": {
+    "N": 201,
+    "evaluation_mode": "deterministic_inference_and_offline_evaluation",
+    "metrics": {
+      "Strict Success": 92.04,
+      "M_rec F1": 92.5,
+      "M_avoid Recall": 100.0,
+      "M_avoid F1": 91.57,
+      "M_caution F1": 75.47,
+      "M_alt F1": 92.84,
+      "Unsafe Rate": 0.0,
+      "Trace Pass Rate": 92.04,
+      "OSRS": 97.21
+    },
+    "source_result": "CODE_APPENDIX/experiments/WESTERN_MULTIMORBIDITY_EVALUATION_SET/official_summary.json"
+  },
+  "GERIMEDBENCH": {
+    "N": 76,
+    "K": 3,
+    "evaluation_mode": "released_prediction_locked_evaluator",
+    "metrics": {
+      "Info Gain": 73.9,
+      "Query Efficiency": 35.75,
+      "Revision Accuracy": 44.17,
+      "Final Strict": 23.68,
+      "Unsafe Rate": 0.0,
+      "Trace Consistency": 85.53,
+      "Agent OSRS": 64.09
+    },
+    "source_prediction": "CODE_APPENDIX/experiments/GERIMEDBENCH/outputs/ATLAS_predictions.json"
+  },
+  "CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET": {
+    "N": 612,
+    "evaluation_mode": "released_prediction_macro_evaluation",
+    "metrics": {
+      "Strict Success": 94.12,
+      "M_rec F1": 91.83,
+      "M_avoid Recall": 98.04,
+      "M_avoid F1": 92.81,
+      "M_caution F1": 96.08,
+      "M_alt F1": 86.6,
+      "Unsafe Rate": 0.0,
+      "Trace Pass Rate": 100.0,
+      "OSRS": 97.55
+    },
+    "source_prediction": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/outputs/ATLAS_predictions.json"
+  },
+  "CORE_SAFETY_REASONING_ABLATIONS": {
+    "evaluation_mode": "official_row_verification",
+    "official_rows": [
+      "Full ATLAS",
+      "w/o PMCG",
+      "w/o Geriatric Risk Auditor",
+      "w/o Drug Conflict Auditor",
+      "w/o Safety Gate"
+    ],
+    "source_result": "CODE_APPENDIX/experiments/CORE_SAFETY_REASONING_ABLATIONS/results/CORE_SAFETY_REASONING_ABLATIONS.json"
+  },
+  "BLINDED_CLINICIAN_EVALUATION": {
+    "N": 40,
+    "reviewers": 3,
+    "evaluation_mode": "aggregate_summary_validation",
+    "metrics": {
+      "Gemini 3.1 Pro Preview": {
+        "Correct.": 3.77,
+        "Safety": 4.12,
+        "Complete.": 3.67,
+        "Action.": 3.85,
+        "Evidence": 3.8,
+        "Unsafe cases": "2/40",
+        "Preferred cases": "5/40"
+      },
+      "ATLAS": {
+        "Correct.": 4.11,
+        "Safety": 4.35,
+        "Complete.": 4.01,
+        "Action.": 4.01,
+        "Evidence": 4.08,
+        "Unsafe cases": "1/40",
+        "Preferred cases": "28/40"
+      },
+      "Tie cases": "7/40"
+    },
+    "source_summary": "CODE_APPENDIX/experiments/BLINDED_CLINICIAN_EVALUATION/reported_results/reported_summary.json"
+  },
+  "PROPRIETARY_LLM_BASELINES": {
+    "documentation": "PROPRIETARY_LLM_BASELINES.md",
+    "artifact_scope": "reported_aggregate_results_and_experiment_conditions",
+    "shared_settings": {
+      "temperature": 0.0,
+      "max_output_tokens": {
+        "WESTERN_MULTIMORBIDITY_EVALUATION_SET": 2048,
+        "GERIMEDBENCH_per_call": 2048,
+        "CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET": 2048
+      },
+      "top_p": "not_explicitly_set_provider_default",
+      "structured_json_output": true,
+      "same_prompt_within_dataset": true,
+      "shared_parser": true,
+      "shared_failure_rules": true,
+      "tools_search_rag": "not_used",
+      "inference_accessed_gold": false
+    },
+    "GERIMEDBENCH_protocol": {
+      "K": 3,
+      "trajectories_per_case": 1,
+      "api_calls_per_case": 2,
+      "api_calls_per_model": 152,
+      "hidden_facts_owner": "MedicationSafetyEnv",
+      "hidden_fact_access": "env.query()",
+      "gold_access": "locked_offline_evaluator_after_inference"
+    },
+    "models": {
+      "GPT-5": {
+        "model_id": "gpt-5-2025-08-07",
+        "provider": "OpenAI",
+        "results": {
+          "WESTERN_MULTIMORBIDITY_EVALUATION_SET": {
+            "N": 201,
+            "completed": "201/201",
+            "status": "Complete",
+            "metrics": {
+              "Strict Success": 32.34,
+              "M_rec F1": 69.15,
+              "M_avoid Recall": 99.0,
+              "M_avoid F1": 90.05,
+              "M_caution F1": 41.29,
+              "M_alt F1": 49.12,
+              "Unsafe Rate": 0.5,
+              "Trace": 100.0,
+              "OSRS": 71.37
+            }
+          },
+          "GERIMEDBENCH": {
+            "N": 76,
+            "completed": "76/76",
+            "status": "Complete",
+            "metrics": {
+              "Information Gain": 71.05,
+              "Query Efficiency": 33.33,
+              "Revision Accuracy": 40.6,
+              "Final Strict": 2.63,
+              "Unsafe Rate": 0.0,
+              "Trace Consistency": 81.58,
+              "Agent OSRS": 58.98
+            }
+          },
+          "CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET": {
+            "N": 612,
+            "completed": "612/612",
+            "status": "Complete",
+            "metrics": {
+              "Strict Success": 76.47,
+              "M_rec F1": 94.28,
+              "M_avoid Recall": 98.86,
+              "M_avoid F1": 98.86,
+              "M_caution F1": 92.48,
+              "M_alt F1": 82.19,
+              "Unsafe Rate": 0.0,
+              "Trace": 100.0,
+              "OSRS": 94.77
+            }
+          }
+        }
+      },
+      "Claude Opus 4.6": {
+        "model_id": "claude-opus-4-6",
+        "provider": "Anthropic",
+        "results": {
+          "WESTERN_MULTIMORBIDITY_EVALUATION_SET": {
+            "N": 201,
+            "completed": "201/201",
+            "status": "Complete",
+            "metrics": {
+              "Strict Success": 34.83,
+              "M_rec F1": 88.56,
+              "M_avoid Recall": 98.01,
+              "M_avoid F1": 97.35,
+              "M_caution F1": 46.77,
+              "M_alt F1": 85.32,
+              "Unsafe Rate": 0.0,
+              "Trace": 100.0,
+              "OSRS": 82.3
+            }
+          },
+          "GERIMEDBENCH": {
+            "N": 76,
+            "completed": "76/76",
+            "status": "Complete",
+            "metrics": {
+              "Information Gain": 80.92,
+              "Query Efficiency": 38.6,
+              "Revision Accuracy": 40.51,
+              "Final Strict": 5.26,
+              "Unsafe Rate": 0.0,
+              "Trace Consistency": 81.58,
+              "Agent OSRS": 62.87
+            }
+          },
+          "CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET": {
+            "N": 612,
+            "completed": "612/612",
+            "status": "Complete",
+            "metrics": {
+              "Strict Success": 81.21,
+              "M_rec F1": 98.37,
+              "M_avoid Recall": 98.2,
+              "M_avoid F1": 98.15,
+              "M_caution F1": 88.73,
+              "M_alt F1": 84.31,
+              "Unsafe Rate": 0.0,
+              "Trace": 100.0,
+              "OSRS": 95.18
+            }
+          }
+        }
+      },
+      "Gemini 3.1 Pro Preview": {
+        "model_id": "gemini-3.1-pro-preview",
+        "provider": "Google",
+        "results": {
+          "WESTERN_MULTIMORBIDITY_EVALUATION_SET": {
+            "N": 201,
+            "completed": "201/201",
+            "status": "Complete",
+            "metrics": {
+              "Strict Success": 38.31,
+              "M_rec F1": 63.68,
+              "M_avoid Recall": 99.0,
+              "M_avoid F1": 97.84,
+              "M_caution F1": 70.65,
+              "M_alt F1": 80.6,
+              "Unsafe Rate": 0.0,
+              "Trace": 100.0,
+              "OSRS": 82.58
+            }
+          },
+          "GERIMEDBENCH": {
+            "N": 76,
+            "completed": "76/76",
+            "status": "Complete",
+            "metrics": {
+              "Information Gain": 74.34,
+              "Query Efficiency": 35.53,
+              "Revision Accuracy": 43.18,
+              "Final Strict": 7.89,
+              "Unsafe Rate": 2.63,
+              "Trace Consistency": 73.68,
+              "Agent OSRS": 60.54
+            }
+          },
+          "CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET": {
+            "N": 612,
+            "completed": "612/612",
+            "status": "Complete",
+            "metrics": {
+              "Strict Success": 92.6,
+              "M_rec F1": 97.19,
+              "M_avoid Recall": 98.98,
+              "M_avoid F1": 98.98,
+              "M_caution F1": 95.41,
+              "M_alt F1": 95.66,
+              "Unsafe Rate": 0.0,
+              "Trace": 100.0,
+              "OSRS": 97.84
+            }
+          }
+        }
+      }
+    }
+  }
+}
