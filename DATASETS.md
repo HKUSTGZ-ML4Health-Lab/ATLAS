@@ -6,6 +6,6 @@
 - Cross-Regional Single-Disease Generalization Set: N=612, non-interactive,
   candidate-constrained cross-guideline evaluation.
 
-Inference does not read evaluation references. Gold/reference data first enter
-the workflow in the frozen offline evaluator. The complete archived records are
-listed in `DATA_APPENDIX/DATA_APPENDIX_MANIFEST.json`.
+Inference does not read evaluation references. Public evaluation inputs are released 
+separately from the private reference and hidden-state assets used by the frozen offline evaluator. 
+The public dataset artifacts are listed in `DATA_APPENDIX/DATA_APPENDIX_MANIFEST.json`.
