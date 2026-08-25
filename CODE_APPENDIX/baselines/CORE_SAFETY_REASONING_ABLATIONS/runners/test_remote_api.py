@@ -1,15 +1,27 @@
 from __future__ import annotations
 
 import argparse
+import os
+
 from openai import OpenAI
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--base-url", required=True)
-    parser.add_argument("--api-key", required=True)
+    parser.add_argument(
+        "--api-key",
+        default=os.environ.get("OPENAI_API_KEY"),
+        help="API key. Prefer setting OPENAI_API_KEY in the environment.",
+    )
     parser.add_argument("--model", required=True)
     args = parser.parse_args()
+
+    if not args.api_key:
+        parser.error(
+            "No API key supplied. Set OPENAI_API_KEY in the environment "
+            "or provide --api-key."
+        )
 
     client = OpenAI(
         base_url=args.base_url,
