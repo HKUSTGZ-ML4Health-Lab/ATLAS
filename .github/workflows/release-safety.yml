@@ -28,4 +28,4 @@ jobs:
 
       - name: Run Gitleaks
         run: |
-          gitleaks git . --redact --verbose
+          gitleaks git . --redact --verbose --config .gitleaks.toml
