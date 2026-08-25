@@ -1,1 +1,87 @@
-/CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/outputs/ATLAS_predictions.json
+# ============================================================
+# Secrets and credentials
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+credentials.json
+credentials*.json
+secrets.json
+secrets*.json
+tokens.json
+token*.json
+
+*.pem
+*.key
+*.p12
+*.pfx
+
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# ============================================================
+# Private evaluation assets
+# ============================================================
+
+DATA_APPENDIX/GERIMEDBENCH_ASIAN_MULTIMORBIDITY_N76/hidden_environment.json
+DATA_APPENDIX/WESTERN_MULTIMORBIDITY_EVALUATION_SET_N201/reference.json
+DATA_APPENDIX/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET_N612/reference.json
+
+CODE_APPENDIX/experiments/GERIMEDBENCH/data/hidden_environment.json
+CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/data/reference.json
+CODE_APPENDIX/03_OFFLINE_EVALUATION/gold/
+
+# ============================================================
+# Private / local working files
+# ============================================================
+
+private/
+private_data/
+private_eval/
+scratch/
+tmp/
+temp/
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+logs/
+
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================================
+# Virtual environments
+# ============================================================
+
+.venv/
+venv/
+env/
+
+# ============================================================
+# IDE / OS
+# ============================================================
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# Notebook checkpoints
+# ============================================================
+
+.ipynb_checkpoints/
