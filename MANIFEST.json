@@ -106,11 +106,6 @@
       "sha256": "a07714c8e2515788c57ad92b3e4eca9479e81ef927f29c88c1a732add40b037a"
     },
     {
-      "path": "CODE_APPENDIX/03_OFFLINE_EVALUATION/gold/final_test_gold.json",
-      "size_bytes": 288624,
-      "sha256": "193a067eeef89d61ba4c9ea80b785a22f0dd4036fd62b540fd4261a494eb350b"
-    },
-    {
       "path": "CODE_APPENDIX/03_OFFLINE_EVALUATION/scripts/evaluate_final.py",
       "size_bytes": 618,
       "sha256": "4c18110f7dc8ec5eddc41d6bc2266686b739ff24d8cd78c50dd3934cef9a6460"
@@ -586,11 +581,6 @@
       "sha256": "22e138c362894cbb52dfa062a34dad94e49211a659b30f2822f17dab9f5537a0"
     },
     {
-      "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/data/reference.json",
-      "size_bytes": 998583,
-      "sha256": "da4c60da1d4203fda52314d9adc7287782936419f5a0b38d135416162723bf95"
-    },
-    {
       "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/__init__.py",
       "size_bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -704,11 +694,6 @@
       "path": "CODE_APPENDIX/experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/scripts/evaluate_v3_official.py",
       "size_bytes": 23310,
       "sha256": "acf79dfd0faa3e67e3f0f0c4268b92ff65827bbbc63ebd51f5bc939b768ecaaa"
-    },
-    {
-      "path": "CODE_APPENDIX/experiments/GERIMEDBENCH/data/hidden_environment.json",
-      "size_bytes": 230873,
-      "sha256": "02f0d0492d1e0816f795765ad1f22490120c8c495c8bca0892b6193a19803085"
     },
     {
       "path": "CODE_APPENDIX/experiments/GERIMEDBENCH/data/public.json",
@@ -891,11 +876,6 @@
       "sha256": "22e138c362894cbb52dfa062a34dad94e49211a659b30f2822f17dab9f5537a0"
     },
     {
-      "path": "DATA_APPENDIX/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET_N612/reference.json",
-      "size_bytes": 998583,
-      "sha256": "da4c60da1d4203fda52314d9adc7287782936419f5a0b38d135416162723bf95"
-    },
-    {
       "path": "DATA_APPENDIX/DATA_APPENDIX_MANIFEST.json",
       "size_bytes": 2385,
       "sha256": "e22db1f993c1688dc13525aaded9184ada11c108882fa077299f3cadc0f50507"
@@ -916,11 +896,6 @@
       "sha256": "24ad9d60e54ac8c1c58fbbc91727c66c991c1ea9febc97da698a6e41b06c603a"
     },
     {
-      "path": "DATA_APPENDIX/GERIMEDBENCH_ASIAN_MULTIMORBIDITY_N76/hidden_environment.json",
-      "size_bytes": 230873,
-      "sha256": "02f0d0492d1e0816f795765ad1f22490120c8c495c8bca0892b6193a19803085"
-    },
-    {
       "path": "DATA_APPENDIX/GERIMEDBENCH_ASIAN_MULTIMORBIDITY_N76/public_state.json",
       "size_bytes": 320111,
       "sha256": "6d4f956097c097c3aab42fb38a273c000d1d571813a8059b146be53fa4395dae"
@@ -934,11 +909,6 @@
       "path": "DATA_APPENDIX/WESTERN_MULTIMORBIDITY_EVALUATION_SET_N201/input.json",
       "size_bytes": 207202,
       "sha256": "4d035a70296b135f78e67d281004726f47d3df2aacc391f20870905c1085ae64"
-    },
-    {
-      "path": "DATA_APPENDIX/WESTERN_MULTIMORBIDITY_EVALUATION_SET_N201/reference.json",
-      "size_bytes": 288624,
-      "sha256": "193a067eeef89d61ba4c9ea80b785a22f0dd4036fd62b540fd4261a494eb350b"
     },
     {
       "path": "ENVIRONMENT/README.md",
