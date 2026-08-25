@@ -1,0 +1,5 @@
+[allowlist]
+description = "Ignore secret-pattern literals in repository safety scanner"
+paths = [
+  '''scripts/verify_anonymity\.py'''
+]
