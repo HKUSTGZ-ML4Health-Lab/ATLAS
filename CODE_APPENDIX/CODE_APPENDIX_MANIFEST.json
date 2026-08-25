@@ -106,11 +106,6 @@
       "sha256": "a07714c8e2515788c57ad92b3e4eca9479e81ef927f29c88c1a732add40b037a"
     },
     {
-      "path": "03_OFFLINE_EVALUATION/gold/final_test_gold.json",
-      "size_bytes": 288624,
-      "sha256": "193a067eeef89d61ba4c9ea80b785a22f0dd4036fd62b540fd4261a494eb350b"
-    },
-    {
       "path": "03_OFFLINE_EVALUATION/scripts/evaluate_final.py",
       "size_bytes": 618,
       "sha256": "4c18110f7dc8ec5eddc41d6bc2266686b739ff24d8cd78c50dd3934cef9a6460"
@@ -581,11 +576,6 @@
       "sha256": "22e138c362894cbb52dfa062a34dad94e49211a659b30f2822f17dab9f5537a0"
     },
     {
-      "path": "experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/data/reference.json",
-      "size_bytes": 998583,
-      "sha256": "da4c60da1d4203fda52314d9adc7287782936419f5a0b38d135416162723bf95"
-    },
-    {
       "path": "experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/evaluator_snapshot/framework_src/__init__.py",
       "size_bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -699,11 +689,6 @@
       "path": "experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/scripts/evaluate_v3_official.py",
       "size_bytes": 23310,
       "sha256": "acf79dfd0faa3e67e3f0f0c4268b92ff65827bbbc63ebd51f5bc939b768ecaaa"
-    },
-    {
-      "path": "experiments/GERIMEDBENCH/data/hidden_environment.json",
-      "size_bytes": 230873,
-      "sha256": "02f0d0492d1e0816f795765ad1f22490120c8c495c8bca0892b6193a19803085"
     },
     {
       "path": "experiments/GERIMEDBENCH/data/public.json",
