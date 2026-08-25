@@ -30,34 +30,16 @@
       "sha256": "4d035a70296b135f78e67d281004726f47d3df2aacc391f20870905c1085ae64"
     },
     {
-      "path": "WESTERN_MULTIMORBIDITY_EVALUATION_SET_N201/reference.json",
-      "description": "Western evaluation reference",
-      "size_bytes": 288624,
-      "sha256": "193a067eeef89d61ba4c9ea80b785a22f0dd4036fd62b540fd4261a494eb350b"
-    },
-    {
       "path": "GERIMEDBENCH_ASIAN_MULTIMORBIDITY_N76/public_state.json",
       "description": "Interactive public state",
       "size_bytes": 320111,
       "sha256": "6d4f956097c097c3aab42fb38a273c000d1d571813a8059b146be53fa4395dae"
     },
     {
-      "path": "GERIMEDBENCH_ASIAN_MULTIMORBIDITY_N76/hidden_environment.json",
-      "description": "Interactive hidden environment",
-      "size_bytes": 230873,
-      "sha256": "02f0d0492d1e0816f795765ad1f22490120c8c495c8bca0892b6193a19803085"
-    },
-    {
       "path": "CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET_N612/input.json",
       "description": "Single-disease input",
       "size_bytes": 2486454,
       "sha256": "22e138c362894cbb52dfa062a34dad94e49211a659b30f2822f17dab9f5537a0"
-    },
-    {
-      "path": "CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET_N612/reference.json",
-      "description": "Single-disease reference",
-      "size_bytes": 998583,
-      "sha256": "da4c60da1d4203fda52314d9adc7287782936419f5a0b38d135416162723bf95"
     }
   ]
 }
