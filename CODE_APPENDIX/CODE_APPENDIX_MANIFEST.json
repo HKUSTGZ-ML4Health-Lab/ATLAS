@@ -272,8 +272,8 @@
     },
     {
       "path": "baselines/CORE_SAFETY_REASONING_ABLATIONS/runners/test_remote_api.py",
-      "size_bytes": 815,
-      "sha256": "ee91ba08a8e215e350d78e50410e06ae7567c98961f0a333fe97a93d2d4c10ba"
+      "size_bytes": 1119,
+      "sha256": "774d03681ddacd179a1c2df8bd4a813c9b9f37aa8250e3a85d2c46889f4d6264"
     },
     {
       "path": "baselines/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/baselines_12/runners/evaluate_one.py",
@@ -557,8 +557,8 @@
     },
     {
       "path": "experiments/CORE_SAFETY_REASONING_ABLATIONS/results/CORE_SAFETY_REASONING_ABLATIONS.csv",
-      "size_bytes": 527,
-      "sha256": "d044c10e7e762e7636dd9ef35c4bfadc6e48fd17d1eebbbb2eb08638d9c4479f"
+      "size_bytes": 521,
+      "sha256": "76cca436fcc0d87b0a54e6965b8b89903221d4d84f6529f997254befba4314ac"
     },
     {
       "path": "experiments/CORE_SAFETY_REASONING_ABLATIONS/results/CORE_SAFETY_REASONING_ABLATIONS.json",
@@ -682,8 +682,8 @@
     },
     {
       "path": "experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/outputs/ATLAS_predictions.json",
-      "size_bytes": 255553892,
-      "sha256": "3b1a12d082ec75e1a704b7c3f92e9982ac91f32c980beadf091d0a0d40a999ec"
+      "size_bytes": 134,
+      "sha256": "dc7a71209778d4630277b2a483389f6958cd68ca2811efe3d5a2cbad9fa36722"
     },
     {
       "path": "experiments/CROSS_REGIONAL_SINGLE_DISEASE_GENERALIZATION_SET/scripts/evaluate_v3_official.py",
