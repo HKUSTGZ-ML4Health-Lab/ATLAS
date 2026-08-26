@@ -1,0 +1,118 @@
+name: Refresh Manifests
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    name: Refresh manifest hashes
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Refresh child and root manifests
+        run: |
+          python - <<'PY'
+          from __future__ import annotations
+
+          import hashlib
+          import json
+          from pathlib import Path
+
+
+          ROOT = Path(".").resolve()
+
+
+          def sha256(path: Path) -> str:
+              h = hashlib.sha256()
+              with path.open("rb") as f:
+                  for block in iter(lambda: f.read(1024 * 1024), b""):
+                      h.update(block)
+              return h.hexdigest()
+
+
+          def refresh_manifest(base: Path, manifest_name: str) -> None:
+              manifest_path = base / manifest_name
+
+              with manifest_path.open("r", encoding="utf-8") as f:
+                  obj = json.load(f)
+
+              missing = []
+
+              for item in obj["files"]:
+                  path = base / item["path"]
+
+                  if not path.is_file():
+                      missing.append(item["path"])
+                      continue
+
+                  item["size_bytes"] = path.stat().st_size
+                  item["sha256"] = sha256(path)
+
+              if missing:
+                  raise SystemExit(
+                      "Manifest still references missing files:\n"
+                      + "\n".join(f" - {p}" for p in missing)
+                  )
+
+              with manifest_path.open("w", encoding="utf-8", newline="\n") as f:
+                  json.dump(obj, f, indent=2, ensure_ascii=False)
+                  f.write("\n")
+
+              print(
+                  f"[OK] Refreshed {manifest_path}: "
+                  f"{len(obj['files'])} entries"
+              )
+
+
+          # Child manifests must be refreshed first because the root
+          # MANIFEST.json records their hashes.
+          refresh_manifest(
+              ROOT / "CODE_APPENDIX",
+              "CODE_APPENDIX_MANIFEST.json",
+          )
+
+          refresh_manifest(
+              ROOT / "DATA_APPENDIX",
+              "DATA_APPENDIX_MANIFEST.json",
+          )
+
+          # Refresh the root manifest only after child manifests are final.
+          refresh_manifest(
+              ROOT,
+              "MANIFEST.json",
+          )
+          PY
+
+      - name: Verify manifests
+        run: |
+          python scripts/verify_manifests.py
+
+      - name: Show changed files
+        run: |
+          git status --short
+          git diff -- MANIFEST.json \
+            CODE_APPENDIX/CODE_APPENDIX_MANIFEST.json \
+            DATA_APPENDIX/DATA_APPENDIX_MANIFEST.json
+
+      - name: Commit refreshed manifests
+        run: |
+          if git diff --quiet; then
+            echo "No manifest changes required."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add MANIFEST.json
+          git add CODE_APPENDIX/CODE_APPENDIX_MANIFEST.json
+          git add DATA_APPENDIX/DATA_APPENDIX_MANIFEST.json
+
+          git commit -m "Refresh release manifest hashes"
+          git push
