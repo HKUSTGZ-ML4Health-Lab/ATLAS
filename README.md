@@ -164,7 +164,7 @@ Table II reports the detailed quantitative results, while Figure 5 summarizes th
 
 ### 5.3  Core safety-reasoning ablations
 
-Figure 4 shows that each safety component protects a different part of the decision. Removing PMCG personalization reduces Strict Success from 92.04% to 19.90%, lowers OSRS from 97.21 to 48.78, and raises Unsafe Rate to 51.74%. Removing the Geriatric Risk Auditor lowers M<sub>caution</sub> F1 to 40.30%. Removing the Drug Conflict Auditor lowers M<sub>avoid</sub> Recall to 69.15% and raises Unsafe Rate to 30.85%. Removing the Safety Gate reduces Strict Success from 92.04% to 26.87% and increases the Unsafe Recommendation Rate from 0% to 26.87%.
+Figure 5 shows that each safety component protects a different part of the decision. Removing PMCG personalization reduces Strict Success from 92.04% to 19.90%, lowers OSRS from 97.21 to 48.78, and raises Unsafe Rate to 51.74%. Removing the Geriatric Risk Auditor lowers M<sub>caution</sub> F1 to 40.30%. Removing the Drug Conflict Auditor lowers M<sub>avoid</sub> Recall to 69.15% and raises Unsafe Rate to 30.85%. Removing the Safety Gate reduces Strict Success from 92.04% to 26.87% and increases the Unsafe Recommendation Rate from 0% to 26.87%.
 
 <p align="center">
   <img src="./docs/resources/FIG4.png" width="88%" alt="Core safety-reasoning ablations">
